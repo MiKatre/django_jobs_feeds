@@ -1,0 +1,40 @@
+name: Update Django job feeds
+
+on:
+  schedule:
+    - cron: "23 5 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-feeds:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate feeds
+        run: |
+          python3 extractor.py \
+            --json-output django_jobs_feed.json \
+            --rss-output django_jobs_feed.xml
+
+      - name: Commit updated feeds
+        run: |
+          if [ -z "$(git status --porcelain -- django_jobs_feed.json django_jobs_feed.xml)" ]; then
+            echo "No feed changes to commit"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add django_jobs_feed.json django_jobs_feed.xml
+          git commit -m "chore(feed): daily refresh job feeds"
+          git push
