@@ -3,8 +3,9 @@
 from __future__ import annotations
 
 import unittest
+from unittest.mock import patch
 
-from extractor import Job, dedupe, favicon_url, key_for, parse_salary
+from extractor import PYTHON_RSS, Job, dedupe, favicon_url, key_for, parse_python_jobs, parse_salary
 
 
 class ExtractorUnitTests(unittest.TestCase):
@@ -53,6 +54,35 @@ class ExtractorUnitTests(unittest.TestCase):
         self.assertIsNone(parse_salary("hello, world"))
         self.assertIsNone(parse_salary("Raised 3.1M and growing month-on-month"))
         self.assertEqual(parse_salary("Salary: $120,000 - $150,000"), "$120,000 - $150,000")
+
+    def test_parse_python_jobs_keeps_rss_item_when_detail_page_404s(self) -> None:
+        rss = """
+        <rss>
+          <channel>
+            <item>
+              <title>Senior Django Developer, Acme</title>
+              <link>https://www.python.org/jobs/1234/</link>
+              <description>Remote Django role</description>
+              <pubDate>Sun, 15 Mar 2026 12:00:00 +0000</pubDate>
+            </item>
+          </channel>
+        </rss>
+        """
+
+        with (
+            patch("extractor.fetch", return_value=rss),
+            patch("extractor.fetch_optional", return_value=None) as fetch_optional,
+        ):
+            jobs = parse_python_jobs()
+
+        fetch_optional.assert_called_once_with("https://www.python.org/jobs/1234/")
+        self.assertEqual(len(jobs), 1)
+        self.assertEqual(jobs[0].id, "1234")
+        self.assertEqual(jobs[0].company, "Acme")
+        self.assertEqual(jobs[0].summary, "Remote Django role")
+        self.assertEqual(jobs[0].date_posted, "2026-03-15T12:00:00+00:00")
+        self.assertIsNone(jobs[0].apply_url)
+        self.assertIsNone(jobs[0].company_url)
 
 
 if __name__ == "__main__":

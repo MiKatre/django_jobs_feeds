@@ -8,11 +8,13 @@ import gzip
 import html
 import json
 import re
+import sys
 import xml.etree.ElementTree as ET
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
 from email.utils import format_datetime, parsedate_to_datetime
 from pathlib import Path
+from urllib.error import HTTPError
 from urllib.parse import quote, urljoin, urlparse
 from urllib.request import Request, urlopen
 
@@ -54,6 +56,16 @@ def fetch(url: str) -> str:
         if raw[:2] == b"\x1f\x8b":
             raw = gzip.decompress(raw)
         return raw.decode("utf-8", errors="replace")
+
+
+def fetch_optional(url: str) -> str | None:
+    try:
+        return fetch(url)
+    except HTTPError as exc:
+        print(f"warning: fetch failed for {url}: HTTP {exc.code}", file=sys.stderr)
+    except Exception as exc:
+        print(f"warning: fetch failed for {url}: {exc}", file=sys.stderr)
+    return None
 
 
 def strip_tags(value: str) -> str:
@@ -135,25 +147,30 @@ def parse_python_jobs() -> list[Job]:
             continue
 
         url = item.findtext("link", default="").strip()
-        page = fetch(url)
+        page = fetch_optional(url)
 
-        location = re.search(r'<span class="listing-location">\s*(.*?)\s*</span>', page, flags=re.S | re.I)
-        posted = re.search(r'<span class="listing-posted">\s*Posted\s*<time[^>]*datetime="([^"]+)"', page, flags=re.S | re.I)
-        categories = [
-            strip_tags(value)
-            for value in re.findall(r'<span class="listing-company-category">\s*(.*?)\s*</span>', page, flags=re.S | re.I)
-            if strip_tags(value)
-        ]
+        location = re.search(r'<span class="listing-location">\s*(.*?)\s*</span>', page, flags=re.S | re.I) if page else None
+        posted = re.search(r'<span class="listing-posted">\s*Posted\s*<time[^>]*datetime="([^"]+)"', page, flags=re.S | re.I) if page else None
+        categories = (
+            [
+                strip_tags(value)
+                for value in re.findall(r'<span class="listing-company-category">\s*(.*?)\s*</span>', page, flags=re.S | re.I)
+                if strip_tags(value)
+            ]
+            if page
+            else []
+        )
 
-        web_link = re.search(r'<li><strong>Web</strong>:\s*<a[^>]*href="([^"]+)"', page, flags=re.S | re.I)
-        apply_link = re.search(r'href="(mailto:[^"]+|https?://[^"]+)"[^>]*>\s*Apply', page, flags=re.S | re.I)
+        web_link = re.search(r'<li><strong>Web</strong>:\s*<a[^>]*href="([^"]+)"', page, flags=re.S | re.I) if page else None
+        apply_link = re.search(r'href="(mailto:[^"]+|https?://[^"]+)"[^>]*>\s*Apply', page, flags=re.S | re.I) if page else None
 
-        start = page.find('<div class="job-description">')
-        end = page.find('<p class="job-meta"', start) if start != -1 else -1
-        if end == -1 and start != -1:
-            end = page.find("</article>", start)
-
-        full_html = page[start:end] if start != -1 else ""
+        full_html = ""
+        if page:
+            start = page.find('<div class="job-description">')
+            end = page.find('<p class="job-meta"', start) if start != -1 else -1
+            if end == -1 and start != -1:
+                end = page.find("</article>", start)
+            full_html = page[start:end] if start != -1 else ""
         full_text = strip_tags(full_html) if full_html else strip_tags(desc)
 
         pub = item.findtext("pubDate", default="").strip()
