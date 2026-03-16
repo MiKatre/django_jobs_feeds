@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-12T05:41:30.201941+00:00",
+  "generated_at": "2026-03-16T05:57:59.254959+00:00",
   "sources": [
     "https://www.python.org/jobs/feed/rss/",
     "https://builtwithdjango.com/jobs/"
   ],
   "counts": {
     "python_org": 6,
-    "builtwithdjango": 9,
-    "input_count": 15,
-    "output_count": 14,
-    "duplicates_removed": 1
+    "builtwithdjango": 18,
+    "input_count": 24,
+    "output_count": 21,
+    "duplicates_removed": 3
   },
   "jobs": [
     {
@@ -167,27 +167,24 @@
       "company": "MyDataValue",
       "url": "https://www.python.org/jobs/8014/",
       "source": "python.org",
-      "location": "London, ---, United Kingdom",
-      "date_posted": "2025-12-11T20:44:45.203878+00:00",
+      "location": null,
+      "date_posted": null,
       "salary": "70k",
       "employment_type": null,
       "skills": [
         "Django",
         "Python",
-        "AWS",
         "REST",
         "API",
         "React"
       ],
-      "categories": [
-        "Developer / Engineer"
-      ],
-      "summary": "Job Title Founding Full-Stack Senior Engineer (UK ONLY) - Fully Remote Job Description £70k – £90k • 0.5% – 2.0% • Fully Remote We are an AI-driven Hospitality Tech platform helping vacation rental owners automate their revenue on Booking.com. Unlike most \"early-stage\" startups, we are already at £100k ARR, growing month-on-month and have investment from angels. We have a product customers love, a validated business model, and we are now preparing to expand to Airbnb and Expedia. We are a lean t",
-      "full_offer_text": "Job Title Founding Full-Stack Senior Engineer (UK ONLY) - Fully Remote Job Description £70k – £90k • 0.5% – 2.0% • Fully Remote We are an AI-driven Hospitality Tech platform helping vacation rental owners automate their revenue on Booking.com. Unlike most \"early-stage\" startups, we are already at £100k ARR, growing month-on-month and have investment from angels. We have a product customers love, a validated business model, and we are now preparing to expand to Airbnb and Expedia. We are a lean team of two founders looking for a Founding Engineer. You will be the technical lead, working directly with us to brainstorm ideas, architecture and ship code quickly. The Role This is a Backend-First role (70/30 split). You will spend most of your time in Python/Django, but you must be willing to jump into React/Tailwind to ship complete features ‍ We have interesting technical challenges involving high-volume data and browser automation (MCP/AI) Scale the Backend: Build and ship features using Python (Django) and Postgres. High-Volume Scraping: Manage enterprise-level scraping (1,000s of requests/second) and reverse-engineering of public data sources. Chrome Extension: Maintain and expand our extension that bridges our platform with customer accounts. Ship Fast: We use ChatGPT/Copilot heavily to speed up boilerplate code so we can focus on the complex logic. Frontend (Light): We use React/Tailwind. You don't need to be a frontend expert, but you should be willing to jump in and tweak UI when needed. The Logistics One founder is in Leeds, the other in London. We'd like to meet up occasionally to brainstorm & speed up onboarding as well in person. Salary: £70k - £90k (depending on experience). Equity: Up to 2% options (4-year vesting). We are aiming for a £5-10m valuation in our next raise, join now to get in at the ground floor. Who You Are A Builder: You have startup experience (founder or early employee). You care about solving problems, not just writing code. Python Expert: You have deep experience with Python. Data Scraper: You understand the nuances of web scraping, proxies, and browser automation (Playwright). Pragmatic: You know when to build for scale and when to ship a \"hacky\" fix to unblock a customer. Autonomy: You want direct responsibility. You hate micromanagement and love taking a ticket from \"idea\" to \"deployed.\" Interview process - 30 min non technical call with myself. - 1 hour technical pair programming challenge (not leetcode but real-life problems) - Meet up in person with both founders - Offer Why This Role? Real Revenue: We aren't just an MVP, we have customers who have been with us for months earning more revenue with 0% churn. High Equity: 2% is a good chunk for our stage, it should be worth a significant amount within a years time as we raise at higher valuations. Hard Problems: If you get bored building standard CRUD apps, our scraping, MCP & automation challenges will keep you engaged. Please share a link to your GitHub or a side project you are proud of, you can send me at martin@mydatavalue.com . Restrictions Telecommuting is OK No Agencies Please Requirements Required: backend python experience previously worked in a startup before uk based About the Company AI revenue optimisation for Booking.com and Airbnb Contact Info Contact : martin dawson E-mail contact : martin @ mydatavalue . com Web : https://www.mydatavalue.com/founding-full-stack-senior-engineer",
-      "full_offer_html": "<div class=\"job-description\">\n\n        <h2>Job Title </h2>\n\n        Founding Full-Stack Senior Engineer (UK ONLY) - Fully Remote\n\n        <h2>Job Description</h2>\n\n        <p>£70k – £90k • 0.5% – 2.0% • Fully Remote\nWe are an AI-driven Hospitality Tech platform helping vacation rental owners automate their revenue on Booking.com.</p>\n<p>Unlike most &quot;early-stage&quot; startups, we are already at £100k ARR, growing month-on-month and have investment from angels. We have a product customers love, a validated business model, and we are now preparing to expand to Airbnb and Expedia.</p>\n<p>We are a lean team of two founders looking for a Founding Engineer. You will be the technical lead, working directly with us to brainstorm ideas, architecture and ship code quickly.</p>\n<p>The Role\nThis is a Backend-First role (70/30 split). You will spend most of your time in Python/Django, but you must be willing to jump into React/Tailwind to ship complete features\n‍\nWe have interesting technical challenges involving high-volume data and browser automation (MCP/AI)</p>\n<p>Scale the Backend: Build and ship features using Python (Django) and Postgres.</p>\n<p>High-Volume Scraping: Manage enterprise-level scraping (1,000s of requests/second) and reverse-engineering of public data sources.</p>\n<p>Chrome Extension: Maintain and expand our extension that bridges our platform with customer accounts.</p>\n<p>Ship Fast: We use ChatGPT/Copilot heavily to speed up boilerplate code so we can focus on the complex logic.</p>\n<p>Frontend (Light): We use React/Tailwind. You don't need to be a frontend expert, but you should be willing to jump in and tweak UI when needed.</p>\n<p>The Logistics\nOne founder is in Leeds, the other in London. We'd like to meet up occasionally to brainstorm &amp; speed up onboarding as well in person.</p>\n<p>Salary: £70k - £90k (depending on experience).</p>\n<p>Equity: Up to 2% options (4-year vesting). We are aiming for a £5-10m valuation in our next raise, join now to get in at the ground floor.</p>\n<p>Who You Are\nA Builder: You have startup experience (founder or early employee). You care about solving problems, not just writing code.</p>\n<p>Python Expert: You have deep experience with Python.</p>\n<p>Data Scraper: You understand the nuances of web scraping, proxies, and browser automation (Playwright).</p>\n<p>Pragmatic: You know when to build for scale and when to ship a &quot;hacky&quot; fix to unblock a customer.</p>\n<p>Autonomy: You want direct responsibility. You hate micromanagement and love taking a ticket from &quot;idea&quot; to &quot;deployed.&quot;\nInterview process\n- 30 min non technical call with myself.\n- 1 hour technical pair programming challenge (not leetcode but real-life problems)\n- Meet up in person with both founders\n- Offer</p>\n<p>Why This Role?\nReal Revenue: We aren't just an MVP, we have customers who have been with us for months earning more revenue with 0% churn.</p>\n<p>High Equity: 2% is a good chunk for our stage, it should be worth a significant amount within a years time as we raise at higher valuations.</p>\n<p>Hard Problems: If you get bored building standard CRUD apps, our scraping, MCP &amp; automation challenges will keep you engaged.</p>\n<p>Please share a link to your GitHub or a side project you are proud of, you can send me at <a class=\"reference external\" href=\"mailto:martin&#64;mydatavalue.com\">martin&#64;mydatavalue.com</a>.</p>\n\n\n        <h2>Restrictions</h2>\n        <ul>\n            \n            <li><strong>Telecommuting is OK</strong></li>\n            \n\n            \n            <li><strong>No Agencies Please</strong></li>\n            \n        </ul>\n\n        \n        <h2>Requirements</h2>\n        <p>Required:</p>\n<ul class=\"simple\">\n<li>backend python experience</li>\n<li>previously worked in a startup before</li>\n<li>uk based</li>\n</ul>\n\n        \n\n        \n        <h2>About the Company</h2>\n        <p>AI revenue optimisation for Booking.com and Airbnb</p>\n\n        \n\n        <h2>Contact Info</h2>\n        <ul>\n            \n            <li><strong>Contact</strong>: martin dawson</li>\n            \n\n            <li><strong>E-mail contact</strong>: <a class=\"reference external\" href=\"mailto:martin%40mydatavalue.com\">martin<span>@</span>mydatavalue<span>.</span>com</a></li>\n\n            \n            <li><strong>Web</strong>: <a class=\"reference external\" href=\"https://www.mydatavalue.com/founding-full-stack-senior-engineer\">https://www.mydatavalue.com/founding-full-stack-senior-engineer</a></li>\n            \n        </ul>\n\n        \n\n        \n        \n        \n\n\n    </div><!-- end .job-post-content -->\n\n\n    <div class=\"job-post-meta\">\n        ",
+      "categories": null,
+      "summary": "London, ---, United Kingdom £70k – £90k • 0.5% – 2.0% • Fully Remote We are an AI-driven Hospitality Tech platform helping vacation rental owners automate their revenue on Booking.com. Unlike most \"early-stage\" startups, we are already at £100k ARR, growing month-on-month and have investment from angels. We have a product customers love, a validated business model, and we are now preparing to expand to Airbnb and Expedia. We are a lean team of two founders looking for a Founding Engineer. You wi",
+      "full_offer_text": "London, ---, United Kingdom £70k – £90k • 0.5% – 2.0% • Fully Remote We are an AI-driven Hospitality Tech platform helping vacation rental owners automate their revenue on Booking.com. Unlike most \"early-stage\" startups, we are already at £100k ARR, growing month-on-month and have investment from angels. We have a product customers love, a validated business model, and we are now preparing to expand to Airbnb and Expedia. We are a lean team of two founders looking for a Founding Engineer. You will be the technical lead, working directly with us to brainstorm ideas, architecture and ship code quickly. The Role This is a Backend-First role (70/30 split). You will spend most of your time in Python/Django, but you must be willing to jump into React/Tailwind to ship complete features ‍ We have interesting technical challenges involving high-volume data and browser automation (MCP/AI) Scale the Backend: Build and ship features using Python (Django) and Postgres. High-Volume Scraping: Manage enterprise-level scraping (1,000s of requests/second) and reverse-engineering of public data sources. Chrome Extension: Maintain and expand our extension that bridges our platform with customer accounts. Ship Fast: We use ChatGPT/Copilot heavily to speed up boilerplate code so we can focus on the complex logic. Frontend (Light): We use React/Tailwind. You don't need to be a frontend expert, but you should be willing to jump in and tweak UI when needed. The Logistics One founder is in Leeds, the other in London. We'd like to meet up occasionally to brainstorm & speed up onboarding as well in person. Salary: £70k - £90k (depending on experience). Equity: Up to 2% options (4-year vesting). We are aiming for a £5-10m valuation in our next raise, join now to get in at the ground floor. Who You Are A Builder: You have startup experience (founder or early employee). You care about solving problems, not just writing code. Python Expert: You have deep experience with Python. Data Scraper: You understand the nuances of web scraping, proxies, and browser automation (Playwright). Pragmatic: You know when to build for scale and when to ship a \"hacky\" fix to unblock a customer. Autonomy: You want direct responsibility. You hate micromanagement and love taking a ticket from \"idea\" to \"deployed.\" Interview process - 30 min non technical call with myself. - 1 hour technical pair programming challenge (not leetcode but real-life problems) - Meet up in person with both founders - Offer Why This Role? Real Revenue: We aren't just an MVP, we have customers who have been with us for months earning more revenue with 0% churn. High Equity: 2% is a good chunk for our stage, it should be worth a significant amount within a years time as we raise at higher valuations. Hard Problems: If you get bored building standard CRUD apps, our scraping, MCP & automation challenges will keep you engaged. Please share a link to your GitHub or a side project you are proud of, you can send me at martin@mydatavalue.com . Required: backend python experience previously worked in a startup before uk based",
+      "full_offer_html": null,
       "apply_url": null,
-      "company_url": "https://www.mydatavalue.com",
-      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.mydatavalue.com&size=128",
+      "company_url": null,
+      "image_url": null,
       "dedupe_key": "founding full stack senior engineer uk only fully remote|mydatavalue"
     },
     {
@@ -390,6 +387,184 @@
       "company_url": "https://gettjalerts.com",
       "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://gettjalerts.com&size=128",
       "dedupe_key": "senior backend engineer ai systems|waypoint ai"
+    },
+    {
+      "id": "senior-frontend-engineer",
+      "title": "Senior Frontend Engineer @ Weave Bio",
+      "company": "Weave Bio",
+      "url": "https://builtwithdjango.com/jobs/2362/senior-frontend-engineer",
+      "source": "builtwithdjango.com",
+      "location": "Remote",
+      "date_posted": "March 10, 2026, 1:59 a.m.",
+      "salary": null,
+      "employment_type": "full-time",
+      "skills": [
+        "Django",
+        "Python",
+        "AWS",
+        "React"
+      ],
+      "categories": [
+        "Django Job Board"
+      ],
+      "summary": "Weave Bio is a Series A (<50 person) regulatory AI SaaS startup building an AI-native regulatory automation management platform for novel therapeutics. Hiring multiple positions including Senior/Staff Backend (Django, Python), Senior/Staff Frontend (TypeScript, React), Staff DevOps (AWS, Linux, SRE), Senior Product Designer, Senior Product Manager, and Senior/Lead SDR. Roles are hybrid and based in San Francisco, CA. Apply via company careers page.",
+      "full_offer_text": "Weave Bio is a Series A (<50 person) regulatory AI SaaS startup building an AI-native regulatory automation management platform for novel therapeutics. Hiring multiple positions including Senior/Staff Backend (Django, Python), Senior/Staff Frontend (TypeScript, React), Staff DevOps (AWS, Linux, SRE), Senior Product Designer, Senior Product Manager, and Senior/Lead SDR. Roles are hybrid and based in San Francisco, CA. Apply via company careers page.",
+      "full_offer_html": "<p>Weave Bio is a Series A (&lt;50 person) regulatory AI SaaS startup building an AI-native regulatory automation management platform for novel therapeutics. Hiring multiple positions including Senior/Staff Backend (Django, Python), Senior/Staff Frontend (TypeScript, React), Staff DevOps (AWS, Linux, SRE), Senior Product Designer, Senior Product Manager, and Senior/Lead SDR. Roles are hybrid and based in San Francisco, CA. Apply via company careers page.</p>",
+      "apply_url": "https://gettjalerts.com/jobs/998a97dd-35fb-41f5-afe2-0bdf662dffa3",
+      "company_url": "https://gettjalerts.com",
+      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://gettjalerts.com&size=128",
+      "dedupe_key": "senior frontend engineer|weave bio"
+    },
+    {
+      "id": "senior-backend-engineer",
+      "title": "Senior Backend Engineer @ Brico",
+      "company": "Brico",
+      "url": "https://builtwithdjango.com/jobs/2363/senior-backend-engineer",
+      "source": "builtwithdjango.com",
+      "location": "San Francisco, CA",
+      "date_posted": "March 5, 2026, 6:10 a.m.",
+      "salary": null,
+      "employment_type": "full-time",
+      "skills": [
+        "Django",
+        "Python",
+        "React"
+      ],
+      "categories": [
+        "Django Job Board"
+      ],
+      "summary": "Brico automates financial licensing for Financial Institutions and FinTechs, handling license applications, maintenance, and renewals across 50+ US jurisdictions. Series A company based in San Francisco, CA. Revenue has grown 600% over 2.5 years with customers such as Marqeta, BitGo, Conduit and Bilt. Small backend-focused engineering team of 6. Hiring senior/staff backend engineers who are comfortable working up the stack. Tech stack: python/django + DRF / react. Reach out to the Co-Founder/CTO",
+      "full_offer_text": "Brico automates financial licensing for Financial Institutions and FinTechs, handling license applications, maintenance, and renewals across 50+ US jurisdictions. Series A company based in San Francisco, CA. Revenue has grown 600% over 2.5 years with customers such as Marqeta, BitGo, Conduit and Bilt. Small backend-focused engineering team of 6. Hiring senior/staff backend engineers who are comfortable working up the stack. Tech stack: python/django + DRF / react. Reach out to the Co-Founder/CTO via the provided email.",
+      "full_offer_html": "<p>Brico automates financial licensing for Financial Institutions and FinTechs, handling license applications, maintenance, and renewals across 50+ US jurisdictions. Series A company based in San Francisco, CA. Revenue has grown 600% over 2.5 years with customers such as Marqeta, BitGo, Conduit and Bilt. Small backend-focused engineering team of 6. Hiring senior/staff backend engineers who are comfortable working up the stack. Tech stack: python/django + DRF / react. Reach out to the Co-Founder/CTO via the provided email.</p>",
+      "apply_url": "https://gettjalerts.com/jobs/3ca8ec37-557d-4390-b692-32a6a910dff8",
+      "company_url": "https://gettjalerts.com",
+      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://gettjalerts.com&size=128",
+      "dedupe_key": "senior backend engineer|brico"
+    },
+    {
+      "id": "medical-device-software-engineer",
+      "title": "Medical Device Software Engineer @ Innolitics",
+      "company": "Innolitics",
+      "url": "https://builtwithdjango.com/jobs/2364/medical-device-software-engineer",
+      "source": "builtwithdjango.com",
+      "location": "Remote",
+      "date_posted": "March 3, 2026, 1:55 p.m.",
+      "salary": null,
+      "employment_type": "full-time",
+      "skills": [
+        "Django",
+        "Python",
+        "React"
+      ],
+      "categories": [
+        "Django Job Board"
+      ],
+      "summary": "Innolitics builds AI/ML software for medical devices — the kind that detects ear infections, tracks metastatic cancer, and plans radiation therapy. 60+ FDA clearances. We're a remote-only firm (since 2012) that does engineering, regulatory, and cybersecurity under one roof. Our team includes MDs, PhDs, and software engineers. Clients range from Series A startups to large device companies. We're hiring for three roles: 1. Physician-Scientist (MD/PhD) — Biostatistics & AI Software Development: MD ",
+      "full_offer_text": "Innolitics builds AI/ML software for medical devices — the kind that detects ear infections, tracks metastatic cancer, and plans radiation therapy. 60+ FDA clearances. We're a remote-only firm (since 2012) that does engineering, regulatory, and cybersecurity under one roof. Our team includes MDs, PhDs, and software engineers. Clients range from Series A startups to large device companies. We're hiring for three roles: 1. Physician-Scientist (MD/PhD) — Biostatistics & AI Software Development: MD + PhD in biostatistics, bioinformatics, epidemiology, or a related quantitative field. You'll design biostatistical plans for AI validation studies (MRMC, standalone, prospective), build production-grade statistical software and data pipelines, write FDA-facing statistical sections, and analyze large clinical imaging datasets. Fluent in Python and/or R. This is not a pure research role — you'll ship code that gets FDA-cleared and deployed in clinics. 2. Senior Web/Mobile Medical Device Engineer: 5+ years software engineering experience. 3+ years each in web and mobile. Fluent in TypeScript and Python. You'll build medical device software and produce FDA-facing technical documentation. Cross-functional role bridging engineering and regulatory teams. 3. Medical Device Software Engineer: 3+ years software engineering experience. Fluent in Python, C++, or TypeScript. Heavier emphasis on software development initially; you'll grow into regulatory documentation work over time. All roles involve writing production code for medical devices, authoring documentation for FDA submissions, and working directly with clients. No prior medical device experience required — training provided. Why engineers stay here: Agentic AI tools (Claude Code, etc.) are part of our workflow as an impact multiplier. ~1 hour of meetings/week for ICs. Flexible hours. 2 hours every Wednesday dedicated to learning (\"10x Time\"). Healthcare-only revenue. No debt. Never had a layoff. We pay $300 for take-home exercises. Stack: Python, TypeScript, C++, R, Django, React, TensorFlow, PyTorch, scikit-learn, Qt, Terraform. Apply: https://innolitics.com/careers/. Handbook: https://innolitics.com/about/handbook/",
+      "full_offer_html": "<p>Innolitics builds AI/ML software for medical devices — the kind that detects ear infections, tracks metastatic cancer, and plans radiation therapy. 60+ FDA clearances. We're a remote-only firm (since 2012) that does engineering, regulatory, and cybersecurity under one roof. Our team includes MDs, PhDs, and software engineers. Clients range from Series A startups to large device companies. We're hiring for three roles: 1. Physician-Scientist (MD/PhD) — Biostatistics &amp; AI Software Development: MD + PhD in biostatistics, bioinformatics, epidemiology, or a related quantitative field. You'll design biostatistical plans for AI validation studies (MRMC, standalone, prospective), build production-grade statistical software and data pipelines, write FDA-facing statistical sections, and analyze large clinical imaging datasets. Fluent in Python and/or R. This is not a pure research role — you'll ship code that gets FDA-cleared and deployed in clinics. 2. Senior Web/Mobile Medical Device Engineer: 5+ years software engineering experience. 3+ years each in web and mobile. Fluent in TypeScript and Python. You'll build medical device software and produce FDA-facing technical documentation. Cross-functional role bridging engineering and regulatory teams. 3. Medical Device Software Engineer: 3+ years software engineering experience. Fluent in Python, C++, or TypeScript. Heavier emphasis on software development initially; you'll grow into regulatory documentation work over time. All roles involve writing production code for medical devices, authoring documentation for FDA submissions, and working directly with clients. No prior medical device experience required — training provided. Why engineers stay here: Agentic AI tools (Claude Code, etc.) are part of our workflow as an impact multiplier. ~1 hour of meetings/week for ICs. Flexible hours. 2 hours every Wednesday dedicated to learning (\"10x Time\"). Healthcare-only revenue. No debt. Never had a layoff. We pay $300 for take-home exercises. Stack: Python, TypeScript, C++, R, Django, React, TensorFlow, PyTorch, scikit-learn, Qt, Terraform. Apply: https://innolitics.com/careers/. Handbook: https://innolitics.com/about/handbook/</p>",
+      "apply_url": "https://gettjalerts.com/jobs/f1b21813-ea86-433b-90c3-5267557079cd",
+      "company_url": "https://gettjalerts.com",
+      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://gettjalerts.com&size=128",
+      "dedupe_key": "medical device software engineer|innolitics"
+    },
+    {
+      "id": "senior-backend-engineer",
+      "title": "Senior Backend Engineer @ Courted",
+      "company": "Courted",
+      "url": "https://builtwithdjango.com/jobs/2367/senior-backend-engineer",
+      "source": "builtwithdjango.com",
+      "location": "NYC",
+      "date_posted": "March 2, 2026, 8:57 p.m.",
+      "salary": null,
+      "employment_type": "full-time",
+      "skills": [
+        "Django",
+        "Postgresql",
+        "REST",
+        "API",
+        "SQL"
+      ],
+      "categories": [
+        "Django Job Board"
+      ],
+      "summary": "Build and maintain backend systems for an AI-powered recruiting and market intelligence SaaS for real estate. Work with pipelines that ingest data from dozens of sources, process millions of records daily using Celery, and serve real-time analytics via a Django REST API backed by PostgreSQL/PostGIS. Integrate with OpenAI, HubSpot, Twilio, and MLS providers. Sub-second response requirements at scale. Early-stage, high-growth team. Seeking engineers with strong SQL optimization skills and experien",
+      "full_offer_text": "Build and maintain backend systems for an AI-powered recruiting and market intelligence SaaS for real estate. Work with pipelines that ingest data from dozens of sources, process millions of records daily using Celery, and serve real-time analytics via a Django REST API backed by PostgreSQL/PostGIS. Integrate with OpenAI, HubSpot, Twilio, and MLS providers. Sub-second response requirements at scale. Early-stage, high-growth team. Seeking engineers with strong SQL optimization skills and experience with backend systems and AI tooling.",
+      "full_offer_html": "<p>Build and maintain backend systems for an AI-powered recruiting and market intelligence SaaS for real estate. Work with pipelines that ingest data from dozens of sources, process millions of records daily using Celery, and serve real-time analytics via a Django REST API backed by PostgreSQL/PostGIS. Integrate with OpenAI, HubSpot, Twilio, and MLS providers. Sub-second response requirements at scale. Early-stage, high-growth team. Seeking engineers with strong SQL optimization skills and experience with backend systems and AI tooling.</p>",
+      "apply_url": "https://gettjalerts.com/jobs/3159035f-8b94-4fbe-91af-1a4df76ce86d",
+      "company_url": "https://gettjalerts.com",
+      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://gettjalerts.com&size=128",
+      "dedupe_key": "senior backend engineer|courted"
+    },
+    {
+      "id": "mobile-engineer",
+      "title": "Mobile Engineer @ RINSE",
+      "company": "RINSE",
+      "url": "https://builtwithdjango.com/jobs/2371/mobile-engineer",
+      "source": "builtwithdjango.com",
+      "location": "Remote",
+      "date_posted": "March 2, 2026, 5:52 p.m.",
+      "salary": null,
+      "employment_type": "full-time",
+      "skills": [
+        "Django",
+        "Python",
+        "REST",
+        "React"
+      ],
+      "categories": [
+        "Django Job Board"
+      ],
+      "summary": "Rinse provides dry cleaning and laundry delivery services to customers in twelve metropolitan areas in the US and Canada. The company has sophisticated logistics optimization software, a polished consumer product, and firm business fundamentals. Engineering is distributed across the United States and internationally and has been entirely remote for years, though a desk can be provided in listed cities. Open to newly-graduated and more senior engineers. Seeking true full-stack engineers with stro",
+      "full_offer_text": "Rinse provides dry cleaning and laundry delivery services to customers in twelve metropolitan areas in the US and Canada. The company has sophisticated logistics optimization software, a polished consumer product, and firm business fundamentals. Engineering is distributed across the United States and internationally and has been entirely remote for years, though a desk can be provided in listed cities. Open to newly-graduated and more senior engineers. Seeking true full-stack engineers with strong React / TypeScript / CSS skills and comfort in a Python / Django environment, and engineers with experience leveraging AI to automate complex operational processes. Particularly interested in candidates with significant React Native expertise to improve customer, delivery valet, and partner apps. Emphasis on collaboration, honesty, and open communication.",
+      "full_offer_html": "<p>Rinse provides dry cleaning and laundry delivery services to customers in twelve metropolitan areas in the US and Canada. The company has sophisticated logistics optimization software, a polished consumer product, and firm business fundamentals. Engineering is distributed across the United States and internationally and has been entirely remote for years, though a desk can be provided in listed cities. Open to newly-graduated and more senior engineers. Seeking true full-stack engineers with strong React / TypeScript / CSS skills and comfort in a Python / Django environment, and engineers with experience leveraging AI to automate complex operational processes. Particularly interested in candidates with significant React Native expertise to improve customer, delivery valet, and partner apps. Emphasis on collaboration, honesty, and open communication.</p>",
+      "apply_url": "https://gettjalerts.com/jobs/fd432152-f617-4a81-a62c-8052a699397b",
+      "company_url": "https://gettjalerts.com",
+      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://gettjalerts.com&size=128",
+      "dedupe_key": "mobile engineer|rinse"
+    },
+    {
+      "id": "senior-ai-engineer",
+      "title": "Senior AI Engineer @ BillionToOne",
+      "company": "BillionToOne",
+      "url": "https://builtwithdjango.com/jobs/2372/senior-ai-engineer",
+      "source": "builtwithdjango.com",
+      "location": "Menlo Park, CA (Hybrid 2-3 days/week)",
+      "date_posted": "March 2, 2026, 4:41 p.m.",
+      "salary": null,
+      "employment_type": "full-time",
+      "skills": [],
+      "categories": [
+        "Django Job Board"
+      ],
+      "summary": "BillionToOne builds molecular diagnostics detecting disease at the single-molecule level (prenatal and oncology). Over 1M tests processed; revenue growth to ~$300M and guiding $415-430M for 2026; publicly traded and GAAP profitable. Hiring multiple senior software roles to work with clinicians and computational biologists on problems including scaling genomic pipelines, building digital infrastructure for complex test results, and shipping high-correctness systems. Hybrid role based in Menlo Par",
+      "full_offer_text": "BillionToOne builds molecular diagnostics detecting disease at the single-molecule level (prenatal and oncology). Over 1M tests processed; revenue growth to ~$300M and guiding $415-430M for 2026; publicly traded and GAAP profitable. Hiring multiple senior software roles to work with clinicians and computational biologists on problems including scaling genomic pipelines, building digital infrastructure for complex test results, and shipping high-correctness systems. Hybrid role based in Menlo Park, CA (2-3 days/week on-site).",
+      "full_offer_html": "<p>BillionToOne builds molecular diagnostics detecting disease at the single-molecule level (prenatal and oncology). Over 1M tests processed; revenue growth to ~$300M and guiding $415-430M for 2026; publicly traded and GAAP profitable. Hiring multiple senior software roles to work with clinicians and computational biologists on problems including scaling genomic pipelines, building digital infrastructure for complex test results, and shipping high-correctness systems. Hybrid role based in Menlo Park, CA (2-3 days/week on-site).</p>",
+      "apply_url": "https://gettjalerts.com/jobs/e613ed5b-42ac-4565-9440-9803a5ce37e6",
+      "company_url": "https://gettjalerts.com",
+      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://gettjalerts.com&size=128",
+      "dedupe_key": "senior ai engineer|billiontoone"
+    },
+    {
+      "id": "software-engineer-ii-applied-ai",
+      "title": "Software Engineer II - Applied AI @ YCharts",
+      "company": "YCharts",
+      "url": "https://builtwithdjango.com/jobs/2373/software-engineer-ii-applied-ai",
+      "source": "builtwithdjango.com",
+      "location": "Remote",
+      "date_posted": "March 2, 2026, 4:06 p.m.",
+      "salary": null,
+      "employment_type": "full-time",
+      "skills": [],
+      "categories": [
+        "Django Job Board"
+      ],
+      "summary": "YCharts is an investment research platform that financial advisors and asset managers use to make smarter investing decisions and create visuals that effectively communicate their strategies. We’re looking for a mid-level or senior engineer to join our AI engineering team. The team focuses on building AI agents for investment research, financial data visualization, and advisor meeting preparation. Full-time, remote (US only).",
+      "full_offer_text": "YCharts is an investment research platform that financial advisors and asset managers use to make smarter investing decisions and create visuals that effectively communicate their strategies. We’re looking for a mid-level or senior engineer to join our AI engineering team. The team focuses on building AI agents for investment research, financial data visualization, and advisor meeting preparation. Full-time, remote (US only).",
+      "full_offer_html": "<p>YCharts is an investment research platform that financial advisors and asset managers use to make smarter investing decisions and create visuals that effectively communicate their strategies. We’re looking for a mid-level or senior engineer to join our AI engineering team. The team focuses on building AI agents for investment research, financial data visualization, and advisor meeting preparation. Full-time, remote (US only).</p>",
+      "apply_url": "https://gettjalerts.com/jobs/100d8699-20b4-49e4-acb6-4894fa4a4b8d",
+      "company_url": "https://gettjalerts.com",
+      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://gettjalerts.com&size=128",
+      "dedupe_key": "software engineer ii applied ai|ycharts"
     }
   ]
 }
