@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-03-17T05:45:24.780059+00:00",
+  "generated_at": "2026-03-18T05:47:23.316485+00:00",
   "sources": [
     "https://www.python.org/jobs/feed/rss/",
     "https://builtwithdjango.com/jobs/"
   ],
   "counts": {
-    "python_org": 6,
+    "python_org": 7,
     "builtwithdjango": 18,
-    "input_count": 24,
-    "output_count": 21,
+    "input_count": 25,
+    "output_count": 22,
     "duplicates_removed": 3
   },
   "jobs": [
@@ -186,6 +186,32 @@
       "company_url": null,
       "image_url": null,
       "dedupe_key": "founding full stack senior engineer uk only fully remote|mydatavalue"
+    },
+    {
+      "id": "8010",
+      "title": "Python / Django Developer, Client of Foxley Talent",
+      "company": "Client of Foxley Talent",
+      "url": "https://www.python.org/jobs/8010/",
+      "source": "python.org",
+      "location": null,
+      "date_posted": null,
+      "salary": null,
+      "employment_type": null,
+      "skills": [
+        "Django",
+        "Python",
+        "Postgresql",
+        "API",
+        "SQL"
+      ],
+      "categories": null,
+      "summary": "Remote, United States Build and maintain web applications using Python and the Django framework Design and implement backend logic, database models, and user profile systems for community and contributor focused functionality Implement mailing list and newsletter systems that help users stay connected with community activity Collaborate with an external partners Build systems that recognise contributors through profile features, participation tracking, through GitHub and other 3rd party APIs Ens",
+      "full_offer_text": "Remote, United States Build and maintain web applications using Python and the Django framework Design and implement backend logic, database models, and user profile systems for community and contributor focused functionality Implement mailing list and newsletter systems that help users stay connected with community activity Collaborate with an external partners Build systems that recognise contributors through profile features, participation tracking, through GitHub and other 3rd party APIs Ensure all code is maintainable, secure, and aligned with best Django practice US Resident, with full right to work status Strong proficiency in Python A minimum of 5 years experience with Django including ORM, models, views, and templates Experience with relational databases such as PostgreSQL or MySQL Frontend familiarity with HTML and CSS Any experience with lower level languages is a bonus but not required Comfortable working independently in a remote US based environment",
+      "full_offer_html": null,
+      "apply_url": null,
+      "company_url": null,
+      "image_url": null,
+      "dedupe_key": "python django developer|client of foxley talent"
     },
     {
       "id": "software-engineer",
