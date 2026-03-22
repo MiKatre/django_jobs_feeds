@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-03-21T05:37:26.093240+00:00",
+  "generated_at": "2026-03-22T05:42:36.620138+00:00",
   "sources": [
     "https://www.python.org/jobs/feed/rss/",
     "https://builtwithdjango.com/jobs/"
   ],
   "counts": {
-    "python_org": 7,
+    "python_org": 5,
     "builtwithdjango": 18,
-    "input_count": 25,
-    "output_count": 22,
+    "input_count": 23,
+    "output_count": 20,
     "duplicates_removed": 3
   },
   "jobs": [
@@ -136,8 +136,8 @@
       "company": "Cial Dun & Bradstreet",
       "url": "https://www.python.org/jobs/8019/",
       "source": "python.org",
-      "location": "São Paulo, São Paulo, Brazil",
-      "date_posted": "2025-12-22T03:40:10.947995+00:00",
+      "location": null,
+      "date_posted": null,
       "salary": null,
       "employment_type": null,
       "skills": [
@@ -146,72 +146,17 @@
         "Postgresql",
         "AWS",
         "Docker",
-        "REST",
         "API",
         "SQL"
       ],
-      "categories": [
-        "Developer / Engineer"
-      ],
-      "summary": "Job Title Senior Python Developer Job Description As a Senior Python Developer at CIAL Dun & Bradstreet, your primary responsibility is to design, develop, and maintain scalable backend services and performant web applications using frameworks such as Django, Flask, or FastAPI. You will play a central role in the data lifecycle by building robust ETL processes and sophisticated web scrapers to transform raw information into actionable business insights. ​On the technical side, you will manage co",
-      "full_offer_text": "Job Title Senior Python Developer Job Description As a Senior Python Developer at CIAL Dun & Bradstreet, your primary responsibility is to design, develop, and maintain scalable backend services and performant web applications using frameworks such as Django, Flask, or FastAPI. You will play a central role in the data lifecycle by building robust ETL processes and sophisticated web scrapers to transform raw information into actionable business insights. ​On the technical side, you will manage complex data structures using PostgreSQL, Redis, and MongoDB, while ensuring seamless deployment within AWS cloud environments (specifically S3 and EKS) using Docker. Your role involves collaborating in an Agile environment to solve analytical problems, implementing automated testing with Cypress, and ideally leveraging orchestration tools like Prefect to streamline workflows. Ultimately, you will bridge the gap between raw data and decision-making solutions for clients across Latin America. Restrictions Telecommuting is OK No Agencies Please Requirements Education ​Bachelor’s degree in Computer Science, Engineering, or a related field. ​Experience ​5+ years of professional software development experience focusing on Python. ​Advanced English proficiency (conversational). ​Proven track record in building and maintaining scalable, performant applications and web services. ​Development of backend services using frameworks like Django, Flask, or FastAPI. ​Hands-on experience developing ETL processes and Web Scrapers. ​Strong expertise with PostgreSQL and other relational databases. ​Proficiency with Cloud platforms, specifically AWS (S3, EKS, etc.). ​Knowledge of Redis for caching and data management. ​Experience with non-relational databases (MongoDB). ​Proficiency with Docker for containerization and Cypress for testing. ​Core Skills ​Strong problem-solving and analytical capabilities. ​Excellent communication and interpersonal abilities. ​Ability to thrive in a fast-paced, dynamic environment. ​Solid understanding of the Software Development Lifecycle (SDLC) and Agile methodologies. ​Preferred Qualifications ​Familiarity with CI/CD pipelines. ​Active contributions to open-source projects or a strong personal GitHub portfolio. ​Experience with Prefect or similar workflow orchestration tools. ​Conversational Spanish is a significant plus. About the Company We are a fast-growing company that is revolutionizing the world of data and business information in Latin America! CIAL Dun & Bradstreet is the leading provider of business decisioning solutions and commercial data across Latin America and the Caribbean. Our solutions are designed to transform how businesses manage risk and make critical decisions about the companies they rely on. At CIAL, we firmly believe that every team member plays a critical role towards achieving our goal of enabling businesses to thrive in any economic environment. It’s our people, not technology, that makes what we do possible. It’s our people, not data, that turns information into insights. And it’s our people, not algorithms, that cares to help our clients make better informed decisions. We are innovative, agile, and inspired by data – and we are looking for people that share those values to join our mission to build stronger businesses! Join the data-revolution! Contact Info Contact : Silvia Tomaz E-mail contact : silvia . tomaz @ cialdnb . com Web : https://cialdnb.bamboohr.com/careers",
-      "full_offer_html": "<div class=\"job-description\">\n\n        <h2>Job Title </h2>\n\n        Senior Python Developer\n\n        <h2>Job Description</h2>\n\n        <p>As a Senior Python Developer at CIAL Dun &amp; Bradstreet, your primary responsibility is to design, develop, and maintain scalable backend services and performant web applications using frameworks such as Django, Flask, or FastAPI. You will play a central role in the data lifecycle by building robust ETL processes and sophisticated web scrapers to transform raw information into actionable business insights.\n​On the technical side, you will manage complex data structures using PostgreSQL, Redis, and MongoDB, while ensuring seamless deployment within AWS cloud environments (specifically S3 and EKS) using Docker. Your role involves collaborating in an Agile environment to solve analytical problems, implementing automated testing with Cypress, and ideally leveraging orchestration tools like Prefect to streamline workflows. Ultimately, you will bridge the gap between raw data and decision-making solutions for clients across Latin America.</p>\n\n\n        <h2>Restrictions</h2>\n        <ul>\n            \n            <li><strong>Telecommuting is OK</strong></li>\n            \n\n            \n            <li><strong>No Agencies Please</strong></li>\n            \n        </ul>\n\n        \n        <h2>Requirements</h2>\n        <p>Education</p>\n<p>​Bachelor’s degree in Computer Science, Engineering, or a related field.</p>\n<p>​Experience</p>\n<p>​5+ years of professional software development experience focusing on Python.\n​Advanced English proficiency (conversational).\n​Proven track record in building and maintaining scalable, performant applications and web services.\n​Development of backend services using frameworks like Django, Flask, or FastAPI.\n​Hands-on experience developing ETL processes and Web Scrapers.\n​Strong expertise with PostgreSQL and other relational databases.\n​Proficiency with Cloud platforms, specifically AWS (S3, EKS, etc.).\n​Knowledge of Redis for caching and data management.\n​Experience with non-relational databases (MongoDB).\n​Proficiency with Docker for containerization and Cypress for testing.</p>\n<p>​Core Skills</p>\n<p>​Strong problem-solving and analytical capabilities.\n​Excellent communication and interpersonal abilities.\n​Ability to thrive in a fast-paced, dynamic environment.\n​Solid understanding of the Software Development Lifecycle (SDLC) and Agile methodologies.</p>\n<p>​Preferred Qualifications</p>\n<p>​Familiarity with CI/CD pipelines.\n​Active contributions to open-source projects or a strong personal GitHub portfolio.\n​Experience with Prefect or similar workflow orchestration tools.\n​Conversational Spanish is a significant plus.</p>\n\n        \n\n        \n        <h2>About the Company</h2>\n        <p>We are a fast-growing company that is revolutionizing the world of data and business information in Latin America!</p>\n<p>CIAL Dun &amp; Bradstreet is the leading provider of business decisioning solutions and commercial data across Latin America and the Caribbean. Our solutions are designed to transform how businesses manage risk and make critical decisions about the companies they rely on.</p>\n<blockquote>\n<p>At CIAL, we firmly believe that every team member plays a critical role towards achieving our goal of enabling businesses to thrive in any economic environment.</p>\n<p>It’s our people, not technology, that makes what we do possible. It’s our people, not data, that turns information into insights. And it’s our people, not algorithms, that cares to help our clients make better informed decisions.</p>\n<p>We are innovative, agile, and inspired by data – and we are looking for people that share those values to join our mission to build stronger businesses!</p>\n<p>Join the data-revolution!</p>\n</blockquote>\n\n        \n\n        <h2>Contact Info</h2>\n        <ul>\n            \n            <li><strong>Contact</strong>: Silvia Tomaz</li>\n            \n\n            <li><strong>E-mail contact</strong>: <a class=\"reference external\" href=\"mailto:silvia.tomaz%40cialdnb.com\">silvia<span>.</span>tomaz<span>@</span>cialdnb<span>.</span>com</a></li>\n\n            \n            <li><strong>Web</strong>: <a class=\"reference external\" href=\"https://cialdnb.bamboohr.com/careers\">https://cialdnb.bamboohr.com/careers</a></li>\n            \n        </ul>\n\n        \n\n        \n        \n        \n\n\n    </div><!-- end .job-post-content -->\n\n\n    <div class=\"job-post-meta\">\n        ",
+      "categories": null,
+      "summary": "São Paulo, São Paulo, Brazil As a Senior Python Developer at CIAL Dun & Bradstreet, your primary responsibility is to design, develop, and maintain scalable backend services and performant web applications using frameworks such as Django, Flask, or FastAPI. You will play a central role in the data lifecycle by building robust ETL processes and sophisticated web scrapers to transform raw information into actionable business insights. ​On the technical side, you will manage complex data structures",
+      "full_offer_text": "São Paulo, São Paulo, Brazil As a Senior Python Developer at CIAL Dun & Bradstreet, your primary responsibility is to design, develop, and maintain scalable backend services and performant web applications using frameworks such as Django, Flask, or FastAPI. You will play a central role in the data lifecycle by building robust ETL processes and sophisticated web scrapers to transform raw information into actionable business insights. ​On the technical side, you will manage complex data structures using PostgreSQL, Redis, and MongoDB, while ensuring seamless deployment within AWS cloud environments (specifically S3 and EKS) using Docker. Your role involves collaborating in an Agile environment to solve analytical problems, implementing automated testing with Cypress, and ideally leveraging orchestration tools like Prefect to streamline workflows. Ultimately, you will bridge the gap between raw data and decision-making solutions for clients across Latin America. Education ​Bachelor’s degree in Computer Science, Engineering, or a related field. ​Experience ​5+ years of professional software development experience focusing on Python. ​Advanced English proficiency (conversational). ​Proven track record in building and maintaining scalable, performant applications and web services. ​Development of backend services using frameworks like Django, Flask, or FastAPI. ​Hands-on experience developing ETL processes and Web Scrapers. ​Strong expertise with PostgreSQL and other relational databases. ​Proficiency with Cloud platforms, specifically AWS (S3, EKS, etc.). ​Knowledge of Redis for caching and data management. ​Experience with non-relational databases (MongoDB). ​Proficiency with Docker for containerization and Cypress for testing. ​Core Skills ​Strong problem-solving and analytical capabilities. ​Excellent communication and interpersonal abilities. ​Ability to thrive in a fast-paced, dynamic environment. ​Solid understanding of the Software Development Lifecycle (SDLC) and Agile methodologies. ​Preferred Qualifications ​Familiarity with CI/CD pipelines. ​Active contributions to open-source projects or a strong personal GitHub portfolio. ​Experience with Prefect or similar workflow orchestration tools. ​Conversational Spanish is a significant plus.",
+      "full_offer_html": null,
       "apply_url": null,
-      "company_url": "https://cialdnb.bamboohr.com",
-      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://cialdnb.bamboohr.com&size=128",
+      "company_url": null,
+      "image_url": null,
       "dedupe_key": "senior python developer|cial dun bradstreet"
-    },
-    {
-      "id": "8014",
-      "title": "Founding Full-Stack Senior Engineer (UK ONLY) - Fully Remote, MyDataValue",
-      "company": "MyDataValue",
-      "url": "https://www.python.org/jobs/8014/",
-      "source": "python.org",
-      "location": null,
-      "date_posted": null,
-      "salary": "70k",
-      "employment_type": null,
-      "skills": [
-        "Django",
-        "Python",
-        "REST",
-        "API",
-        "React"
-      ],
-      "categories": null,
-      "summary": "London, ---, United Kingdom £70k – £90k • 0.5% – 2.0% • Fully Remote We are an AI-driven Hospitality Tech platform helping vacation rental owners automate their revenue on Booking.com. Unlike most \"early-stage\" startups, we are already at £100k ARR, growing month-on-month and have investment from angels. We have a product customers love, a validated business model, and we are now preparing to expand to Airbnb and Expedia. We are a lean team of two founders looking for a Founding Engineer. You wi",
-      "full_offer_text": "London, ---, United Kingdom £70k – £90k • 0.5% – 2.0% • Fully Remote We are an AI-driven Hospitality Tech platform helping vacation rental owners automate their revenue on Booking.com. Unlike most \"early-stage\" startups, we are already at £100k ARR, growing month-on-month and have investment from angels. We have a product customers love, a validated business model, and we are now preparing to expand to Airbnb and Expedia. We are a lean team of two founders looking for a Founding Engineer. You will be the technical lead, working directly with us to brainstorm ideas, architecture and ship code quickly. The Role This is a Backend-First role (70/30 split). You will spend most of your time in Python/Django, but you must be willing to jump into React/Tailwind to ship complete features ‍ We have interesting technical challenges involving high-volume data and browser automation (MCP/AI) Scale the Backend: Build and ship features using Python (Django) and Postgres. High-Volume Scraping: Manage enterprise-level scraping (1,000s of requests/second) and reverse-engineering of public data sources. Chrome Extension: Maintain and expand our extension that bridges our platform with customer accounts. Ship Fast: We use ChatGPT/Copilot heavily to speed up boilerplate code so we can focus on the complex logic. Frontend (Light): We use React/Tailwind. You don't need to be a frontend expert, but you should be willing to jump in and tweak UI when needed. The Logistics One founder is in Leeds, the other in London. We'd like to meet up occasionally to brainstorm & speed up onboarding as well in person. Salary: £70k - £90k (depending on experience). Equity: Up to 2% options (4-year vesting). We are aiming for a £5-10m valuation in our next raise, join now to get in at the ground floor. Who You Are A Builder: You have startup experience (founder or early employee). You care about solving problems, not just writing code. Python Expert: You have deep experience with Python. Data Scraper: You understand the nuances of web scraping, proxies, and browser automation (Playwright). Pragmatic: You know when to build for scale and when to ship a \"hacky\" fix to unblock a customer. Autonomy: You want direct responsibility. You hate micromanagement and love taking a ticket from \"idea\" to \"deployed.\" Interview process - 30 min non technical call with myself. - 1 hour technical pair programming challenge (not leetcode but real-life problems) - Meet up in person with both founders - Offer Why This Role? Real Revenue: We aren't just an MVP, we have customers who have been with us for months earning more revenue with 0% churn. High Equity: 2% is a good chunk for our stage, it should be worth a significant amount within a years time as we raise at higher valuations. Hard Problems: If you get bored building standard CRUD apps, our scraping, MCP & automation challenges will keep you engaged. Please share a link to your GitHub or a side project you are proud of, you can send me at martin@mydatavalue.com . Required: backend python experience previously worked in a startup before uk based",
-      "full_offer_html": null,
-      "apply_url": null,
-      "company_url": null,
-      "image_url": null,
-      "dedupe_key": "founding full stack senior engineer uk only fully remote|mydatavalue"
-    },
-    {
-      "id": "8010",
-      "title": "Python / Django Developer, Client of Foxley Talent",
-      "company": "Client of Foxley Talent",
-      "url": "https://www.python.org/jobs/8010/",
-      "source": "python.org",
-      "location": null,
-      "date_posted": null,
-      "salary": null,
-      "employment_type": null,
-      "skills": [
-        "Django",
-        "Python",
-        "Postgresql",
-        "API",
-        "SQL"
-      ],
-      "categories": null,
-      "summary": "Remote, United States Build and maintain web applications using Python and the Django framework Design and implement backend logic, database models, and user profile systems for community and contributor focused functionality Implement mailing list and newsletter systems that help users stay connected with community activity Collaborate with an external partners Build systems that recognise contributors through profile features, participation tracking, through GitHub and other 3rd party APIs Ens",
-      "full_offer_text": "Remote, United States Build and maintain web applications using Python and the Django framework Design and implement backend logic, database models, and user profile systems for community and contributor focused functionality Implement mailing list and newsletter systems that help users stay connected with community activity Collaborate with an external partners Build systems that recognise contributors through profile features, participation tracking, through GitHub and other 3rd party APIs Ensure all code is maintainable, secure, and aligned with best Django practice US Resident, with full right to work status Strong proficiency in Python A minimum of 5 years experience with Django including ORM, models, views, and templates Experience with relational databases such as PostgreSQL or MySQL Frontend familiarity with HTML and CSS Any experience with lower level languages is a bonus but not required Comfortable working independently in a remote US based environment",
-      "full_offer_html": null,
-      "apply_url": null,
-      "company_url": null,
-      "image_url": null,
-      "dedupe_key": "python django developer|client of foxley talent"
     },
     {
       "id": "software-engineer",
