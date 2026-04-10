@@ -6,7 +6,7 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
-from extractor import PYTHON_RSS, Job, dedupe, favicon_url, key_for, normalize_date, parse_python_jobs, parse_salary, write_rss
+from extractor import PYTHON_RSS, Job, dedupe, favicon_url, key_for, normalize_date, parse_bwd_jobs, parse_python_jobs, parse_salary, write_rss
 
 
 class ExtractorUnitTests(unittest.TestCase):
@@ -114,6 +114,40 @@ class ExtractorUnitTests(unittest.TestCase):
         xml = out.read_text(encoding="utf-8")
 
         self.assertIn("<pubDate>Mon, 02 Feb 2026 19:53:00 +0000</pubDate>", xml)
+
+    def test_parse_bwd_jobs_uses_company_domain_not_redirect_domain(self) -> None:
+        listing = '<a href="/jobs/2310/software-engineer">Software Engineer</a>'
+        page = """
+        <meta property="og:image" content="http://res.cloudinary.com/built-with-django/image/upload/v1764751418/user-profile-image-prod/www.rinse.com" />
+        <h1 class="text-center">Software Engineer @ <a href="">RINSE</a></h1>
+        <div class="prose md:prose-lg"><p>RINSE is looking for a Software Engineer</p></div>
+        <p class="text-lg text-gray-800">Location: <b>Remote</b></p>
+        <p class="text-lg text-gray-800">Job Posted: <b>Feb. 2, 2026, 7:53 p.m.</b></p>
+        <a href="https://gettjalerts.com/jobs/eaf43cde-bdf4-4873-858d-fc6f27da6a65">Apply for this position</a>
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "JobPosting",
+          "name": "Software Engineer",
+          "title": "Software Engineer",
+          "jobLocation": {"@type": "Place", "address": "Remote"},
+          "description": "RINSE is looking for a Software Engineer",
+          "datePosted": "Feb. 2, 2026, 7:53 p.m.",
+          "employmentType": "full-time",
+          "url": "https://gettjalerts.com/jobs/eaf43cde-bdf4-4873-858d-fc6f27da6a65",
+          "directApply": true,
+          "hiringOrganization": {"@type": "Organization", "name": "RINSE"}
+        }
+        </script>
+        """
+
+        with patch("extractor.fetch", side_effect=[listing, page]):
+            jobs = parse_bwd_jobs()
+
+        self.assertEqual(len(jobs), 1)
+        self.assertEqual(jobs[0].company_url, "https://www.rinse.com")
+        self.assertEqual(jobs[0].apply_url, "https://gettjalerts.com/jobs/eaf43cde-bdf4-4873-858d-fc6f27da6a65")
+        self.assertIn("url=https://www.rinse.com", jobs[0].image_url)
 
 
 if __name__ == "__main__":

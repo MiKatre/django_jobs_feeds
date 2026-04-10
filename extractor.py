@@ -25,6 +25,7 @@ FAVICON_TMPL = (
     "&fallback_opts=TYPE,SIZE,URL&url={url}&size=128"
 )
 UA = "django-jobs-extractor/3.0"
+BWD_REDIRECT_HOSTS = {"gettjalerts.com", "www.gettjalerts.com"}
 
 
 @dataclass
@@ -164,6 +165,22 @@ def key_for(title: str | None, company: str | None) -> str:
     return f"{norm(raw_title)}|{norm(company)}"
 
 
+def bwd_company_url(page: str, apply_url: str | None) -> str | None:
+    image_match = re.search(
+        r'<meta property="og:image" content="http://res\.cloudinary\.com/built-with-django/image/upload/[^"]*/user-profile-image-prod/([^"/?]+)"',
+        page,
+        flags=re.I,
+    )
+    if image_match:
+        return canonical_site_url(f"https://{html.unescape(image_match.group(1).strip())}")
+
+    apply_site = canonical_site_url(apply_url)
+    if apply_site and urlparse(apply_site).netloc.lower() not in BWD_REDIRECT_HOSTS:
+        return apply_site
+
+    return None
+
+
 def parse_python_jobs() -> list[Job]:
     root = ET.fromstring(fetch(PYTHON_RSS))
     jobs: list[Job] = []
@@ -268,7 +285,7 @@ def parse_bwd_jobs() -> list[Job]:
                 ld = {}
 
         apply_url = ld.get("url") or (html.unescape(apply.group(1)) if apply else None)
-        company_url = canonical_site_url(apply_url)
+        company_url = bwd_company_url(page, apply_url)
 
         job = Job(
             id=urlparse(url).path.rstrip("/").split("/")[-1],
