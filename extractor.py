@@ -94,16 +94,18 @@ def favicon_url(company_url: str | None) -> str | None:
 
 
 def parse_salary(text: str) -> str | None:
-    keyword_match = re.search(
-        r"(?i)(?:salary|compensation)[^\d$]{0,20}(\$?\d[\d,]*(?:[kKmM])?(?:\s*[–\-]\s*\$?\d[\d,]*(?:[kKmM])?)?)",
-        text,
-    )
+    amount = r"(?:[£$€]\s?)?\d[\d,]*(?:\.\d+)?(?:[kKmM])?"
+    amount_with_currency = r"(?:[£$€]\s?)\d[\d,]*(?:\.\d+)?(?:[kKmM])?"
+    range_pattern = fr"{amount}(?:\s*[–\-]\s*(?:[£$€]\s?)?\d[\d,]*(?:\.\d+)?(?:[kKmM])?)?"
+    range_with_currency = fr"{amount_with_currency}(?:\s*[–\-]\s*(?:[£$€]\s?)?\d[\d,]*(?:\.\d+)?(?:[kKmM])?)?"
+
+    keyword_match = re.search(fr"(?i)(?:salary|compensation)[^\d£$€]{{0,20}}({range_pattern})", text)
     if keyword_match:
         return keyword_match.group(1).strip()
 
-    dollar_match = re.search(r"(\$\d[\d,]*(?:\.\d+)?(?:[kKmM])?(?:\s*[–\-]\s*\$\d[\d,]*(?:\.\d+)?(?:[kKmM])?)?)", text)
-    if dollar_match:
-        return dollar_match.group(1).strip()
+    currency_match = re.search(fr"({range_with_currency})", text)
+    if currency_match:
+        return currency_match.group(1).strip()
 
     return None
 
@@ -146,6 +148,18 @@ def normalize_date(value: str | None) -> str | None:
         return parsed.isoformat()
     except Exception:
         return raw
+
+
+def normalize_location(value: str | None) -> str | None:
+    raw = strip_tags(value or "")
+    if not raw:
+        return None
+
+    match = re.fullmatch(r"(Remote|Hybrid),?\s*\(([^)]+)\)", raw, flags=re.I)
+    if match:
+        return f"{match.group(1).title()}, {match.group(2).strip()}"
+
+    return raw
 
 
 def norm(value: str | None) -> str:
@@ -220,6 +234,49 @@ def bwd_title(value: str | None, url: str) -> str:
     return normalized or bwd_title_from_slug(url)
 
 
+def bwd_has_role_keyword(title: str) -> bool:
+    tokens = set(norm(title).split())
+    role_keywords = {
+        "analyst",
+        "architect",
+        "backend",
+        "consultant",
+        "data",
+        "designer",
+        "developer",
+        "devops",
+        "director",
+        "engineer",
+        "frontend",
+        "fullstack",
+        "head",
+        "infrastructure",
+        "intern",
+        "lead",
+        "manager",
+        "mobile",
+        "platform",
+        "product",
+        "qa",
+        "scientist",
+        "security",
+        "software",
+        "specialist",
+        "staff",
+        "support",
+        "sre",
+        "technical",
+        "technician",
+    }
+    return bool(tokens & role_keywords)
+
+
+def bwd_display_title(title: str, company: str | None, full_text: str) -> str:
+    if company and not bwd_has_role_keyword(title) and re.search(r"(?i)\b(hiring|multiple|roles?|openings?)\b", full_text):
+        return f"Multiple roles @ {company}"
+    return title
+
+
 def parse_python_jobs() -> list[Job]:
     root = ET.fromstring(fetch(PYTHON_RSS))
     jobs: list[Job] = []
@@ -275,7 +332,7 @@ def parse_python_jobs() -> list[Job]:
             company=company,
             url=url,
             source="python.org",
-            location=strip_tags(location.group(1)) if location else None,
+            location=normalize_location(location.group(1)) if location else None,
             date_posted=posted.group(1).strip() if posted else pub_iso,
             salary=parse_salary(full_text),
             employment_type=parse_employment(full_text),
@@ -324,15 +381,17 @@ def parse_bwd_jobs() -> list[Job]:
                 ld = {}
 
         apply_url = ld.get("url") or (html.unescape(apply.group(1)) if apply else None)
+        company_name = ((ld.get("hiringOrganization", {}) or {}).get("name") if isinstance(ld.get("hiringOrganization", {}), dict) else None) or company
+        title = bwd_display_title(title, company_name, full_text)
         company_url = bwd_company_url(page, apply_url)
 
         job = Job(
             id=urlparse(url).path.rstrip("/").split("/")[-1],
             title=title,
-            company=((ld.get("hiringOrganization", {}) or {}).get("name") if isinstance(ld.get("hiringOrganization", {}), dict) else None) or company,
+            company=company_name,
             url=url,
             source="builtwithdjango.com",
-            location=strip_tags(location.group(1)) if location else ((ld.get("jobLocation", {}) or {}).get("address") if isinstance(ld.get("jobLocation", {}), dict) else None),
+            location=normalize_location(strip_tags(location.group(1)) if location else ((ld.get("jobLocation", {}) or {}).get("address") if isinstance(ld.get("jobLocation", {}), dict) else None)),
             date_posted=normalize_date(ld.get("datePosted") or (strip_tags(posted.group(1)) if posted else None)),
             salary=parse_salary(strip_tags(salary.group(1))) if salary else None,
             employment_type=ld.get("employmentType") or parse_employment(full_text),

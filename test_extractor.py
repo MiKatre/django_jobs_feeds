@@ -6,7 +6,7 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
-from extractor import PYTHON_RSS, Job, bwd_title, dedupe, favicon_url, key_for, normalize_date, parse_bwd_jobs, parse_python_jobs, parse_salary, write_rss
+from extractor import PYTHON_RSS, Job, bwd_display_title, bwd_title, dedupe, favicon_url, key_for, normalize_date, normalize_location, parse_bwd_jobs, parse_python_jobs, parse_salary, write_rss
 
 
 class ExtractorUnitTests(unittest.TestCase):
@@ -55,6 +55,8 @@ class ExtractorUnitTests(unittest.TestCase):
         self.assertIsNone(parse_salary("hello, world"))
         self.assertIsNone(parse_salary("Raised 3.1M and growing month-on-month"))
         self.assertEqual(parse_salary("Salary: $120,000 - $150,000"), "$120,000 - $150,000")
+        self.assertEqual(parse_salary("Salary: £47,922 + profit share per year"), "£47,922")
+        self.assertEqual(parse_salary("Deal: £70k - £90k + Up to 2% Equity"), "£70k - £90k")
 
     def test_parse_python_jobs_keeps_rss_item_when_detail_page_404s(self) -> None:
         rss = """
@@ -88,6 +90,11 @@ class ExtractorUnitTests(unittest.TestCase):
     def test_normalize_date_handles_builtwithdjango_format(self) -> None:
         self.assertEqual(normalize_date("Feb. 2, 2026, 7:53 p.m."), "2026-02-02T19:53:00+00:00")
         self.assertEqual(normalize_date("April 1, 2026, 5:50 p.m."), "2026-04-01T17:50:00+00:00")
+
+    def test_normalize_location_cleans_short_hand_formats(self) -> None:
+        self.assertEqual(normalize_location("Remote, (USA only)"), "Remote, USA only")
+        self.assertEqual(normalize_location("Hybrid (NYC - Union Square)"), "Hybrid, NYC - Union Square")
+        self.assertEqual(normalize_location("Menlo Park, CA (Hybrid 2-3 days/week)"), "Menlo Park, CA (Hybrid 2-3 days/week)")
 
     def test_write_rss_uses_normalized_job_date(self) -> None:
         payload = {
@@ -151,6 +158,16 @@ class ExtractorUnitTests(unittest.TestCase):
 
     def test_bwd_title_strips_unmatched_closing_paren(self) -> None:
         self.assertEqual(bwd_title("B2B SaaS) @ <a href=\"\">Weave Bio</a>", "https://builtwithdjango.com/jobs/2378/b2b-saas"), "B2B SaaS @ Weave Bio")
+
+    def test_bwd_display_title_marks_multi_role_posts(self) -> None:
+        self.assertEqual(
+            bwd_display_title(
+                "B2B SaaS @ Weave Bio",
+                "Weave Bio",
+                "Weave Bio has developed an AI-native platform. Hiring multiple full-time roles including Senior and Staff Backend and Frontend Engineers.",
+            ),
+            "Multiple roles @ Weave Bio",
+        )
 
 
 if __name__ == "__main__":
