@@ -119,6 +119,34 @@ def skills_from_text(text: str) -> list[str]:
     return [cases.get(k, k.capitalize()) for k in found]
 
 
+def normalize_date(value: str | None) -> str | None:
+    if not value:
+        return None
+
+    raw = strip_tags(value)
+    if not raw:
+        return None
+
+    cleaned = re.sub(r"\b([A-Za-z]{3,9})\.(?=\s+\d)", r"\1", raw)
+    cleaned = re.sub(r"(?i)a\.m\.", "AM", cleaned)
+    cleaned = re.sub(r"(?i)p\.m\.", "PM", cleaned)
+    cleaned = re.sub(r"\s+", " ", cleaned).strip()
+
+    for fmt in ("%b %d, %Y, %I:%M %p", "%B %d, %Y, %I:%M %p", "%b %d, %Y", "%B %d, %Y"):
+        try:
+            return datetime.strptime(cleaned, fmt).replace(tzinfo=timezone.utc).isoformat()
+        except ValueError:
+            continue
+
+    try:
+        parsed = parsedate_to_datetime(raw)
+        if parsed.tzinfo is None:
+            parsed = parsed.replace(tzinfo=timezone.utc)
+        return parsed.isoformat()
+    except Exception:
+        return raw
+
+
 def norm(value: str | None) -> str:
     if not value:
         return ""
@@ -249,7 +277,7 @@ def parse_bwd_jobs() -> list[Job]:
             url=url,
             source="builtwithdjango.com",
             location=strip_tags(location.group(1)) if location else ((ld.get("jobLocation", {}) or {}).get("address") if isinstance(ld.get("jobLocation", {}), dict) else None),
-            date_posted=ld.get("datePosted") or (strip_tags(posted.group(1)) if posted else None),
+            date_posted=normalize_date(ld.get("datePosted") or (strip_tags(posted.group(1)) if posted else None)),
             salary=parse_salary(strip_tags(salary.group(1))) if salary else None,
             employment_type=ld.get("employmentType") or parse_employment(full_text),
             skills=skills_from_text(f"{title}\n{full_text}"),

@@ -3,9 +3,10 @@
 from __future__ import annotations
 
 import unittest
+from pathlib import Path
 from unittest.mock import patch
 
-from extractor import PYTHON_RSS, Job, dedupe, favicon_url, key_for, parse_python_jobs, parse_salary
+from extractor import PYTHON_RSS, Job, dedupe, favicon_url, key_for, normalize_date, parse_python_jobs, parse_salary, write_rss
 
 
 class ExtractorUnitTests(unittest.TestCase):
@@ -83,6 +84,36 @@ class ExtractorUnitTests(unittest.TestCase):
         self.assertEqual(jobs[0].date_posted, "2026-03-15T12:00:00+00:00")
         self.assertIsNone(jobs[0].apply_url)
         self.assertIsNone(jobs[0].company_url)
+
+    def test_normalize_date_handles_builtwithdjango_format(self) -> None:
+        self.assertEqual(normalize_date("Feb. 2, 2026, 7:53 p.m."), "2026-02-02T19:53:00+00:00")
+        self.assertEqual(normalize_date("April 1, 2026, 5:50 p.m."), "2026-04-01T17:50:00+00:00")
+
+    def test_write_rss_uses_normalized_job_date(self) -> None:
+        payload = {
+            "jobs": [
+                {
+                    "id": "software-engineer",
+                    "title": "Software Engineer @ RINSE",
+                    "url": "https://builtwithdjango.com/jobs/2310/software-engineer",
+                    "dedupe_key": "software engineer|rinse",
+                    "date_posted": normalize_date("Feb. 2, 2026, 7:53 p.m."),
+                    "summary": "Remote Django role",
+                    "company": "RINSE",
+                    "location": "Remote",
+                    "salary": None,
+                    "company_url": "https://rinse.com",
+                    "apply_url": "https://rinse.com/jobs/software-engineer",
+                    "image_url": "https://example.com/icon.png",
+                }
+            ]
+        }
+
+        out = Path("/tmp/test_django_jobs_feed.xml")
+        write_rss(payload, out)
+        xml = out.read_text(encoding="utf-8")
+
+        self.assertIn("<pubDate>Mon, 02 Feb 2026 19:53:00 +0000</pubDate>", xml)
 
 
 if __name__ == "__main__":
