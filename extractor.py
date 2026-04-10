@@ -181,6 +181,45 @@ def bwd_company_url(page: str, apply_url: str | None) -> str | None:
     return None
 
 
+def bwd_title_from_slug(url: str) -> str:
+    replacements = {
+        "ai": "AI",
+        "api": "API",
+        "b2b": "B2B",
+        "backend": "Backend",
+        "devops": "DevOps",
+        "frontend": "Frontend",
+        "fullstack": "Fullstack",
+        "ml": "ML",
+        "saas": "SaaS",
+        "sre": "SRE",
+        "typescript": "TypeScript",
+        "ui": "UI",
+        "ux": "UX",
+    }
+    slug = urlparse(url).path.rstrip("/").split("/")[-1]
+    return " ".join(replacements.get(part.lower(), part.capitalize()) for part in slug.split("-") if part)
+
+
+def bwd_title(value: str | None, url: str) -> str:
+    raw = strip_tags(value or "")
+    cleaned: list[str] = []
+    balance = 0
+    for char in raw:
+        if char == "(":
+            balance += 1
+            cleaned.append(char)
+            continue
+        if char == ")":
+            if balance == 0:
+                continue
+            balance -= 1
+        cleaned.append(char)
+
+    normalized = re.sub(r"\s+", " ", "".join(cleaned)).strip(" -–—")
+    return normalized or bwd_title_from_slug(url)
+
+
 def parse_python_jobs() -> list[Job]:
     root = ET.fromstring(fetch(PYTHON_RSS))
     jobs: list[Job] = []
@@ -264,7 +303,7 @@ def parse_bwd_jobs() -> list[Job]:
         page = fetch(url)
 
         h1 = re.search(r'<h1 class="text-center">\s*(.*?)\s*</h1>', page, flags=re.S)
-        title = strip_tags(h1.group(1)) if h1 else ""
+        title = bwd_title(h1.group(1) if h1 else None, url)
         company = title.split("@", 1)[1].strip() if "@" in title else None
 
         block = re.search(r'<div class="prose md:prose-lg">\s*(.*?)\s*</div>', page, flags=re.S)

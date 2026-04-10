@@ -6,7 +6,7 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
-from extractor import PYTHON_RSS, Job, dedupe, favicon_url, key_for, normalize_date, parse_bwd_jobs, parse_python_jobs, parse_salary, write_rss
+from extractor import PYTHON_RSS, Job, bwd_title, dedupe, favicon_url, key_for, normalize_date, parse_bwd_jobs, parse_python_jobs, parse_salary, write_rss
 
 
 class ExtractorUnitTests(unittest.TestCase):
@@ -148,6 +148,9 @@ class ExtractorUnitTests(unittest.TestCase):
         self.assertEqual(jobs[0].company_url, "https://www.rinse.com")
         self.assertEqual(jobs[0].apply_url, "https://gettjalerts.com/jobs/eaf43cde-bdf4-4873-858d-fc6f27da6a65")
         self.assertIn("url=https://www.rinse.com", jobs[0].image_url)
+
+    def test_bwd_title_strips_unmatched_closing_paren(self) -> None:
+        self.assertEqual(bwd_title("B2B SaaS) @ <a href=\"\">Weave Bio</a>", "https://builtwithdjango.com/jobs/2378/b2b-saas"), "B2B SaaS @ Weave Bio")
 
 
 if __name__ == "__main__":
