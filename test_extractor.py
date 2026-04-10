@@ -6,7 +6,7 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
-from extractor import PYTHON_RSS, Job, bwd_display_title, bwd_title, dedupe, favicon_url, key_for, normalize_date, normalize_location, parse_bwd_jobs, parse_python_jobs, parse_salary, write_rss
+from extractor import PYTHON_RSS, Job, bwd_display_title, bwd_title, dedupe, favicon_url, key_for, normalize_date, normalize_location, parse_bwd_jobs, parse_djangojobboard_jobs, parse_python_jobs, parse_salary, write_rss
 
 
 class ExtractorUnitTests(unittest.TestCase):
@@ -90,6 +90,72 @@ class ExtractorUnitTests(unittest.TestCase):
     def test_normalize_date_handles_builtwithdjango_format(self) -> None:
         self.assertEqual(normalize_date("Feb. 2, 2026, 7:53 p.m."), "2026-02-02T19:53:00+00:00")
         self.assertEqual(normalize_date("April 1, 2026, 5:50 p.m."), "2026-04-01T17:50:00+00:00")
+
+    def test_parse_djangojobboard_jobs_uses_structured_data(self) -> None:
+        rss = """
+        <rss>
+          <channel>
+            <item>
+              <title>Solutions Architect - Python (Client-facing)</title>
+              <link>https://djangojobboard.com/1303/solutions-architect-python-client-facing-jetbrains/</link>
+              <description>&lt;p&gt;Support enterprise Python customers.&lt;/p&gt;</description>
+              <guid>https://djangojobboard.com/1303/solutions-architect-python-client-facing-jetbrains/</guid>
+            </item>
+          </channel>
+        </rss>
+        """
+        page = """
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org/",
+          "@type": "JobPosting",
+          "title": "Solutions Architect - Python (Client-facing)",
+          "datePosted": "2026-03-10T15:54:20.515925+00:00",
+          "employmentType": "FULL_TIME",
+          "hiringOrganization": {
+            "@type": "Organization",
+            "name": "JetBrains",
+            "sameAs": "",
+            "logo": "https://www.google.com/s2/favicons?sz=128&domain=www.jetbrains.com"
+          },
+          "jobLocation": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "United States"
+            }
+          },
+          "jobLocationType": "TELECOMMUTE",
+          "applicationContact": {
+            "@type": "ContactPoint",
+            "url": "https://job-boards.eu.greenhouse.io/jetbrains/jobs/4775640101"
+          },
+          "skills": "Python, APIs, Enterprise",
+          "identifier": {
+            "@type": "PropertyValue",
+            "name": "djangojobboard.com",
+            "value": "1303"
+          }
+        }
+        </script>
+        <div class="w-full max-w-none prose prose-md prose-a:bg-yellow-300 prose-a:underline md:prose-lg">
+          <p>Support enterprise Python customers building with modern tooling.</p>
+        </div>
+        """
+
+        with patch("extractor.fetch", side_effect=[rss, page]):
+            jobs = parse_djangojobboard_jobs()
+
+        self.assertEqual(len(jobs), 1)
+        self.assertEqual(jobs[0].id, "1303")
+        self.assertEqual(jobs[0].source, "djangojobboard.com")
+        self.assertEqual(jobs[0].company, "JetBrains")
+        self.assertEqual(jobs[0].location, "Remote, United States")
+        self.assertEqual(jobs[0].date_posted, "2026-03-10T15:54:20.515925+00:00")
+        self.assertEqual(jobs[0].employment_type, "full-time")
+        self.assertEqual(jobs[0].company_url, "https://www.jetbrains.com")
+        self.assertEqual(jobs[0].apply_url, "https://job-boards.eu.greenhouse.io/jetbrains/jobs/4775640101")
+        self.assertEqual(jobs[0].skills, ["Python", "APIs", "Enterprise"])
 
     def test_normalize_location_cleans_short_hand_formats(self) -> None:
         self.assertEqual(normalize_location("Remote, (USA only)"), "Remote, USA only")

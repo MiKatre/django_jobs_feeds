@@ -15,11 +15,12 @@ from datetime import datetime, timezone
 from email.utils import format_datetime, parsedate_to_datetime
 from pathlib import Path
 from urllib.error import HTTPError
-from urllib.parse import quote, urljoin, urlparse
+from urllib.parse import parse_qs, quote, urljoin, urlparse
 from urllib.request import Request, urlopen
 
 PYTHON_RSS = "https://www.python.org/jobs/feed/rss/"
 BWD_JOBS = "https://builtwithdjango.com/jobs/"
+DJANGOJOBBOARD_RSS = "https://djangojobboard.com/feed/rss/"
 FAVICON_TMPL = (
     "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON"
     "&fallback_opts=TYPE,SIZE,URL&url={url}&size=128"
@@ -277,6 +278,48 @@ def bwd_display_title(title: str, company: str | None, full_text: str) -> str:
     return title
 
 
+def normalize_employment_type(value: str | None) -> str | None:
+    raw = strip_tags(value or "")
+    if not raw:
+        return None
+    return raw.lower().replace("_", "-")
+
+
+def djangojobboard_company_url(ld: dict, apply_url: str | None) -> str | None:
+    org = ld.get("hiringOrganization") if isinstance(ld.get("hiringOrganization"), dict) else {}
+    company_url = canonical_site_url(org.get("sameAs")) if isinstance(org, dict) else None
+    if company_url:
+        return company_url
+
+    logo = org.get("logo") if isinstance(org, dict) else None
+    if logo:
+        domain = parse_qs(urlparse(logo).query).get("domain", [None])[0]
+        company_url = canonical_site_url(f"https://{domain}") if domain else None
+        if company_url:
+            return company_url
+
+    apply_site = canonical_site_url(apply_url)
+    if apply_site and urlparse(apply_site).netloc.lower() not in BWD_REDIRECT_HOSTS:
+        return apply_site
+
+    return None
+
+
+def djangojobboard_location(ld: dict) -> str | None:
+    job_location = ld.get("jobLocation") if isinstance(ld.get("jobLocation"), dict) else {}
+    address = job_location.get("address") if isinstance(job_location, dict) and isinstance(job_location.get("address"), dict) else {}
+    locality = strip_tags(address.get("addressLocality")) if isinstance(address, dict) and address.get("addressLocality") else None
+    remote = str(ld.get("jobLocationType") or "").upper() == "TELECOMMUTE"
+
+    if locality and remote:
+        return normalize_location(f"Remote, {locality}")
+    if locality:
+        return normalize_location(locality)
+    if remote:
+        return "Remote"
+    return None
+
+
 def parse_python_jobs() -> list[Job]:
     root = ET.fromstring(fetch(PYTHON_RSS))
     jobs: list[Job] = []
@@ -339,6 +382,70 @@ def parse_python_jobs() -> list[Job]:
             skills=skills_from_text(full_text),
             categories=categories or None,
             summary=full_text[:500],
+            full_offer_text=full_text,
+            full_offer_html=full_html or None,
+            apply_url=apply_url,
+            company_url=company_url,
+            image_url=favicon_url(company_url),
+        )
+        job.dedupe_key = key_for(job.title, job.company)
+        jobs.append(job)
+
+    return jobs
+
+
+def parse_djangojobboard_jobs() -> list[Job]:
+    root = ET.fromstring(fetch(DJANGOJOBBOARD_RSS))
+    jobs: list[Job] = []
+
+    for item in root.findall("./channel/item"):
+        title = item.findtext("title", default="").strip()
+        desc = item.findtext("description", default="").strip()
+        url = item.findtext("link", default="").strip()
+        page = fetch_optional(url)
+
+        ld: dict = {}
+        full_html = desc
+        if page:
+            ld_match = re.search(r'<script type="application/ld\+json">\s*(\{.*?\})\s*</script>', page, flags=re.S)
+            if ld_match:
+                try:
+                    ld = json.loads(ld_match.group(1))
+                except Exception:
+                    ld = {}
+
+            block = re.search(r'<div class="[^"]*prose[^"]*">\s*(.*?)\s*</div>', page, flags=re.S | re.I)
+            if block:
+                full_html = block.group(1)
+
+        org = ld.get("hiringOrganization") if isinstance(ld.get("hiringOrganization"), dict) else {}
+        company_name = org.get("name") if isinstance(org, dict) else None
+        application_contact = ld.get("applicationContact") if isinstance(ld.get("applicationContact"), dict) else {}
+        identifier = ld.get("identifier") if isinstance(ld.get("identifier"), dict) else {}
+        salary_value = None
+        if isinstance(ld.get("baseSalary"), dict):
+            salary_quant = ld["baseSalary"].get("value")
+            if isinstance(salary_quant, dict):
+                salary_value = salary_quant.get("value")
+
+        full_text = strip_tags(full_html) if full_html else strip_tags(desc)
+        apply_url = application_contact.get("url") if isinstance(application_contact, dict) else None
+        company_url = djangojobboard_company_url(ld, apply_url)
+        path_parts = [part for part in urlparse(url).path.split("/") if part]
+
+        job = Job(
+            id=str(identifier.get("value") if isinstance(identifier, dict) and identifier.get("value") else (path_parts[0] if path_parts else url)),
+            title=(ld.get("title") or title).strip(),
+            company=company_name,
+            url=url,
+            source="djangojobboard.com",
+            location=djangojobboard_location(ld),
+            date_posted=normalize_date(ld.get("datePosted")),
+            salary=parse_salary(str(salary_value)) if salary_value else parse_salary(full_text),
+            employment_type=normalize_employment_type(ld.get("employmentType")) or parse_employment(full_text),
+            skills=[skill.strip() for skill in str(ld.get("skills") or "").split(",") if skill.strip()] or skills_from_text(full_text),
+            categories=["Django Job Board"],
+            summary=full_text[:500] if full_text else None,
             full_offer_text=full_text,
             full_offer_html=full_html or None,
             apply_url=apply_url,
@@ -452,13 +559,15 @@ def dedupe(jobs: list[Job]) -> tuple[list[Job], dict]:
 
 def build_feed() -> dict:
     python_jobs = parse_python_jobs()
+    djangojobboard_jobs = parse_djangojobboard_jobs()
     bwd_jobs = parse_bwd_jobs()
-    merged, stats = dedupe(python_jobs + bwd_jobs)
+    merged, stats = dedupe(python_jobs + djangojobboard_jobs + bwd_jobs)
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "sources": [PYTHON_RSS, BWD_JOBS],
+        "sources": [PYTHON_RSS, DJANGOJOBBOARD_RSS, BWD_JOBS],
         "counts": {
             "python_org": len(python_jobs),
+            "djangojobboard": len(djangojobboard_jobs),
             "builtwithdjango": len(bwd_jobs),
             **stats,
         },
