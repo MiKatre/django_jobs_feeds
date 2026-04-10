@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-04-09T05:58:14.670487+00:00",
+  "generated_at": "2026-04-10T06:04:34.410766+00:00",
   "sources": [
     "https://www.python.org/jobs/feed/rss/",
     "https://builtwithdjango.com/jobs/"
   ],
   "counts": {
-    "python_org": 5,
+    "python_org": 4,
     "builtwithdjango": 18,
-    "input_count": 23,
-    "output_count": 20,
+    "input_count": 22,
+    "output_count": 19,
     "duplicates_removed": 3
   },
   "jobs": [
@@ -131,34 +131,6 @@
       "company_url": "https://jobs.pyfound.org",
       "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://jobs.pyfound.org&size=128",
       "dedupe_key": "infrastructure engineer|python software foundation"
-    },
-    {
-      "id": "8030",
-      "title": "Senior Python Backend Developer, SKYCATCHFIRE",
-      "company": "SKYCATCHFIRE",
-      "url": "https://www.python.org/jobs/8030/",
-      "source": "python.org",
-      "location": "Canton, OH, USA",
-      "date_posted": "2026-01-19T19:17:44.408390+00:00",
-      "salary": null,
-      "employment_type": null,
-      "skills": [
-        "Django",
-        "Python",
-        "REST",
-        "API",
-        "React"
-      ],
-      "categories": [
-        "Developer / Engineer"
-      ],
-      "summary": "Job Title Senior Python Backend Developer Job Description Transform spreadsheet-driven complexity into clean, scalable backend systems. This role focuses on designing robust Python backends that turn complex business processes into elegant data models and reliable APIs. You will work as a backend architect, deeply understanding how businesses operate and building systems that scale effortlessly. The work prioritizes long-term reliability, clarity, and high-quality execution over quick fixes. Vis",
-      "full_offer_text": "Job Title Senior Python Backend Developer Job Description Transform spreadsheet-driven complexity into clean, scalable backend systems. This role focuses on designing robust Python backends that turn complex business processes into elegant data models and reliable APIs. You will work as a backend architect, deeply understanding how businesses operate and building systems that scale effortlessly. The work prioritizes long-term reliability, clarity, and high-quality execution over quick fixes. Visit us for more info: https://www.skycatchfire.com/careers/python-developer/ Restrictions Telecommuting is OK No Agencies Please Requirements Strong Python backend experience with at least one major framework (Django preferred; FastAPI or Flask acceptable). Strong background in API design and backend architecture. Experience building and maintaining large-scale applications. Excellence in database design, optimization, and data migrations. Ability to model complex business processes into elegant data structures. Comfort owning projects from start to finish. Detail-oriented with a systematic approach to problem-solving. Clear written communicator with a strong preference for email over meetings Regular, effective use of AI tools to work faster and smarter Portfolio demonstrating structured, high-quality work Bonus points: Experience building AI-powered tools (RAG, LLMs, etc.) Experience building ERP or CRM systems Business process automation experience Data integration and ETL knowledge Familiarity with React or Next.js Mad /giphy skills on Slack (or a desire to learn) About the Company We transform successful businesses by turning their proven processes into powerful software systems. Our work goes beyond building features — we create systems that bring order to complexity and fundamentally improve how businesses operate. We value developers who take pride in their craft, think deeply about solutions, and consistently deliver high-quality work. The environment emphasizes focus, thoughtful execution, protected development time, and long-term system reliability, with minimal meetings and a strong preference for written communication. Contact Info Contact : Hover E-mail contact : hover @ skycatchfire . com Web : https://www.skycatchfire.com/careers/python-developer/",
-      "full_offer_html": "<div class=\"job-description\">\n\n        <h2>Job Title </h2>\n\n        Senior Python Backend Developer\n\n        <h2>Job Description</h2>\n\n        <p>Transform spreadsheet-driven complexity into clean, scalable backend systems. This role focuses on designing robust Python backends that turn complex business processes into elegant data models and reliable APIs. You will work as a backend architect, deeply understanding how businesses operate and building systems that scale effortlessly. The work prioritizes long-term reliability, clarity, and high-quality execution over quick fixes.</p>\n<p>Visit us for more info:\n<a class=\"reference external\" href=\"https://www.skycatchfire.com/careers/python-developer/\">https://www.skycatchfire.com/careers/python-developer/</a></p>\n\n\n        <h2>Restrictions</h2>\n        <ul>\n            \n            <li><strong>Telecommuting is OK</strong></li>\n            \n\n            \n            <li><strong>No Agencies Please</strong></li>\n            \n        </ul>\n\n        \n        <h2>Requirements</h2>\n        <ul class=\"simple\">\n<li>Strong Python backend experience with at least one major framework (Django preferred; FastAPI or Flask acceptable).</li>\n<li>Strong background in API design and backend architecture.</li>\n<li>Experience building and maintaining large-scale applications.</li>\n<li>Excellence in database design, optimization, and data migrations.</li>\n<li>Ability to model complex business processes into elegant data structures.</li>\n<li>Comfort owning projects from start to finish.</li>\n<li>Detail-oriented with a systematic approach to problem-solving.</li>\n<li>Clear written communicator with a strong preference for email over meetings</li>\n<li>Regular, effective use of AI tools to work faster and smarter</li>\n<li>Portfolio demonstrating structured, high-quality work</li>\n</ul>\n<p>Bonus points:</p>\n<ul class=\"simple\">\n<li>Experience building AI-powered tools (RAG, LLMs, etc.)</li>\n<li>Experience building ERP or CRM systems</li>\n<li>Business process automation experience</li>\n<li>Data integration and ETL knowledge</li>\n<li>Familiarity with React or Next.js</li>\n<li>Mad /giphy skills on Slack (or a desire to learn)</li>\n</ul>\n\n        \n\n        \n        <h2>About the Company</h2>\n        <p>We transform successful businesses by turning their proven processes into powerful software systems. Our work goes beyond building features — we create systems that bring order to complexity and fundamentally improve how businesses operate. We value developers who take pride in their craft, think deeply about solutions, and consistently deliver high-quality work. The environment emphasizes focus, thoughtful execution, protected development time, and long-term system reliability, with minimal meetings and a strong preference for written communication.</p>\n\n        \n\n        <h2>Contact Info</h2>\n        <ul>\n            \n            <li><strong>Contact</strong>: Hover</li>\n            \n\n            <li><strong>E-mail contact</strong>: <a class=\"reference external\" href=\"mailto:hover%40skycatchfire.com\">hover<span>@</span>skycatchfire<span>.</span>com</a></li>\n\n            \n            <li><strong>Web</strong>: <a class=\"reference external\" href=\"https://www.skycatchfire.com/careers/python-developer/\">https://www.skycatchfire.com/careers/python-developer/</a></li>\n            \n        </ul>\n\n        \n\n        \n        \n        \n\n\n    </div><!-- end .job-post-content -->\n\n\n    <div class=\"job-post-meta\">\n        ",
-      "apply_url": null,
-      "company_url": "https://www.skycatchfire.com",
-      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.skycatchfire.com&size=128",
-      "dedupe_key": "senior python backend developer|skycatchfire"
     },
     {
       "id": "software-engineer",
