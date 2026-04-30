@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-29T06:13:52.400374+00:00",
+  "generated_at": "2026-04-30T06:17:28.646111+00:00",
   "sources": [
     "https://www.python.org/jobs/feed/rss/",
     "https://djangojobboard.com/feed/rss/",
     "https://builtwithdjango.com/jobs/"
   ],
   "counts": {
-    "python_org": 4,
+    "python_org": 3,
     "djangojobboard": 4,
     "builtwithdjango": 28,
-    "input_count": 36,
-    "output_count": 31,
+    "input_count": 35,
+    "output_count": 30,
     "duplicates_removed": 5
   },
   "jobs": [
@@ -105,36 +105,6 @@
       "company_url": "https://sixfeetup.com",
       "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://sixfeetup.com&size=128",
       "dedupe_key": "senior python developer devops engineer|six feet up"
-    },
-    {
-      "id": "8044",
-      "title": "Infrastructure Engineer, Python Software Foundation",
-      "company": "Python Software Foundation",
-      "url": "https://www.python.org/jobs/8044/",
-      "source": "python.org",
-      "location": "Remote, USA",
-      "date_posted": "2026-02-19T16:04:33.724040+00:00",
-      "salary": "$95K - 125K",
-      "employment_type": "full-time",
-      "skills": [
-        "Django",
-        "Python",
-        "Postgresql",
-        "Kubernetes",
-        "REST",
-        "Pytest",
-        "SQL"
-      ],
-      "categories": [
-        "Developer / Engineer"
-      ],
-      "summary": "Job Title Infrastructure Engineer Job Description The Python Software Foundation (PSF) is hiring a full-time Infrastructure Engineer, reporting to the PSF's Director of Engineering. The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers. In support of our mission, the PSF manages the infrastructure that provides resources and download",
-      "full_offer_text": "Job Title Infrastructure Engineer Job Description The Python Software Foundation (PSF) is hiring a full-time Infrastructure Engineer, reporting to the PSF's Director of Engineering. The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers. In support of our mission, the PSF manages the infrastructure that provides resources and downloads on python.org, documentation on docs.python.org, packages on pypi.org, and more. Overview Maintains the infrastructure that runs PyPI, python.org, docs.python.org, mail.python.org, and the services that support PyCon US. Works alongside a small team keeping critical Python community infrastructure running. The core mandate is keeping things online, accessible, and frugal. No two days are the same, but the initial months are operations-focused as you get familiar with our systems, with development work increasing over time. ## Core Responsibilities Maintain and improve existing Linux infrastructure stacks Respond to alerts, debug outages, and keep services healthy Take part in bi-weekly on-call rotation, responding to incidents and outages Work in Kubernetes, Salt, nginx, PostgreSQL, and various cloud providers Capacity planning and resource management ## Development Maintain and develop features for PSF web properties (python.org, us.pycon.org) Write code, review PRs, and ship changes users interact with Support PyCon US technical operations ## Internal Support Support PSF staff with technical needs and questions User support for services like python.org and psfmember.org Administrative support of services the PSF relies on ## Community Support Support volunteer contributors to PSF hosted services Support CPython core development and fiscal sponsorees Be helpful to people who maintain software in their spare time ## Details Location: Remote, US only. Must be authorized to work in the United States. Core hours aligned with EST. Compensation: $95K - 125K (depending on experience) Type: Full-time employee Benefits: 401(k), generous health care, dental, vision, PTO Travel: PyCon US annually Restrictions Telecommuting is OK No Agencies Please Requirements Qualifications Ideal candidates will have 2-5 years of experience with Linux systems, some exposure to containers and orchestration, and enough Python to be productive. Willingness to learn, get paged, and dig into unfamiliar systems matters more than checking every box. Required: Experience with infrastructure-as-code tooling (Salt, Ansible, Terraform, or similar), Django, Linux administration, basic frontend knowledge, and software testing. Helpful: Kubernetes, PostgreSQL, Ubuntu server, Salt specifically, Python 3.11+, pytest, experience in open source communities. About the Company The Python Software Foundation is a US 501(c)(3) non-profit corporation that holds the intellectual property rights behind the Python programming language. We also run the PyCon US conference annually, support other Python conferences/workshops around the world, and fund Python-related development with our grants program. To see more info about the PSF, check out our Annual Impact Report and public records. We believe that the future of open source must include everyone. We welcome all job-seekers regardless of race, color, ethnicity, religion, age, sexual orientation, gender identity or expression, national origin, physical appearance, body size, socio-economic, veteran or disability status. Python is a global community and the PSF aims to support a safe environment for all. More information can be found on our Code of Conduct page. Contact Info Contact : Jacob Coffee E-mail contact : jacob @ python . org Web : https://jobs.pyfound.org/apply/DNzZlBUqFn/Infrastructure-Engineer",
-      "full_offer_html": "<div class=\"job-description\">\n\n        <h2>Job Title </h2>\n\n        Infrastructure Engineer\n\n        <h2>Job Description</h2>\n\n        <p>The Python Software Foundation (PSF) is hiring a full-time Infrastructure Engineer, reporting to the PSF's Director of Engineering. The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers. In support of our mission, the PSF manages the infrastructure that provides resources and downloads on python.org, documentation on docs.python.org, packages on pypi.org, and more.</p>\n<p>Overview</p>\n<p>Maintains the infrastructure that runs PyPI, python.org, docs.python.org, mail.python.org, and the services\nthat support PyCon US. Works alongside a small team keeping critical Python community infrastructure running.\nThe core mandate is keeping things online, accessible, and frugal. No two days are the same, but the initial\nmonths are operations-focused as you get familiar with our systems, with development work increasing over time.</p>\n<p>## Core Responsibilities</p>\n<ul class=\"simple\">\n<li>Maintain and improve existing Linux infrastructure stacks</li>\n<li>Respond to alerts, debug outages, and keep services healthy</li>\n<li>Take part in bi-weekly on-call rotation, responding to incidents and outages</li>\n<li>Work in Kubernetes, Salt, nginx, PostgreSQL, and various cloud providers</li>\n<li>Capacity planning and resource management</li>\n</ul>\n<p>## Development</p>\n<ul class=\"simple\">\n<li>Maintain and develop features for PSF web properties (python.org, us.pycon.org)</li>\n<li>Write code, review PRs, and ship changes users interact with</li>\n<li>Support PyCon US technical operations</li>\n</ul>\n<p>## Internal Support</p>\n<ul class=\"simple\">\n<li>Support PSF staff with technical needs and questions</li>\n<li>User support for services like python.org and psfmember.org</li>\n<li>Administrative support of services the PSF relies on</li>\n</ul>\n<p>## Community Support</p>\n<ul class=\"simple\">\n<li>Support volunteer contributors to PSF hosted services</li>\n<li>Support CPython core development and fiscal sponsorees</li>\n<li>Be helpful to people who maintain software in their spare time</li>\n</ul>\n<p>## Details</p>\n<ul class=\"simple\">\n<li>Location: Remote, US only. Must be authorized to work in the United States. Core hours aligned with EST.</li>\n<li>Compensation: $95K - 125K (depending on experience)</li>\n<li>Type: Full-time employee</li>\n<li>Benefits: 401(k), generous health care, dental, vision, PTO</li>\n<li>Travel: PyCon US annually</li>\n</ul>\n\n\n        <h2>Restrictions</h2>\n        <ul>\n            \n            <li><strong>Telecommuting is OK</strong></li>\n            \n\n            \n            <li><strong>No Agencies Please</strong></li>\n            \n        </ul>\n\n        \n        <h2>Requirements</h2>\n        <p>Qualifications</p>\n<p>Ideal candidates will have 2-5 years of experience with Linux systems, some exposure to containers and orchestration, and enough Python to be productive. Willingness to learn, get paged, and dig into unfamiliar systems matters more than checking every box.</p>\n<p>Required: Experience with infrastructure-as-code tooling (Salt, Ansible, Terraform, or similar), Django, Linux administration, basic frontend knowledge, and software testing.</p>\n<p>Helpful: Kubernetes, PostgreSQL, Ubuntu server, Salt specifically, Python 3.11+, pytest, experience in open source communities.</p>\n\n        \n\n        \n        <h2>About the Company</h2>\n        <p>The Python Software Foundation is a US 501(c)(3) non-profit corporation that holds the intellectual property rights behind the Python programming language. We also run the PyCon US conference annually, support other Python conferences/workshops around the world, and fund Python-related development with our grants program. To see more info about the PSF, check out our Annual Impact Report and public records.</p>\n<p>We believe that the future of open source must include everyone. We welcome all job-seekers regardless of race, color, ethnicity, religion, age, sexual orientation, gender identity or expression, national origin, physical appearance, body size, socio-economic, veteran or disability status. Python is a global community and the PSF aims to support a safe environment for all. More information can be found on our Code of Conduct page.</p>\n\n        \n\n        <h2>Contact Info</h2>\n        <ul>\n            \n            <li><strong>Contact</strong>: Jacob Coffee</li>\n            \n\n            <li><strong>E-mail contact</strong>: <a class=\"reference external\" href=\"mailto:jacob%40python.org\">jacob<span>@</span>python<span>.</span>org</a></li>\n\n            \n            <li><strong>Web</strong>: <a class=\"reference external\" href=\"https://jobs.pyfound.org/apply/DNzZlBUqFn/Infrastructure-Engineer\">https://jobs.pyfound.org/apply/DNzZlBUqFn/Infrastructure-Engineer</a></li>\n            \n        </ul>\n\n        \n\n        \n        \n        \n\n\n    </div><!-- end .job-post-content -->\n\n\n    <div class=\"job-post-meta\">\n        ",
-      "apply_url": null,
-      "company_url": "https://jobs.pyfound.org",
-      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://jobs.pyfound.org&size=128",
-      "dedupe_key": "infrastructure engineer|python software foundation"
     },
     {
       "id": "1344",
