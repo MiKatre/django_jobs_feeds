@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-30T06:17:28.646111+00:00",
+  "generated_at": "2026-05-01T06:24:32.258513+00:00",
   "sources": [
     "https://www.python.org/jobs/feed/rss/",
     "https://djangojobboard.com/feed/rss/",
     "https://builtwithdjango.com/jobs/"
   ],
   "counts": {
-    "python_org": 3,
+    "python_org": 1,
     "djangojobboard": 4,
     "builtwithdjango": 28,
-    "input_count": 35,
-    "output_count": 30,
+    "input_count": 33,
+    "output_count": 28,
     "duplicates_removed": 5
   },
   "jobs": [
@@ -45,66 +45,6 @@
       "company_url": "https://www.fulfil.io",
       "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.fulfil.io&size=128",
       "dedupe_key": "senior python engineer|fulfil"
-    },
-    {
-      "id": "8050",
-      "title": "Senior Python Developer, Six Feet Up",
-      "company": "Six Feet Up",
-      "url": "https://www.python.org/jobs/8050/",
-      "source": "python.org",
-      "location": "Remote, USA",
-      "date_posted": "2026-03-05T00:29:57.730046+00:00",
-      "salary": null,
-      "employment_type": null,
-      "skills": [
-        "Django",
-        "Python",
-        "AWS",
-        "Kubernetes",
-        "Docker",
-        "REST",
-        "API"
-      ],
-      "categories": [
-        "Developer / Engineer"
-      ],
-      "summary": "Job Title Senior Python Developer Job Description Six Feet Up is seeking a highly skilled Senior Python Software Developer to join our innovative team. The ideal candidate will have a strong background in Python development and a passion for creating high-quality software solutions. As a Senior Python Software Developer, you will be responsible for leading development projects, mentoring junior developers, and ensuring the successful delivery of our software solutions. Is this you? Restrictions ",
-      "full_offer_text": "Job Title Senior Python Developer Job Description Six Feet Up is seeking a highly skilled Senior Python Software Developer to join our innovative team. The ideal candidate will have a strong background in Python development and a passion for creating high-quality software solutions. As a Senior Python Software Developer, you will be responsible for leading development projects, mentoring junior developers, and ensuring the successful delivery of our software solutions. Is this you? Restrictions Telecommuting is OK No Agencies Please Requirements Your Technical Qualifications You hold a Bachelor's degree in Computer Science, Engineering, or related field. You have 15+ years of professional Python development experience. You are proficient in Django, Flask, or similar frameworks. You have a strong understanding of software development principles and methodologies. You possess excellent problem-solving skills and attention to detail. A Plus: Experience with cloud platforms (AWS, Azure, GCP). Knowledge of containerization technologies (Docker, Kubernetes). Your Collaborative Skills * You proactively seek and provide actionable feedback. * You are reliable in delivering work, and you escalate issues quickly when needed. * You are effective and persistent in uncertain or ambiguous situations; you leverage company support. * You promote good practices in performance and security. * You enhance stability, quality, and performance of deliverables. About the Company Six Feet Up helps purpose-driven visionaries solve hard problems by crafting superior and lasting software solutions. As a consultancy with a core focus on Python and AI for the greater good, we bring unparalleled expertise in application development, AI and big data to launch game-changing ideas faster. Driven by the EOS Process™ and home to an AWS Hero, Six Feet Up is a woman-owned software company that values a blend of emotional and intellectual intelligence. Our dedication to excellence is showcased by our 5-star referral rating on Clutch.co. Trusted by leading organizations such as Capital One, NASA, Purdue University, and UNEP since 1999, we are eager to help our clients make an impact. More info is at sixfeetup.com. Contact Info Contact : Please apply via the website. E-mail contact : marketing @ sixfeetup . com Web : https://sixfeetup.com/company/senior-python-developer",
-      "full_offer_html": "<div class=\"job-description\">\n\n        <h2>Job Title </h2>\n\n        Senior Python Developer\n\n        <h2>Job Description</h2>\n\n        <p>Six Feet Up is seeking a highly skilled Senior Python Software Developer to join our innovative team. The ideal candidate will have a strong background in Python development and a passion for creating high-quality software solutions.</p>\n<p>As a Senior Python Software Developer, you will be responsible for leading development projects, mentoring junior developers, and ensuring the successful delivery of our software solutions. Is this you?</p>\n\n\n        <h2>Restrictions</h2>\n        <ul>\n            \n            <li><strong>Telecommuting is OK</strong></li>\n            \n\n            \n            <li><strong>No Agencies Please</strong></li>\n            \n        </ul>\n\n        \n        <h2>Requirements</h2>\n        <p>Your Technical Qualifications</p>\n<ul class=\"simple\">\n<li>You hold a Bachelor's degree in Computer Science, Engineering, or related field.</li>\n<li>You have 15+ years of professional Python development experience.</li>\n<li>You are proficient in Django, Flask, or similar frameworks.</li>\n<li>You have a strong understanding of software development principles and methodologies.</li>\n<li>You possess excellent problem-solving skills and attention to detail.</li>\n</ul>\n<p>A Plus:</p>\n<ul class=\"simple\">\n<li>Experience with cloud platforms (AWS, Azure, GCP).</li>\n<li>Knowledge of containerization technologies (Docker, Kubernetes).</li>\n</ul>\n<p>Your Collaborative Skills\n* You proactively seek and provide actionable feedback.\n* You are reliable in delivering work, and you escalate issues quickly when needed.\n* You are effective and persistent in uncertain or ambiguous situations; you leverage company support.\n* You promote good practices in performance and security.\n* You enhance stability, quality, and performance of deliverables.</p>\n\n        \n\n        \n        <h2>About the Company</h2>\n        <p>Six Feet Up helps purpose-driven visionaries solve hard problems by crafting superior and lasting software solutions. As a consultancy with a core focus on Python and AI for the greater good, we bring unparalleled expertise in application development, AI and big data to launch game-changing ideas faster. Driven by the EOS Process™ and home to an AWS Hero, Six Feet Up is a woman-owned software company that values a blend of emotional and intellectual intelligence. Our dedication to excellence is showcased by our 5-star referral rating on Clutch.co. Trusted by leading organizations such as Capital One, NASA, Purdue University, and UNEP since 1999, we are eager to help our clients make an impact. More info is at sixfeetup.com.</p>\n\n        \n\n        <h2>Contact Info</h2>\n        <ul>\n            \n            <li><strong>Contact</strong>: Please apply via the website.</li>\n            \n\n            <li><strong>E-mail contact</strong>: <a class=\"reference external\" href=\"mailto:marketing%40sixfeetup.com\">marketing<span>@</span>sixfeetup<span>.</span>com</a></li>\n\n            \n            <li><strong>Web</strong>: <a class=\"reference external\" href=\"https://sixfeetup.com/company/senior-python-developer\">https://sixfeetup.com/company/senior-python-developer</a></li>\n            \n        </ul>\n\n        \n\n        \n        \n        \n\n\n    </div><!-- end .job-post-content -->\n\n\n    <div class=\"job-post-meta\">\n        ",
-      "apply_url": null,
-      "company_url": "https://sixfeetup.com",
-      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://sixfeetup.com&size=128",
-      "dedupe_key": "senior python developer|six feet up"
-    },
-    {
-      "id": "8049",
-      "title": "Senior Python Developer/DevOps Engineer, Six Feet Up",
-      "company": "Six Feet Up",
-      "url": "https://www.python.org/jobs/8049/",
-      "source": "python.org",
-      "location": "Remote, USA only",
-      "date_posted": "2026-03-05T00:24:47.949979+00:00",
-      "salary": null,
-      "employment_type": "full-time",
-      "skills": [
-        "Django",
-        "Python",
-        "AWS",
-        "Kubernetes",
-        "Docker",
-        "REST",
-        "API"
-      ],
-      "categories": [
-        "Developer / Engineer"
-      ],
-      "summary": "Job Title Senior Python Developer/DevOps Engineer Job Description Six Feet Up is looking for a full-time, USA-based Senior Python Developer/DevOps Engineer to create beautiful back-end code that powers sophisticated Python-based web projects. The role also includes deploying, managing, and maintaining our infrastructure and applications. Restrictions Telecommuting is OK No Agencies Please Requirements Your Technical Expertise 15+ years of professional Python web development experience Proficient",
-      "full_offer_text": "Job Title Senior Python Developer/DevOps Engineer Job Description Six Feet Up is looking for a full-time, USA-based Senior Python Developer/DevOps Engineer to create beautiful back-end code that powers sophisticated Python-based web projects. The role also includes deploying, managing, and maintaining our infrastructure and applications. Restrictions Telecommuting is OK No Agencies Please Requirements Your Technical Expertise 15+ years of professional Python web development experience Proficient in Django, Flask, or similar frameworks Unix/Linux System Administration and deployment experience Experience working with Terraform, Docker and Kubernetes Ability to maintain, improve, and document AWS, Azure and GCP infrastructures DevOps and Automation experience (CI/CD, Grafana, etc.) A Plus: AI/ML/Big Data Experience Understanding of AWS and/or Azure APIs Innovative understanding of cloud processes and improvements Your Essential Skills and Qualities You understand our clients’ problems and aspirations. You proactively seek and provide actionable feedback from/to peers. You are reliable in delivering work, and you escalate issues quickly when needed. You promote good practices while following company methodologies to ensure deliverable quality and stability. About the Company Six Feet Up helps purpose-driven visionaries solve hard problems by crafting superior and lasting software solutions. As a consultancy with a core focus on Python and AI for the greater good, we bring unparalleled expertise in application development, AI and big data to launch game-changing ideas faster. Driven by the EOS Process™ and home to an AWS Hero, Six Feet Up is a woman-owned software company that values a blend of emotional and intellectual intelligence. Our dedication to excellence is showcased by our 5-star referral rating on Clutch.co. Trusted by leading organizations such as Capital One, NASA, Purdue University, and UNEP since 1999, we are eager to help our clients make an impact. More info is at sixfeetup.com. Contact Info Contact : Please apply via the website. E-mail contact : marketing @ sixfeetup . com Web : https://sixfeetup.com/company/senior-python-developer-devops-engineer-us-only",
-      "full_offer_html": "<div class=\"job-description\">\n\n        <h2>Job Title </h2>\n\n        Senior Python Developer/DevOps Engineer\n\n        <h2>Job Description</h2>\n\n        <p>Six Feet Up is looking for a full-time, USA-based Senior Python Developer/DevOps Engineer to create beautiful back-end code that powers sophisticated Python-based web projects. The role also includes deploying, managing, and maintaining our infrastructure and applications.</p>\n\n\n        <h2>Restrictions</h2>\n        <ul>\n            \n            <li><strong>Telecommuting is OK</strong></li>\n            \n\n            \n            <li><strong>No Agencies Please</strong></li>\n            \n        </ul>\n\n        \n        <h2>Requirements</h2>\n        <p>Your Technical Expertise</p>\n<ul class=\"simple\">\n<li>15+ years of professional Python web development experience</li>\n<li>Proficient in Django, Flask, or similar frameworks</li>\n<li>Unix/Linux System Administration and deployment experience</li>\n<li>Experience working with Terraform, Docker and Kubernetes</li>\n<li>Ability to maintain, improve, and document AWS, Azure and GCP infrastructures</li>\n<li>DevOps and Automation experience (CI/CD, Grafana, etc.)</li>\n</ul>\n<p>A Plus:</p>\n<ul class=\"simple\">\n<li>AI/ML/Big Data Experience</li>\n<li>Understanding of AWS and/or Azure APIs</li>\n<li>Innovative understanding of cloud processes and improvements</li>\n</ul>\n<p>Your Essential Skills and Qualities</p>\n<ol class=\"arabic simple\">\n<li>You understand our clients’ problems and aspirations.</li>\n<li>You proactively seek and provide actionable feedback from/to peers.</li>\n<li>You are reliable in delivering work, and you escalate issues quickly when needed.</li>\n<li>You promote good practices while following company methodologies to ensure deliverable quality and stability.</li>\n</ol>\n\n        \n\n        \n        <h2>About the Company</h2>\n        <p>Six Feet Up helps purpose-driven visionaries solve hard problems by crafting superior and lasting software solutions. As a consultancy with a core focus on Python and AI for the greater good, we bring unparalleled expertise in application development, AI and big data to launch game-changing ideas faster. Driven by the EOS Process™ and home to an AWS Hero, Six Feet Up is a woman-owned software company that values a blend of emotional and intellectual intelligence. Our dedication to excellence is showcased by our 5-star referral rating on Clutch.co. Trusted by leading organizations such as Capital One, NASA, Purdue University, and UNEP since 1999, we are eager to help our clients make an impact. More info is at sixfeetup.com.</p>\n\n        \n\n        <h2>Contact Info</h2>\n        <ul>\n            \n            <li><strong>Contact</strong>: Please apply via the website.</li>\n            \n\n            <li><strong>E-mail contact</strong>: <a class=\"reference external\" href=\"mailto:marketing%40sixfeetup.com\">marketing<span>@</span>sixfeetup<span>.</span>com</a></li>\n\n            \n            <li><strong>Web</strong>: <a class=\"reference external\" href=\"https://sixfeetup.com/company/senior-python-developer-devops-engineer-us-only\">https://sixfeetup.com/company/senior-python-developer-devops-engineer-us-only</a></li>\n            \n        </ul>\n\n        \n\n        \n        \n        \n\n\n    </div><!-- end .job-post-content -->\n\n\n    <div class=\"job-post-meta\">\n        ",
-      "apply_url": null,
-      "company_url": "https://sixfeetup.com",
-      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://sixfeetup.com&size=128",
-      "dedupe_key": "senior python developer devops engineer|six feet up"
     },
     {
       "id": "1344",
