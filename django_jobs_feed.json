@@ -1,19 +1,50 @@
 {
-  "generated_at": "2026-05-07T06:21:57.278942+00:00",
+  "generated_at": "2026-05-08T06:04:49.824393+00:00",
   "sources": [
     "https://www.python.org/jobs/feed/rss/",
     "https://djangojobboard.com/feed/rss/",
     "https://builtwithdjango.com/jobs/"
   ],
   "counts": {
-    "python_org": 1,
+    "python_org": 2,
     "djangojobboard": 4,
     "builtwithdjango": 28,
-    "input_count": 33,
-    "output_count": 28,
+    "input_count": 34,
+    "output_count": 29,
     "duplicates_removed": 5
   },
   "jobs": [
+    {
+      "id": "8082",
+      "title": "Founding Engineer, MyDataValue",
+      "company": "MyDataValue",
+      "url": "https://www.python.org/jobs/8082/",
+      "source": "python.org",
+      "location": "London, UK",
+      "date_posted": "2026-05-06T21:15:40.852955+00:00",
+      "salary": "1",
+      "employment_type": null,
+      "skills": [
+        "Django",
+        "Python",
+        "Postgresql",
+        "AWS",
+        "REST",
+        "API",
+        "SQL",
+        "React"
+      ],
+      "categories": [
+        "Developer / Engineer"
+      ],
+      "summary": "Job Title Founding Engineer Job Description We're building the future of Revenue Management. AI agents that give short-term rental operators and independent hotels more money for less effort. We integrate directly with Booking.com, Airbnb, and PMS platforms via deep private API connections. The role : This is a flexible Hybrid role in London. You'll be the second engineering hire, working directly alongside Martin. Everything is on the table: backend systems, React frontend, Chrome extension, da",
+      "full_offer_text": "Job Title Founding Engineer Job Description We're building the future of Revenue Management. AI agents that give short-term rental operators and independent hotels more money for less effort. We integrate directly with Booking.com, Airbnb, and PMS platforms via deep private API connections. The role : This is a flexible Hybrid role in London. You'll be the second engineering hire, working directly alongside Martin. Everything is on the table: backend systems, React frontend, Chrome extension, data pipelines, agent orchestration, and prompt engineering. You'll ship full features end-to-end, not tickets. We ship fast using Claude Code and AI-assisted development daily. If you're already running multiple PRs in parallel with AI tools, you'll feel right at home. What we offer : £80K–£90K base salary plus up to 1% equity (DOE). This is a founding role, you'll have real ownership of the product and the company. You'll shape technical direction, product decisions, and company culture from the ground floor. If you want to build something real with a small team that's already winning customers and growing fast, where your code ships to production the same day and your decisions shape the company then let's talk. Restrictions Telecommuting is OK No Agencies Please Requirements What we're looking for : Previous startup or founder experience, you've built something from zero and know what that demands. Very strong Python (Django/Celery) and React. Comfortable across the full stack, backend, frontend, infra, data. AI agent development, prompt engineering, or data pipeline experience is a strong plus. You need to be based in London or able to come to our Canary Wharf office 2 days a week. We can't sponsor visas. Stack : Django, Celery, PostgreSQL, React, Chrome Extensions, Claude Code. About the Company About us : We're pre-seed funded, ramen profitable at $300k ARR, with ~40+ clients and near-zero churn. The product works, customers love it, and we're growing fast. Our team is sub-5 people, based out of Canary Wharf, London. Martin (CTO/co-founder) is a previous founder with 10+ years in development. Miro (CEO/co-founder) had a previous Revenue Management company and is an expert in data. Contact Info Contact : Martin Dawson E-mail contact : martin @ mydatavalue . com Web : https://www.mydatavalue.com/founding-full-stack-senior-engineer",
+      "full_offer_html": "<div class=\"job-description\">\n\n        <h2>Job Title </h2>\n\n        Founding Engineer\n\n        <h2>Job Description</h2>\n\n        <p>We're building the future of Revenue Management. AI agents that give short-term rental operators and independent hotels more money for less effort. We integrate directly with Booking.com, Airbnb, and PMS platforms via deep private API connections.</p>\n<p><strong>The role</strong>:  This is a flexible Hybrid role in London. You'll be the second engineering hire, working directly alongside Martin. Everything is on the table: backend systems, React frontend, Chrome extension, data pipelines, agent orchestration, and prompt engineering. You'll ship full features end-to-end, not tickets. We ship fast using Claude Code and AI-assisted development daily. If you're already running multiple PRs in parallel with AI tools, you'll feel right at home.</p>\n<p><strong>What we offer</strong>: £80K–£90K base salary plus up to 1% equity (DOE). This is a founding role, you'll have real ownership of the product and the company. You'll shape technical direction, product decisions, and company culture from the ground floor.</p>\n<p>If you want to build something real with a small team that's already winning customers and growing fast, where your code ships to production the same day and your decisions shape the company then let's talk.</p>\n\n\n        <h2>Restrictions</h2>\n        <ul>\n            \n            <li><strong>Telecommuting is OK</strong></li>\n            \n\n            \n            <li><strong>No Agencies Please</strong></li>\n            \n        </ul>\n\n        \n        <h2>Requirements</h2>\n        <p><strong>What we're looking for</strong>: Previous startup or founder experience, you've built something from zero and know what that demands. Very strong Python (Django/Celery) and React. Comfortable across the full stack, backend, frontend, infra, data. AI agent development, prompt engineering, or data pipeline experience is a strong plus. You need to be based in London or able to come to our Canary Wharf office 2 days a week. We can't sponsor visas.</p>\n<p><strong>Stack</strong>: Django, Celery, PostgreSQL, React, Chrome Extensions, Claude Code.</p>\n\n        \n\n        \n        <h2>About the Company</h2>\n        <p><strong>About us</strong>: We're pre-seed funded, ramen profitable at $300k ARR, with ~40+ clients and near-zero churn. The product works, customers love it, and we're growing fast. Our team is sub-5 people, based out of Canary Wharf, London. Martin (CTO/co-founder) is a previous founder with 10+ years in development. Miro (CEO/co-founder) had a previous Revenue Management company and is an expert in data.</p>\n\n        \n\n        <h2>Contact Info</h2>\n        <ul>\n            \n            <li><strong>Contact</strong>: Martin Dawson</li>\n            \n\n            <li><strong>E-mail contact</strong>: <a class=\"reference external\" href=\"mailto:martin%40mydatavalue.com\">martin<span>@</span>mydatavalue<span>.</span>com</a></li>\n\n            \n            <li><strong>Web</strong>: <a class=\"reference external\" href=\"https://www.mydatavalue.com/founding-full-stack-senior-engineer\">https://www.mydatavalue.com/founding-full-stack-senior-engineer</a></li>\n            \n        </ul>\n\n        \n\n        \n        \n        \n\n\n    </div><!-- end .job-post-content -->\n\n\n    <div class=\"job-post-meta\">\n        ",
+      "apply_url": null,
+      "company_url": "https://www.mydatavalue.com",
+      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.mydatavalue.com&size=128",
+      "dedupe_key": "founding engineer|mydatavalue"
+    },
     {
       "id": "8070",
       "title": "Senior Python Engineer, Fulfil",
@@ -45,6 +76,49 @@
       "company_url": "https://www.fulfil.io",
       "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.fulfil.io&size=128",
       "dedupe_key": "senior python engineer|fulfil"
+    },
+    {
+      "id": "1358",
+      "title": "Founding Engineer",
+      "company": "Martin Dawson (CTO/co-founder)",
+      "url": "https://djangojobboard.com/1358/founding-engineer-mydatavalue/",
+      "source": "djangojobboard.com",
+      "location": "Remote, London, UK",
+      "date_posted": "2026-05-07T13:50:00.864234+00:00",
+      "salary": "1",
+      "employment_type": "full-time",
+      "skills": [
+        "Back end",
+        "Big Data",
+        "Cloud",
+        "Database",
+        "Front end",
+        "Machine Learning",
+        "Web",
+        "Python",
+        "Django",
+        "Celery",
+        "React",
+        "Full-stack development",
+        "Backend engineering",
+        "Frontend engineering",
+        "Infrastructure",
+        "Data pipelines",
+        "AI agent development",
+        "Prompt engineering",
+        "Chrome extension development",
+        "PostgreSQL"
+      ],
+      "categories": [
+        "Django Job Board"
+      ],
+      "summary": "Job Description We're building the future of Revenue Management. AI agents that give short-term rental operators and independent hotels more money for less effort. We integrate directly with Booking.com , Airbnb, and PMS platforms via deep private API connections. The role: This is a flexible Hybrid role in London. You'll be the second engineering hire, working directly alongside Martin. Everything is on the table: backend systems, React frontend, Chrome extension, data pipelines, agent orchestr",
+      "full_offer_text": "Job Description We're building the future of Revenue Management. AI agents that give short-term rental operators and independent hotels more money for less effort. We integrate directly with Booking.com , Airbnb, and PMS platforms via deep private API connections. The role: This is a flexible Hybrid role in London. You'll be the second engineering hire, working directly alongside Martin. Everything is on the table: backend systems, React frontend, Chrome extension, data pipelines, agent orchestration, and prompt engineering. You'll ship full features end-to-end, not tickets. We ship fast using Claude Code and AI-assisted development daily. If you're already running multiple PRs in parallel with AI tools, you'll feel right at home. What we offer: £80K–£90K base salary plus up to 1% equity (DOE). This is a founding role, you'll have real ownership of the product and the company. You'll shape technical direction, product decisions, and company culture from the ground floor. If you want to build something real with a small team that's already winning customers and growing fast, where your code ships to production the same day and your decisions shape the company then let's talk. Restrictions Telecommuting is OK No Agencies Please Requirements What we're looking for: Previous startup or founder experience, you've built something from zero and know what that demands. Very strong Python (Django/Celery) and React. Comfortable across the full stack, backend, frontend, infra, data. AI agent development, prompt engineering, or data pipeline experience is a strong plus. You need to be based in London or able to come to our Canary Wharf office 2 days a week. We can't sponsor visas. Stack: Django, Celery, PostgreSQL, React, Chrome Extensions, Claude Code. About the Company About us: We're pre-seed funded, ramen profitable at $300k ARR, with ~40+ clients and near-zero churn. The product works, customers love it, and we're growing fast. Our team is sub-5 people, based out of Canary Wharf, London. Martin (CTO/co-founder) is a previous founder with 10+ years in development. Miro (CEO/co-founder) had a previous Revenue Management company and is an expert in data. Contact Info Contact: Martin Dawson E-mail contact: [email protected] Web: https://www.mydatavalue.com/founding-full-stack-senior-engineer",
+      "full_offer_html": "<h2>Job Description</h2>\n<p>We're building the future of Revenue Management. AI agents that give short-term rental operators and independent hotels more money for less effort. We integrate directly with <a href=\"http://Booking.com\">Booking.com</a>, Airbnb, and PMS platforms via deep private API connections.</p>\n<p>The role:  This is a flexible Hybrid role in London. You'll be the second engineering hire, working directly alongside Martin. Everything is on the table: backend systems, React frontend, Chrome extension, data pipelines, agent orchestration, and prompt engineering. You'll ship full features end-to-end, not tickets. We ship fast using Claude Code and AI-assisted development daily. If you're already running multiple PRs in parallel with AI tools, you'll feel right at home.</p>\n<p>What we offer: £80K–£90K base salary plus up to 1% equity (DOE). This is a founding role, you'll have real ownership of the product and the company. You'll shape technical direction, product decisions, and company culture from the ground floor.</p>\n<p>If you want to build something real with a small team that's already winning customers and growing fast, where your code ships to production the same day and your decisions shape the company then let's talk.</p>\n<h2>Restrictions</h2>\n<ul>\n<li>Telecommuting is OK</li>\n<li>No Agencies Please</li>\n</ul>\n<h2>Requirements</h2>\n<p>What we're looking for: Previous startup or founder experience, you've built something from zero and know what that demands. Very strong Python (Django/Celery) and React. Comfortable across the full stack, backend, frontend, infra, data. AI agent development, prompt engineering, or data pipeline experience is a strong plus. You need to be based in London or able to come to our Canary Wharf office 2 days a week. We can't sponsor visas.</p>\n<p>Stack: Django, Celery, PostgreSQL, React, Chrome Extensions, Claude Code.</p>\n<h2>About the Company</h2>\n<p>About us: We're pre-seed funded, ramen profitable at $300k ARR, with ~40+ clients and near-zero churn. The product works, customers love it, and we're growing fast. Our team is sub-5 people, based out of Canary Wharf, London. Martin (CTO/co-founder) is a previous founder with 10+ years in development. Miro (CEO/co-founder) had a previous Revenue Management company and is an expert in data.</p>\n<h2>Contact Info</h2>\n<ul>\n<li>Contact: Martin Dawson</li>\n<li>E-mail contact: <a href=\"/cdn-cgi/l/email-protection#dfb2beadabb6b19fb2a6bbbeabbea9beb3aabaf1bcb0b2\"><span class=\"__cf_email__\" data-cfemail=\"462b2734322f28062b3f2227322730272a33236825292b\">[email&#160;protected]</span></a></li>\n<li>Web: <a href=\"https://www.mydatavalue.com/founding-full-stack-senior-engineer\">https://www.mydatavalue.com/founding-full-stack-senior-engineer</a></li>\n</ul>",
+      "apply_url": "https://www.mydatavalue.com/founding-full-stack-senior-engineer",
+      "company_url": "https://www.mydatavalue.com",
+      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.mydatavalue.com&size=128",
+      "dedupe_key": "founding engineer|martin dawson cto co founder"
     },
     {
       "id": "1344",
@@ -133,33 +207,6 @@
       "company_url": "https://www.crossway.org",
       "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.crossway.org&size=128",
       "dedupe_key": "web developer|crossway"
-    },
-    {
-      "id": "1340",
-      "title": "PyPI Sustainability Engineer",
-      "company": "Python Software Foundation",
-      "url": "https://djangojobboard.com/1340/sustainability-engineer-pypi-python-software-foundation-career-page/",
-      "source": "djangojobboard.com",
-      "location": "Remote, Global remote",
-      "date_posted": "2026-04-23T18:41:01.764984+00:00",
-      "salary": "$75k-$180k",
-      "employment_type": "full-time",
-      "skills": [
-        "Python",
-        "Postgresql",
-        "Pytest",
-        "SQL"
-      ],
-      "categories": [
-        "Django Job Board"
-      ],
-      "summary": "About the Role The Python Software Foundation is hiring a contract Sustainability Engineer, PyPI , reporting to the Director of Engineering. This role focuses on building features in Warehouse , PyPI's codebase, with the goal of helping make PyPI financially sustainable so it does not rely entirely on donations and sponsorships. PyPI organization accounts launched in 2025 as the first revenue stream, and this role will help expand that foundation. You will spend most of your time shipping featur",
-      "full_offer_text": "About the Role The Python Software Foundation is hiring a contract Sustainability Engineer, PyPI , reporting to the Director of Engineering. This role focuses on building features in Warehouse , PyPI's codebase, with the goal of helping make PyPI financially sustainable so it does not rely entirely on donations and sponsorships. PyPI organization accounts launched in 2025 as the first revenue stream, and this role will help expand that foundation. You will spend most of your time shipping features that support PyPI and the PSF, writing Python, collaborating on packaging standards, and working through practical challenges such as billing integrations, access control, and infrastructure costs. You will also help shape what PyPI can offer both free users and organizations, balancing revenue generation with the PSF mission. Core Responsibilities Build and ship features in Warehouse, PyPI's codebase Work on billing integrations, access control, storage, and CDN systems Write Python, review pull requests, and deliver user-facing improvements Coordinate with the Infrastructure Engineer on deployment, scaling, and operations Collaborate with PSF and PyPI security engineers on security-related features Work with the PyPI Support Specialist on organization accounts and escalations Interface with PyPI stakeholders to understand community and user needs Participate in occasional shared on-call responsibilities for PyPI Product Responsibilities Help define what PyPI offers free users and organizations Research commercial offerings and identify where PyPI fits Speak with enterprise users and turn needs into valuable features Balance sustainability goals with PyPI's mission as free public infrastructure Standards & Ecosystem Work within the Python packaging standards process when features need upstream changes Coordinate with the Packaging Council and related stakeholders Qualifications Required Strong Python experience Experience with web frameworks Working knowledge of HTML, CSS, and JavaScript Software testing experience Desired PostgreSQL experience Strong frontend skills (HTML/CSS/JavaScript) Pyramid web framework experience Python 3.14+ Pytest Object storage experience Familiarity with packaging and CDN architecture Product sense and ability to work with enterprise customers Open source community experience :contentReference Compensation $75,000 to $180,000 USD Based on experience and local employment package norms US employees eligible for healthcare and other benefits About the Python Software Foundation The PSF is a US 501(c)(3) nonprofit corporation that protects and advances the Python programming language. The PSF also: Runs PyCon US annually Supports Python conferences and workshops worldwide Funds Python-related development through grants The PSF is committed to diversity, inclusion, and maintaining a safe and welcoming global community.",
-      "full_offer_html": "<h2>About the Role</h2>\n<p>The Python Software Foundation is hiring a contract <strong>Sustainability Engineer, PyPI</strong>, reporting to the Director of Engineering.</p>\n<p>This role focuses on building features in <strong>Warehouse</strong>, PyPI's codebase, with the goal of helping make PyPI financially sustainable so it does not rely entirely on donations and sponsorships.</p>\n<p>PyPI organization accounts launched in 2025 as the first revenue stream, and this role will help expand that foundation.</p>\n<p>You will spend most of your time shipping features that support PyPI and the PSF, writing Python, collaborating on packaging standards, and working through practical challenges such as billing integrations, access control, and infrastructure costs.</p>\n<p>You will also help shape what PyPI can offer both free users and organizations, balancing revenue generation with the PSF mission.</p>\n<hr />\n<h2>Core Responsibilities</h2>\n<ul>\n<li>Build and ship features in Warehouse, PyPI's codebase</li>\n<li>Work on billing integrations, access control, storage, and CDN systems</li>\n<li>Write Python, review pull requests, and deliver user-facing improvements</li>\n<li>Coordinate with the Infrastructure Engineer on deployment, scaling, and operations</li>\n<li>Collaborate with PSF and PyPI security engineers on security-related features</li>\n<li>Work with the PyPI Support Specialist on organization accounts and escalations</li>\n<li>Interface with PyPI stakeholders to understand community and user needs</li>\n<li>Participate in occasional shared on-call responsibilities for PyPI</li>\n</ul>\n<hr />\n<h2>Product Responsibilities</h2>\n<ul>\n<li>Help define what PyPI offers free users and organizations</li>\n<li>Research commercial offerings and identify where PyPI fits</li>\n<li>Speak with enterprise users and turn needs into valuable features</li>\n<li>Balance sustainability goals with PyPI's mission as free public infrastructure</li>\n</ul>\n<hr />\n<h2>Standards &amp; Ecosystem</h2>\n<ul>\n<li>Work within the Python packaging standards process when features need upstream changes</li>\n<li>Coordinate with the Packaging Council and related stakeholders</li>\n</ul>\n<hr />\n<h2>Qualifications</h2>\n<h3>Required</h3>\n<ul>\n<li>Strong Python experience</li>\n<li>Experience with web frameworks</li>\n<li>Working knowledge of HTML, CSS, and JavaScript</li>\n<li>Software testing experience</li>\n</ul>\n<h3>Desired</h3>\n<ul>\n<li>PostgreSQL experience</li>\n<li>Strong frontend skills (HTML/CSS/JavaScript)</li>\n<li>Pyramid web framework experience</li>\n<li>Python 3.14+</li>\n<li>Pytest</li>\n<li>Object storage experience</li>\n<li>Familiarity with packaging and CDN architecture</li>\n<li>Product sense and ability to work with enterprise customers</li>\n<li>Open source community experience :contentReference</li>\n</ul>\n<hr />\n<h2>Compensation</h2>\n<ul>\n<li><strong>$75,000 to $180,000 USD</strong></li>\n<li>Based on experience and local employment package norms</li>\n<li>US employees eligible for healthcare and other benefits</li>\n</ul>\n<hr />\n<h2>About the Python Software Foundation</h2>\n<p>The PSF is a US 501(c)(3) nonprofit corporation that protects and advances the Python programming language.</p>\n<p>The PSF also:</p>\n<ul>\n<li>Runs PyCon US annually</li>\n<li>Supports Python conferences and workshops worldwide</li>\n<li>Funds Python-related development through grants</li>\n</ul>\n<p>The PSF is committed to diversity, inclusion, and maintaining a safe and welcoming global community.</p>",
-      "apply_url": "https://pythonsoftwarefoundation.applytojob.com/apply/xz5k3X31UQ/Sustainability-Engineer-PyPI",
-      "company_url": "https://www.python.org",
-      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.python.org&size=128",
-      "dedupe_key": "pypi sustainability engineer|python software foundation"
     },
     {
       "id": "software-engineer",
