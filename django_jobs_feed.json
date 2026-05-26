@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T06:51:34.615335+00:00",
+  "generated_at": "2026-05-26T06:38:25.709891+00:00",
   "sources": [
     "https://www.python.org/jobs/feed/rss/",
     "https://djangojobboard.com/feed/rss/",
@@ -114,7 +114,7 @@
       ],
       "summary": "Job Description We're building the future of Revenue Management. AI agents that give short-term rental operators and independent hotels more money for less effort. We integrate directly with Booking.com , Airbnb, and PMS platforms via deep private API connections. The role: This is a flexible Hybrid role in London. You'll be the second engineering hire, working directly alongside Martin. Everything is on the table: backend systems, React frontend, Chrome extension, data pipelines, agent orchestr",
       "full_offer_text": "Job Description We're building the future of Revenue Management. AI agents that give short-term rental operators and independent hotels more money for less effort. We integrate directly with Booking.com , Airbnb, and PMS platforms via deep private API connections. The role: This is a flexible Hybrid role in London. You'll be the second engineering hire, working directly alongside Martin. Everything is on the table: backend systems, React frontend, Chrome extension, data pipelines, agent orchestration, and prompt engineering. You'll ship full features end-to-end, not tickets. We ship fast using Claude Code and AI-assisted development daily. If you're already running multiple PRs in parallel with AI tools, you'll feel right at home. What we offer: £80K–£90K base salary plus up to 1% equity (DOE). This is a founding role, you'll have real ownership of the product and the company. You'll shape technical direction, product decisions, and company culture from the ground floor. If you want to build something real with a small team that's already winning customers and growing fast, where your code ships to production the same day and your decisions shape the company then let's talk. Restrictions Telecommuting is OK No Agencies Please Requirements What we're looking for: Previous startup or founder experience, you've built something from zero and know what that demands. Very strong Python (Django/Celery) and React. Comfortable across the full stack, backend, frontend, infra, data. AI agent development, prompt engineering, or data pipeline experience is a strong plus. You need to be based in London or able to come to our Canary Wharf office 2 days a week. We can't sponsor visas. Stack: Django, Celery, PostgreSQL, React, Chrome Extensions, Claude Code. About the Company About us: We're pre-seed funded, ramen profitable at $300k ARR, with ~40+ clients and near-zero churn. The product works, customers love it, and we're growing fast. Our team is sub-5 people, based out of Canary Wharf, London. Martin (CTO/co-founder) is a previous founder with 10+ years in development. Miro (CEO/co-founder) had a previous Revenue Management company and is an expert in data. Contact Info Contact: Martin Dawson E-mail contact: [email protected] Web: https://www.mydatavalue.com/founding-full-stack-senior-engineer",
-      "full_offer_html": "<h2>Job Description</h2>\n<p>We're building the future of Revenue Management. AI agents that give short-term rental operators and independent hotels more money for less effort. We integrate directly with <a href=\"http://Booking.com\">Booking.com</a>, Airbnb, and PMS platforms via deep private API connections.</p>\n<p>The role:  This is a flexible Hybrid role in London. You'll be the second engineering hire, working directly alongside Martin. Everything is on the table: backend systems, React frontend, Chrome extension, data pipelines, agent orchestration, and prompt engineering. You'll ship full features end-to-end, not tickets. We ship fast using Claude Code and AI-assisted development daily. If you're already running multiple PRs in parallel with AI tools, you'll feel right at home.</p>\n<p>What we offer: £80K–£90K base salary plus up to 1% equity (DOE). This is a founding role, you'll have real ownership of the product and the company. You'll shape technical direction, product decisions, and company culture from the ground floor.</p>\n<p>If you want to build something real with a small team that's already winning customers and growing fast, where your code ships to production the same day and your decisions shape the company then let's talk.</p>\n<h2>Restrictions</h2>\n<ul>\n<li>Telecommuting is OK</li>\n<li>No Agencies Please</li>\n</ul>\n<h2>Requirements</h2>\n<p>What we're looking for: Previous startup or founder experience, you've built something from zero and know what that demands. Very strong Python (Django/Celery) and React. Comfortable across the full stack, backend, frontend, infra, data. AI agent development, prompt engineering, or data pipeline experience is a strong plus. You need to be based in London or able to come to our Canary Wharf office 2 days a week. We can't sponsor visas.</p>\n<p>Stack: Django, Celery, PostgreSQL, React, Chrome Extensions, Claude Code.</p>\n<h2>About the Company</h2>\n<p>About us: We're pre-seed funded, ramen profitable at $300k ARR, with ~40+ clients and near-zero churn. The product works, customers love it, and we're growing fast. Our team is sub-5 people, based out of Canary Wharf, London. Martin (CTO/co-founder) is a previous founder with 10+ years in development. Miro (CEO/co-founder) had a previous Revenue Management company and is an expert in data.</p>\n<h2>Contact Info</h2>\n<ul>\n<li>Contact: Martin Dawson</li>\n<li>E-mail contact: <a href=\"/cdn-cgi/l/email-protection#0c616d7e7865624c6175686d786d7a6d607969226f6361\"><span class=\"__cf_email__\" data-cfemail=\"7c111d0e0815123c1105181d081d0a1d100919521f1311\">[email&#160;protected]</span></a></li>\n<li>Web: <a href=\"https://www.mydatavalue.com/founding-full-stack-senior-engineer\">https://www.mydatavalue.com/founding-full-stack-senior-engineer</a></li>\n</ul>",
+      "full_offer_html": "<h2>Job Description</h2>\n<p>We're building the future of Revenue Management. AI agents that give short-term rental operators and independent hotels more money for less effort. We integrate directly with <a href=\"http://Booking.com\">Booking.com</a>, Airbnb, and PMS platforms via deep private API connections.</p>\n<p>The role:  This is a flexible Hybrid role in London. You'll be the second engineering hire, working directly alongside Martin. Everything is on the table: backend systems, React frontend, Chrome extension, data pipelines, agent orchestration, and prompt engineering. You'll ship full features end-to-end, not tickets. We ship fast using Claude Code and AI-assisted development daily. If you're already running multiple PRs in parallel with AI tools, you'll feel right at home.</p>\n<p>What we offer: £80K–£90K base salary plus up to 1% equity (DOE). This is a founding role, you'll have real ownership of the product and the company. You'll shape technical direction, product decisions, and company culture from the ground floor.</p>\n<p>If you want to build something real with a small team that's already winning customers and growing fast, where your code ships to production the same day and your decisions shape the company then let's talk.</p>\n<h2>Restrictions</h2>\n<ul>\n<li>Telecommuting is OK</li>\n<li>No Agencies Please</li>\n</ul>\n<h2>Requirements</h2>\n<p>What we're looking for: Previous startup or founder experience, you've built something from zero and know what that demands. Very strong Python (Django/Celery) and React. Comfortable across the full stack, backend, frontend, infra, data. AI agent development, prompt engineering, or data pipeline experience is a strong plus. You need to be based in London or able to come to our Canary Wharf office 2 days a week. We can't sponsor visas.</p>\n<p>Stack: Django, Celery, PostgreSQL, React, Chrome Extensions, Claude Code.</p>\n<h2>About the Company</h2>\n<p>About us: We're pre-seed funded, ramen profitable at $300k ARR, with ~40+ clients and near-zero churn. The product works, customers love it, and we're growing fast. Our team is sub-5 people, based out of Canary Wharf, London. Martin (CTO/co-founder) is a previous founder with 10+ years in development. Miro (CEO/co-founder) had a previous Revenue Management company and is an expert in data.</p>\n<h2>Contact Info</h2>\n<ul>\n<li>Contact: Martin Dawson</li>\n<li>E-mail contact: <a href=\"/cdn-cgi/l/email-protection#d3beb2a1a7babd93beaab7b2a7b2a5b2bfa6b6fdb0bcbe\"><span class=\"__cf_email__\" data-cfemail=\"e5888497918c8ba5889c818491849384899080cb868a88\">[email&#160;protected]</span></a></li>\n<li>Web: <a href=\"https://www.mydatavalue.com/founding-full-stack-senior-engineer\">https://www.mydatavalue.com/founding-full-stack-senior-engineer</a></li>\n</ul>",
       "apply_url": "https://www.mydatavalue.com/founding-full-stack-senior-engineer",
       "company_url": "https://www.mydatavalue.com",
       "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.mydatavalue.com&size=128",
@@ -210,7 +210,7 @@
     },
     {
       "id": "backend-engineer",
-      "title": "Backend Engineer @ Twindo (Formerly Canvas)",
+      "title": "Backend Engineer",
       "company": "Twindo (Formerly Canvas)",
       "url": "https://builtwithdjango.com/jobs/2374/backend-engineer",
       "source": "builtwithdjango.com",
@@ -218,24 +218,21 @@
       "date_posted": "2026-04-09T16:48:00+00:00",
       "salary": null,
       "employment_type": "full-time",
-      "skills": [
-        "Django",
-        "Python"
-      ],
+      "skills": [],
       "categories": [
         "Django Job Board"
       ],
-      "summary": "At Twindo, we’re working on spatial computing - using computer vision to 3D reconstruct and understand your surroundings so that software can operate over real-world spaces. Twindo brings together everything that professionals need to understand the spaces they design, build, and manage, without extra site visits or second-guessing. With a quick scan or plan upload, any space becomes structured, accurate, design-ready data your whole team can actually use. Roles: Backend Engineer (Europe or LatA",
-      "full_offer_text": "At Twindo, we’re working on spatial computing - using computer vision to 3D reconstruct and understand your surroundings so that software can operate over real-world spaces. Twindo brings together everything that professionals need to understand the spaces they design, build, and manage, without extra site visits or second-guessing. With a quick scan or plan upload, any space becomes structured, accurate, design-ready data your whole team can actually use. Roles: Backend Engineer (Europe or LatAm Remote); Full Stack Engineer (Europe or LatAm Remote); iOS & Backend Engineer (Europe or LatAm Remote). For detailed information check out https://www.twindo.com/careers/ or email jobs@twindo.com. Keywords: 3D, computer vision, photogrammetry, geomatics, SLAM, CAD, iOS, Python, Django.",
-      "full_offer_html": "<p>At Twindo, we’re working on spatial computing - using computer vision to 3D reconstruct and understand your surroundings so that software can operate over real-world spaces. Twindo brings together everything that professionals need to understand the spaces they design, build, and manage, without extra site visits or second-guessing. With a quick scan or plan upload, any space becomes structured, accurate, design-ready data your whole team can actually use. Roles: Backend Engineer (Europe or LatAm Remote); Full Stack Engineer (Europe or LatAm Remote); iOS &amp; Backend Engineer (Europe or LatAm Remote). For detailed information check out https://www.twindo.com/careers/ or email jobs@twindo.com. Keywords: 3D, computer vision, photogrammetry, geomatics, SLAM, CAD, iOS, Python, Django.</p>",
+      "summary": null,
+      "full_offer_text": "",
+      "full_offer_html": "",
       "apply_url": "https://gettjalerts.com/jobs/ee766c37-2281-461a-a124-f6ac9616434c",
-      "company_url": "https://www.twindo.com",
-      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.twindo.com&size=128",
+      "company_url": null,
+      "image_url": null,
       "dedupe_key": "backend engineer|twindo formerly canvas"
     },
     {
       "id": "lead-engineer-backend",
-      "title": "Lead Engineer (Backend) @ Onos Health",
+      "title": "Lead Engineer Backend",
       "company": "Onos Health",
       "url": "https://builtwithdjango.com/jobs/2376/lead-engineer-backend",
       "source": "builtwithdjango.com",
@@ -243,27 +240,21 @@
       "date_posted": "2026-04-03T16:44:00+00:00",
       "salary": null,
       "employment_type": "full-time",
-      "skills": [
-        "Django",
-        "Python",
-        "Postgresql",
-        "AWS",
-        "SQL"
-      ],
+      "skills": [],
       "categories": [
         "Django Job Board"
       ],
-      "summary": "Onos Health is a well-funded healthcare AI company focused on reducing waste in behavioral health spend by improving care quality, catching fraud, automating reviews, and guiding members to proper clinical pathways. The company ships AI-driven solutions for health plans and works with major payers. Tech stack includes Python/Django, Next.js/TypeScript, PostgreSQL, and AWS (Bedrock, ECS, Glue, S3); they also use Claude Code and CodeRabbitAI. Hiring for: Staff Software Engineer (AI) to build LLM p",
-      "full_offer_text": "Onos Health is a well-funded healthcare AI company focused on reducing waste in behavioral health spend by improving care quality, catching fraud, automating reviews, and guiding members to proper clinical pathways. The company ships AI-driven solutions for health plans and works with major payers. Tech stack includes Python/Django, Next.js/TypeScript, PostgreSQL, and AWS (Bedrock, ECS, Glue, S3); they also use Claude Code and CodeRabbitAI. Hiring for: Staff Software Engineer (AI) to build LLM pipelines for clinical note extraction, level-of-care classification, and evaluation frameworks; Lead Engineer (Backend) to work on clinical workflow engine, AI/ML pipeline integration, and multi-tenant architecture; Lead Engineer (Data/Integrations) to build payer data pipelines, EDI X12/FHIR/HL7 integrations and claims feed infrastructure. Apply via https://onoshealth.com/career or email joinus@onoshealth.com (mention HN).",
-      "full_offer_html": "<p>Onos Health is a well-funded healthcare AI company focused on reducing waste in behavioral health spend by improving care quality, catching fraud, automating reviews, and guiding members to proper clinical pathways. The company ships AI-driven solutions for health plans and works with major payers. Tech stack includes Python/Django, Next.js/TypeScript, PostgreSQL, and AWS (Bedrock, ECS, Glue, S3); they also use Claude Code and CodeRabbitAI. Hiring for: Staff Software Engineer (AI) to build LLM pipelines for clinical note extraction, level-of-care classification, and evaluation frameworks; Lead Engineer (Backend) to work on clinical workflow engine, AI/ML pipeline integration, and multi-tenant architecture; Lead Engineer (Data/Integrations) to build payer data pipelines, EDI X12/FHIR/HL7 integrations and claims feed infrastructure. Apply via https://onoshealth.com/career or email joinus@onoshealth.com (mention HN).</p>",
+      "summary": null,
+      "full_offer_text": "",
+      "full_offer_html": "",
       "apply_url": "https://gettjalerts.com/jobs/f1288540-ff3f-4868-adfa-c466438dfe05",
-      "company_url": "https://onoshealth.com",
-      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://onoshealth.com&size=128",
+      "company_url": null,
+      "image_url": null,
       "dedupe_key": "lead engineer backend|onos health"
     },
     {
       "id": "fullstack-engineer-backend-leaning",
-      "title": "Fullstack Engineer (backend-leaning) @ Pinwheel",
+      "title": "Fullstack Engineer Backend Leaning",
       "company": "Pinwheel",
       "url": "https://builtwithdjango.com/jobs/2377/fullstack-engineer-backend-leaning",
       "source": "builtwithdjango.com",
@@ -271,26 +262,21 @@
       "date_posted": "2026-04-02T15:46:00+00:00",
       "salary": null,
       "employment_type": "full-time",
-      "skills": [
-        "Django",
-        "Python",
-        "API",
-        "React"
-      ],
+      "skills": [],
       "categories": [
         "Django Job Board"
       ],
-      "summary": "Pinwheel is the Plaid for payroll — APIs and SDKs that give banks, fintechs, and lenders real-time, consumer-permissioned access to payroll data across 1,800 platforms covering 80% of US workers. Series B. Roles: Fullstack Engineer (backend-leaning) (Python / Django, Go) and Fullstack Engineer (frontend-leaning) (React, Next.js). Hybrid 3x/week in NYC (Union Square). Visa sponsorship not available.",
-      "full_offer_text": "Pinwheel is the Plaid for payroll — APIs and SDKs that give banks, fintechs, and lenders real-time, consumer-permissioned access to payroll data across 1,800 platforms covering 80% of US workers. Series B. Roles: Fullstack Engineer (backend-leaning) (Python / Django, Go) and Fullstack Engineer (frontend-leaning) (React, Next.js). Hybrid 3x/week in NYC (Union Square). Visa sponsorship not available.",
-      "full_offer_html": "<p>Pinwheel is the Plaid for payroll — APIs and SDKs that give banks, fintechs, and lenders real-time, consumer-permissioned access to payroll data across 1,800 platforms covering 80% of US workers. Series B. Roles: Fullstack Engineer (backend-leaning) (Python / Django, Go) and Fullstack Engineer (frontend-leaning) (React, Next.js). Hybrid 3x/week in NYC (Union Square). Visa sponsorship not available.</p>",
+      "summary": null,
+      "full_offer_text": "",
+      "full_offer_html": "",
       "apply_url": "https://gettjalerts.com/jobs/5889f982-6a7e-4b2d-974c-e60af6aecea5",
-      "company_url": "https://www.pinwheelapi.com",
-      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.pinwheelapi.com&size=128",
+      "company_url": null,
+      "image_url": null,
       "dedupe_key": "fullstack engineer backend leaning|pinwheel"
     },
     {
       "id": "b2b-saas",
-      "title": "Multiple roles @ Weave Bio",
+      "title": "B2B SaaS",
       "company": "Weave Bio",
       "url": "https://builtwithdjango.com/jobs/2378/b2b-saas",
       "source": "builtwithdjango.com",
@@ -302,17 +288,17 @@
       "categories": [
         "Django Job Board"
       ],
-      "summary": "Weave Bio (Series A) has developed an AI-native platform to help research and discovery scientists accelerate FDA regulatory submission. Hiring multiple full-time roles including Senior and Staff Backend and Frontend Engineers, Senior Product Designer, Senior Technical Product Manager, and an Operations Specialist for Customer Experience. Company careers: https://weave.bio/careers. Apply here: https://job-boards.greenhouse.io/weave. Location: San Francisco (SF). Hybrid/Onsite 3 days/week (Tues/W",
-      "full_offer_text": "Weave Bio (Series A) has developed an AI-native platform to help research and discovery scientists accelerate FDA regulatory submission. Hiring multiple full-time roles including Senior and Staff Backend and Frontend Engineers, Senior Product Designer, Senior Technical Product Manager, and an Operations Specialist for Customer Experience. Company careers: https://weave.bio/careers. Apply here: https://job-boards.greenhouse.io/weave. Location: San Francisco (SF). Hybrid/Onsite 3 days/week (Tues/Wed/Thurs).",
-      "full_offer_html": "<p>Weave Bio (Series A) has developed an AI-native platform to help research and discovery scientists accelerate FDA regulatory submission. Hiring multiple full-time roles including Senior and Staff Backend and Frontend Engineers, Senior Product Designer, Senior Technical Product Manager, and an Operations Specialist for Customer Experience. Company careers: https://weave.bio/careers. Apply here: https://job-boards.greenhouse.io/weave. Location: San Francisco (SF). Hybrid/Onsite 3 days/week (Tues/Wed/Thurs).</p>",
+      "summary": null,
+      "full_offer_text": "",
+      "full_offer_html": "",
       "apply_url": "https://gettjalerts.com/jobs/d09a5cb3-b459-4da0-92ef-f0193a2ab7be",
-      "company_url": "https://weave.bio",
-      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://weave.bio&size=128",
-      "dedupe_key": "multiple roles|weave bio"
+      "company_url": null,
+      "image_url": null,
+      "dedupe_key": "b2b saas|weave bio"
     },
     {
       "id": "product-engineer",
-      "title": "Product Engineer @ Baserow",
+      "title": "Product Engineer",
       "company": "Baserow",
       "url": "https://builtwithdjango.com/jobs/2379/product-engineer",
       "source": "builtwithdjango.com",
@@ -320,26 +306,21 @@
       "date_posted": "2026-04-01T21:53:00+00:00",
       "salary": null,
       "employment_type": "full-time",
-      "skills": [
-        "Django",
-        "Python",
-        "Postgresql",
-        "SQL"
-      ],
+      "skills": [],
       "categories": [
         "Django Job Board"
       ],
-      "summary": "Baserow is an open-source no-code platform for databases, applications, automations. We’re a remote team across 12 countries. We’re hiring a Product Engineer to work end-to-end across the stack. - Product ownership from idea to launch - Full-stack work across backend and frontend - Open-source product - Remote-first, high-autonomy team - Stack: PostgreSQL, Python/Django, Vue/Nuxt. Job link: https://baserow.io/jobs/product-engineer",
-      "full_offer_text": "Baserow is an open-source no-code platform for databases, applications, automations. We’re a remote team across 12 countries. We’re hiring a Product Engineer to work end-to-end across the stack. - Product ownership from idea to launch - Full-stack work across backend and frontend - Open-source product - Remote-first, high-autonomy team - Stack: PostgreSQL, Python/Django, Vue/Nuxt. Job link: https://baserow.io/jobs/product-engineer",
-      "full_offer_html": "<p>Baserow is an open-source no-code platform for databases, applications, automations. We’re a remote team across 12 countries. We’re hiring a Product Engineer to work end-to-end across the stack. - Product ownership from idea to launch - Full-stack work across backend and frontend - Open-source product - Remote-first, high-autonomy team - Stack: PostgreSQL, Python/Django, Vue/Nuxt. Job link: https://baserow.io/jobs/product-engineer</p>",
+      "summary": null,
+      "full_offer_text": "",
+      "full_offer_html": "",
       "apply_url": "https://gettjalerts.com/jobs/6e1e19f2-e1e5-48ff-a696-846484009cc5",
-      "company_url": "https://baserow.io",
-      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://baserow.io&size=128",
+      "company_url": null,
+      "image_url": null,
       "dedupe_key": "product engineer|baserow"
     },
     {
       "id": "senior-software-engineer",
-      "title": "Senior Software Engineer @ Ping Data Intelligence",
+      "title": "Senior Software Engineer",
       "company": "Ping Data Intelligence",
       "url": "https://builtwithdjango.com/jobs/2380/senior-software-engineer",
       "source": "builtwithdjango.com",
@@ -347,28 +328,21 @@
       "date_posted": "2026-04-01T19:38:00+00:00",
       "salary": null,
       "employment_type": "full-time",
-      "skills": [
-        "Django",
-        "Python",
-        "AWS",
-        "Docker",
-        "API",
-        "React"
-      ],
+      "skills": [],
       "categories": [
         "Django Job Board"
       ],
-      "summary": "Ping Data Intelligence (Miami, FL) is hiring a Senior Software Engineer to work onsite in Delhi, India. The role involves working alongside the data entry team to increase efficiency, streamline processes through ML and UI improvements, and triage and fix bugs that occur overnight (US time). Occasional work from home is available. Responsibilities include identifying bottlenecks, building tooling to increase throughput and accuracy, developing ML-driven and UI-based improvements, triaging and re",
-      "full_offer_text": "Ping Data Intelligence (Miami, FL) is hiring a Senior Software Engineer to work onsite in Delhi, India. The role involves working alongside the data entry team to increase efficiency, streamline processes through ML and UI improvements, and triage and fix bugs that occur overnight (US time). Occasional work from home is available. Responsibilities include identifying bottlenecks, building tooling to increase throughput and accuracy, developing ML-driven and UI-based improvements, triaging and resolving production bugs, collaborating with the US engineering team to integrate APIs and optimize data flow, and overseeing projects from identification through deployment. Required: minimum 5 years of software development experience, strong proficiency in React and TypeScript, willingness to work across the stack including backend (Python/Django) and ML pipelines, proven track record of deploying and maintaining production web applications, and strong debugging/problem-solving skills. Preferable: experience with machine learning workflows or data processing pipelines, familiarity with Python/Django backend development, knowledge of AWS and Docker, and experience in insurance, fintech, or data-intensive industries.",
-      "full_offer_html": "<p>Ping Data Intelligence (Miami, FL) is hiring a Senior Software Engineer to work onsite in Delhi, India. The role involves working alongside the data entry team to increase efficiency, streamline processes through ML and UI improvements, and triage and fix bugs that occur overnight (US time). Occasional work from home is available. Responsibilities include identifying bottlenecks, building tooling to increase throughput and accuracy, developing ML-driven and UI-based improvements, triaging and resolving production bugs, collaborating with the US engineering team to integrate APIs and optimize data flow, and overseeing projects from identification through deployment. Required: minimum 5 years of software development experience, strong proficiency in React and TypeScript, willingness to work across the stack including backend (Python/Django) and ML pipelines, proven track record of deploying and maintaining production web applications, and strong debugging/problem-solving skills. Preferable: experience with machine learning workflows or data processing pipelines, familiarity with Python/Django backend development, knowledge of AWS and Docker, and experience in insurance, fintech, or data-intensive industries.</p>",
+      "summary": null,
+      "full_offer_text": "",
+      "full_offer_html": "",
       "apply_url": "https://gettjalerts.com/jobs/4558d727-f89f-4111-a1f2-854fc8f03279",
-      "company_url": "https://www.pingintel.com",
-      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.pingintel.com&size=128",
+      "company_url": null,
+      "image_url": null,
       "dedupe_key": "senior software engineer|ping data intelligence"
     },
     {
       "id": "security-engineer",
-      "title": "Security Engineer @ Authentik Security",
+      "title": "Security Engineer",
       "company": "Authentik Security",
       "url": "https://builtwithdjango.com/jobs/2381/security-engineer",
       "source": "builtwithdjango.com",
@@ -376,24 +350,21 @@
       "date_posted": "2026-04-01T18:24:00+00:00",
       "salary": null,
       "employment_type": "full-time",
-      "skills": [
-        "Django",
-        "Python"
-      ],
+      "skills": [],
       "categories": [
         "Django Job Board"
       ],
-      "summary": "Authentik Security (https://goauthentik.io) is the company behind authentik (https://github.com/goauthentik/authentik), an open source identity provider with 1M+ unique installations. Help us replace Okta/Auth0, Ping Identity, and Microsoft Entra with modern, secure identity for all! We are a small remote team, looking to scale up with experienced software engineers, primarily with a backend security focus. Bonus points if you have significant experience with identity/SSO standards and/or Django",
-      "full_offer_text": "Authentik Security (https://goauthentik.io) is the company behind authentik (https://github.com/goauthentik/authentik), an open source identity provider with 1M+ unique installations. Help us replace Okta/Auth0, Ping Identity, and Microsoft Entra with modern, secure identity for all! We are a small remote team, looking to scale up with experienced software engineers, primarily with a backend security focus. Bonus points if you have significant experience with identity/SSO standards and/or Django/Python. To apply, please use: https://forms.gle/NYXH4E19LUohbpmJA",
-      "full_offer_html": "<p>Authentik Security (https://goauthentik.io) is the company behind authentik (https://github.com/goauthentik/authentik), an open source identity provider with 1M+ unique installations. Help us replace Okta/Auth0, Ping Identity, and Microsoft Entra with modern, secure identity for all! We are a small remote team, looking to scale up with experienced software engineers, primarily with a backend security focus. Bonus points if you have significant experience with identity/SSO standards and/or Django/Python. To apply, please use: https://forms.gle/NYXH4E19LUohbpmJA</p>",
+      "summary": null,
+      "full_offer_text": "",
+      "full_offer_html": "",
       "apply_url": "https://gettjalerts.com/jobs/99dfe522-a347-4e17-b096-bc76f5674728",
-      "company_url": "https://goauthentik.io",
-      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://goauthentik.io&size=128",
+      "company_url": null,
+      "image_url": null,
       "dedupe_key": "security engineer|authentik security"
     },
     {
       "id": "senior-backend-engineer",
-      "title": "Senior Backend Engineer @ Courted",
+      "title": "Senior Backend Engineer",
       "company": "Courted",
       "url": "https://builtwithdjango.com/jobs/2382/senior-backend-engineer",
       "source": "builtwithdjango.com",
@@ -401,29 +372,21 @@
       "date_posted": "2026-04-01T17:50:00+00:00",
       "salary": null,
       "employment_type": "full-time",
-      "skills": [
-        "Django",
-        "Python",
-        "Postgresql",
-        "AWS",
-        "REST",
-        "API",
-        "SQL"
-      ],
+      "skills": [],
       "categories": [
         "Django Job Board"
       ],
-      "summary": "We're building AI-powered recruiting and market intelligence for real estate — an industry that moves $100B+ in annual commissions and still runs on spreadsheets and cold calls. Our backend ingests data from dozens of sources, processes millions of records daily through Celery pipelines, and serves real-time analytics via a Django REST API backed by PostgreSQL/PostGIS. Integrations with OpenAI, HubSpot, Twilio, and MLS data providers. Sub-second response requirements at scale. Stack: Python, Dja",
-      "full_offer_text": "We're building AI-powered recruiting and market intelligence for real estate — an industry that moves $100B+ in annual commissions and still runs on spreadsheets and cold calls. Our backend ingests data from dozens of sources, processes millions of records daily through Celery pipelines, and serves real-time analytics via a Django REST API backed by PostgreSQL/PostGIS. Integrations with OpenAI, HubSpot, Twilio, and MLS data providers. Sub-second response requirements at scale. Stack: Python, Django/DRF, PostgreSQL/PostGIS, Celery, Redis, AWS (ECS, RDS, S3, Lambda). Looking for 5+ years backend experience, strong SQL optimization chops, and comfort with AI coding tools. LLM integration experience is a plus. Early-stage, high-growth SaaS. Small team, ship fast. Fully covered health/dental/vision, 401k, generous PTO. Shoot me your resume at joe@courted.io if you're interested.",
-      "full_offer_html": "<p>We're building AI-powered recruiting and market intelligence for real estate — an industry that moves $100B+ in annual commissions and still runs on spreadsheets and cold calls. Our backend ingests data from dozens of sources, processes millions of records daily through Celery pipelines, and serves real-time analytics via a Django REST API backed by PostgreSQL/PostGIS. Integrations with OpenAI, HubSpot, Twilio, and MLS data providers. Sub-second response requirements at scale. Stack: Python, Django/DRF, PostgreSQL/PostGIS, Celery, Redis, AWS (ECS, RDS, S3, Lambda). Looking for 5+ years backend experience, strong SQL optimization chops, and comfort with AI coding tools. LLM integration experience is a plus. Early-stage, high-growth SaaS. Small team, ship fast. Fully covered health/dental/vision, 401k, generous PTO. Shoot me your resume at joe@courted.io if you're interested.</p>",
+      "summary": null,
+      "full_offer_text": "",
+      "full_offer_html": "",
       "apply_url": "https://gettjalerts.com/jobs/dd080056-4b2d-4f50-9274-1835fe1c7cf6",
-      "company_url": "https://courted.io",
-      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://courted.io&size=128",
+      "company_url": null,
+      "image_url": null,
       "dedupe_key": "senior backend engineer|courted"
     },
     {
       "id": "software-engineer",
-      "title": "Software Engineer @ RINSE",
+      "title": "Software Engineer",
       "company": "RINSE",
       "url": "https://builtwithdjango.com/jobs/2383/software-engineer",
       "source": "builtwithdjango.com",
@@ -431,26 +394,21 @@
       "date_posted": "2026-04-01T16:36:00+00:00",
       "salary": null,
       "employment_type": "full-time",
-      "skills": [
-        "Django",
-        "Python",
-        "REST",
-        "React"
-      ],
+      "skills": [],
       "categories": [
         "Django Job Board"
       ],
-      "summary": "Rinse provides dry cleaning and laundry delivery services in multiple metropolitan areas in the US and Canada. Stable, decade-old company with sophisticated logistics optimization software and a consumer product. Engineering team is distributed and has been remote for years, with desk space available in listed cities. Open to newly-graduated engineers through senior engineers who meet the bar. Seeking true full-stack engineers with strong React/TypeScript/CSS skills and comfort with Python/Djang",
-      "full_offer_text": "Rinse provides dry cleaning and laundry delivery services in multiple metropolitan areas in the US and Canada. Stable, decade-old company with sophisticated logistics optimization software and a consumer product. Engineering team is distributed and has been remote for years, with desk space available in listed cities. Open to newly-graduated engineers through senior engineers who meet the bar. Seeking true full-stack engineers with strong React/TypeScript/CSS skills and comfort with Python/Django. Also seeking engineers experienced in leveraging AI to automate complex operational processes. Particularly interested in new grads or junior engineers this season. Emphasis on collaboration, honesty, and open communication.",
-      "full_offer_html": "<p>Rinse provides dry cleaning and laundry delivery services in multiple metropolitan areas in the US and Canada. Stable, decade-old company with sophisticated logistics optimization software and a consumer product. Engineering team is distributed and has been remote for years, with desk space available in listed cities. Open to newly-graduated engineers through senior engineers who meet the bar. Seeking true full-stack engineers with strong React/TypeScript/CSS skills and comfort with Python/Django. Also seeking engineers experienced in leveraging AI to automate complex operational processes. Particularly interested in new grads or junior engineers this season. Emphasis on collaboration, honesty, and open communication.</p>",
+      "summary": null,
+      "full_offer_text": "",
+      "full_offer_html": "",
       "apply_url": "https://gettjalerts.com/jobs/9bdce831-46fc-474b-a06a-033aa7960770",
-      "company_url": "https://www.rinse.com",
-      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.rinse.com&size=128",
+      "company_url": null,
+      "image_url": null,
       "dedupe_key": "software engineer|rinse"
     },
     {
       "id": "typescript-engineer",
-      "title": "TypeScript Engineer @ Fusionbox",
+      "title": "TypeScript Engineer",
       "company": "Fusionbox",
       "url": "https://builtwithdjango.com/jobs/2384/typescript-engineer",
       "source": "builtwithdjango.com",
@@ -458,26 +416,21 @@
       "date_posted": "2026-04-01T15:51:00+00:00",
       "salary": null,
       "employment_type": "full-time",
-      "skills": [
-        "Django",
-        "Postgresql",
-        "SQL",
-        "React"
-      ],
+      "skills": [],
       "categories": [
         "Django Job Board"
       ],
-      "summary": "Fusionbox is a software engineering consultancy that builds enterprise software and open sources client code. Engineers contribute to Django core and the company sponsors PyCon, DjangoCon, and Django Girls. They seek software engineers who value software design, system architecture, and collaboration, comfortable with areas including web application security, relational database design (PostgreSQL), Django internals, React, and distributed systems. Work includes building complex state machines f",
-      "full_offer_text": "Fusionbox is a software engineering consultancy that builds enterprise software and open sources client code. Engineers contribute to Django core and the company sponsors PyCon, DjangoCon, and Django Girls. They seek software engineers who value software design, system architecture, and collaboration, comfortable with areas including web application security, relational database design (PostgreSQL), Django internals, React, and distributed systems. Work includes building complex state machines for financial workflows, multi-tenant architectures with row-level security, custom database functions when the ORM isn’t enough, and React frontends handling real-time data. Small team with end-to-end ownership and opportunities to shape technical decisions; paid to write open-source code. Contact: info@fusionbox.com.",
-      "full_offer_html": "<p>Fusionbox is a software engineering consultancy that builds enterprise software and open sources client code. Engineers contribute to Django core and the company sponsors PyCon, DjangoCon, and Django Girls. They seek software engineers who value software design, system architecture, and collaboration, comfortable with areas including web application security, relational database design (PostgreSQL), Django internals, React, and distributed systems. Work includes building complex state machines for financial workflows, multi-tenant architectures with row-level security, custom database functions when the ORM isn’t enough, and React frontends handling real-time data. Small team with end-to-end ownership and opportunities to shape technical decisions; paid to write open-source code. Contact: info@fusionbox.com.</p>",
+      "summary": null,
+      "full_offer_text": "",
+      "full_offer_html": "",
       "apply_url": "https://gettjalerts.com/jobs/688a8a68-87d5-4efd-ba39-9d4a678521c6",
-      "company_url": "https://fusionbox.com",
-      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://fusionbox.com&size=128",
+      "company_url": null,
+      "image_url": null,
       "dedupe_key": "typescript engineer|fusionbox"
     },
     {
       "id": "senior-software-engineer",
-      "title": "Senior Software Engineer @ FranklinCovey",
+      "title": "Senior Software Engineer",
       "company": "FranklinCovey",
       "url": "https://builtwithdjango.com/jobs/2388/senior-software-engineer",
       "source": "builtwithdjango.com",
@@ -489,17 +442,17 @@
       "categories": [
         "Django Job Board"
       ],
-      "summary": "In search of a Senior Software Engineer to architect, build, and maintain a web platform that facilitates learning both online and in-person.",
-      "full_offer_text": "In search of a Senior Software Engineer to architect, build, and maintain a web platform that facilitates learning both online and in-person.",
-      "full_offer_html": "<p>In search of a Senior Software Engineer to architect, build, and maintain a web platform that facilitates learning both online and in-person.</p>",
+      "summary": null,
+      "full_offer_text": "",
+      "full_offer_html": "",
       "apply_url": "https://gettjalerts.com/jobs/2a952bc3-a266-46b8-b576-dcac3ebaa713",
-      "company_url": "https://www.franklincovey.com",
-      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.franklincovey.com&size=128",
+      "company_url": null,
+      "image_url": null,
       "dedupe_key": "senior software engineer|franklincovey"
     },
     {
       "id": "qa-engineer",
-      "title": "QA Engineer @ Rinse",
+      "title": "Qa Engineer",
       "company": "Rinse",
       "url": "https://builtwithdjango.com/jobs/2390/qa-engineer",
       "source": "builtwithdjango.com",
@@ -507,23 +460,21 @@
       "date_posted": "2026-05-02T15:51:00+00:00",
       "salary": null,
       "employment_type": "full-time",
-      "skills": [
-        "REST"
-      ],
+      "skills": [],
       "categories": [
         "Django Job Board"
       ],
-      "summary": "Rinse is a stable, consistently growing dry cleaning and laundry delivery company with sophisticated logistics optimization software. The QA Engineer helps improve software quality for customers, valets, vendors, and warehouse personnel across the full project lifecycle (idea through documentation and feedback). Responsibilities include testing, collaboration, and documentation, with autonomy, flexible schedules, and meaningful impact. The company is particularly interested in new grads or junio",
-      "full_offer_text": "Rinse is a stable, consistently growing dry cleaning and laundry delivery company with sophisticated logistics optimization software. The QA Engineer helps improve software quality for customers, valets, vendors, and warehouse personnel across the full project lifecycle (idea through documentation and feedback). Responsibilities include testing, collaboration, and documentation, with autonomy, flexible schedules, and meaningful impact. The company is particularly interested in new grads or junior engineers this season. A desk can be provided in the listed cities if preferred, though the engineering team is distributed and has been remote for years.",
-      "full_offer_html": "<p>Rinse is a stable, consistently growing dry cleaning and laundry delivery company with sophisticated logistics optimization software. The QA Engineer helps improve software quality for customers, valets, vendors, and warehouse personnel across the full project lifecycle (idea through documentation and feedback). Responsibilities include testing, collaboration, and documentation, with autonomy, flexible schedules, and meaningful impact. The company is particularly interested in new grads or junior engineers this season. A desk can be provided in the listed cities if preferred, though the engineering team is distributed and has been remote for years.</p>",
+      "summary": null,
+      "full_offer_text": "",
+      "full_offer_html": "",
       "apply_url": "https://gettjalerts.com/jobs/d14a7a4a-1e41-4c7c-ad60-0a63e256a791",
-      "company_url": "https://www.rinse.com",
-      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.rinse.com&size=128",
+      "company_url": null,
+      "image_url": null,
       "dedupe_key": "qa engineer|rinse"
     },
     {
       "id": "senior-ai-engineer",
-      "title": "Senior AI Engineer @ Olli Health",
+      "title": "Senior AI Engineer",
       "company": "Olli Health",
       "url": "https://builtwithdjango.com/jobs/2391/senior-ai-engineer",
       "source": "builtwithdjango.com",
@@ -531,29 +482,21 @@
       "date_posted": "2026-05-01T20:34:00+00:00",
       "salary": null,
       "employment_type": "full-time",
-      "skills": [
-        "Django",
-        "Python",
-        "Postgresql",
-        "AWS",
-        "API",
-        "SQL",
-        "React"
-      ],
+      "skills": [],
       "categories": [
         "Django Job Board"
       ],
-      "summary": "Hiring 4 additional roles at Olli Health. Olli Health streamlines ICD-10 coding and in-home documentation in a clinical/HIPAA environment. Backed by healthtech/AI-focused VCs. Roles include Senior AI Engineer (end-to-end LLM product surfaces, evals/experiments across prompts, retrieval, and agents), Senior Software Engineer (Scribe & Integrations) (React Native apps, TypeScript/PostgreSQL, full-stack end-to-end, EHR integrations), Senior Software Engineer (Platform) (Python FastAPI/Django/Flask,",
-      "full_offer_text": "Hiring 4 additional roles at Olli Health. Olli Health streamlines ICD-10 coding and in-home documentation in a clinical/HIPAA environment. Backed by healthtech/AI-focused VCs. Roles include Senior AI Engineer (end-to-end LLM product surfaces, evals/experiments across prompts, retrieval, and agents), Senior Software Engineer (Scribe & Integrations) (React Native apps, TypeScript/PostgreSQL, full-stack end-to-end, EHR integrations), Senior Software Engineer (Platform) (Python FastAPI/Django/Flask, React, PostgreSQL, AWS, platform architecture, mentoring), and Senior Product Manager (regulated clinical B2B SaaS, roadmap/prioritization, customer discovery with clinicians, early-stage specs). Requirements: 5+ years of experience, startup experience, authorization to work in US/CA. Work directly with the CTO and VP Engineering. Quarterly travel.",
-      "full_offer_html": "<p>Hiring 4 additional roles at Olli Health. Olli Health streamlines ICD-10 coding and in-home documentation in a clinical/HIPAA environment. Backed by healthtech/AI-focused VCs. Roles include Senior AI Engineer (end-to-end LLM product surfaces, evals/experiments across prompts, retrieval, and agents), Senior Software Engineer (Scribe &amp; Integrations) (React Native apps, TypeScript/PostgreSQL, full-stack end-to-end, EHR integrations), Senior Software Engineer (Platform) (Python FastAPI/Django/Flask, React, PostgreSQL, AWS, platform architecture, mentoring), and Senior Product Manager (regulated clinical B2B SaaS, roadmap/prioritization, customer discovery with clinicians, early-stage specs). Requirements: 5+ years of experience, startup experience, authorization to work in US/CA. Work directly with the CTO and VP Engineering. Quarterly travel.</p>",
+      "summary": null,
+      "full_offer_text": "",
+      "full_offer_html": "",
       "apply_url": "https://gettjalerts.com/jobs/341727ba-330c-4f93-a80c-c88fd3e1c369",
-      "company_url": "https://www.ollihomehealth.ai",
-      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.ollihomehealth.ai&size=128",
+      "company_url": null,
+      "image_url": null,
       "dedupe_key": "senior ai engineer|olli health"
     },
     {
       "id": "senior-ml-engineer",
-      "title": "Senior ML Engineer @ Ping Data Intelligence",
+      "title": "Senior ML Engineer",
       "company": "Ping Data Intelligence",
       "url": "https://builtwithdjango.com/jobs/2392/senior-ml-engineer",
       "source": "builtwithdjango.com",
@@ -561,25 +504,21 @@
       "date_posted": "2026-05-01T19:57:00+00:00",
       "salary": null,
       "employment_type": "full-time",
-      "skills": [
-        "Django",
-        "Python",
-        "React"
-      ],
+      "skills": [],
       "categories": [
         "Django Job Board"
       ],
-      "summary": "Senior ML Engineer role at Ping Data Intelligence, a self-funded profitable startup based in Miami, FL. You will design, train, and deploy machine learning models powering property attribute classification, document extraction, and geospatial products. Hands-on end-to-end ownership: data pipeline design and feature engineering, model training, evaluation, production deployment, performance ownership, and drift monitoring. Collaborate with engineering to integrate ML services into backend (Django",
-      "full_offer_text": "Senior ML Engineer role at Ping Data Intelligence, a self-funded profitable startup based in Miami, FL. You will design, train, and deploy machine learning models powering property attribute classification, document extraction, and geospatial products. Hands-on end-to-end ownership: data pipeline design and feature engineering, model training, evaluation, production deployment, performance ownership, and drift monitoring. Collaborate with engineering to integrate ML services into backend (Django/Python) and frontend (React/TypeScript). Stay current with ML literature and translate advances into product improvements. Remote-friendly with option to work onsite at the Miami office.",
-      "full_offer_html": "<p>Senior ML Engineer role at Ping Data Intelligence, a self-funded profitable startup based in Miami, FL. You will design, train, and deploy machine learning models powering property attribute classification, document extraction, and geospatial products. Hands-on end-to-end ownership: data pipeline design and feature engineering, model training, evaluation, production deployment, performance ownership, and drift monitoring. Collaborate with engineering to integrate ML services into backend (Django/Python) and frontend (React/TypeScript). Stay current with ML literature and translate advances into product improvements. Remote-friendly with option to work onsite at the Miami office.</p>",
+      "summary": null,
+      "full_offer_text": "",
+      "full_offer_html": "",
       "apply_url": "https://gettjalerts.com/jobs/63872373-6782-47a4-9123-a67af8d79820",
-      "company_url": "https://www.pingintel.com",
-      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.pingintel.com&size=128",
+      "company_url": null,
+      "image_url": null,
       "dedupe_key": "senior ml engineer|ping data intelligence"
     },
     {
       "id": "senior-fullstack-python-developer",
-      "title": "Senior Fullstack Python Developer @ Giftster",
+      "title": "Senior Fullstack Python Developer",
       "company": "Giftster",
       "url": "https://builtwithdjango.com/jobs/2393/senior-fullstack-python-developer",
       "source": "builtwithdjango.com",
@@ -588,22 +527,17 @@
       "salary": null,
       "employment_type": "full-time",
       "skills": [
-        "Django",
-        "Python",
-        "Docker",
-        "REST",
-        "API",
-        "SQL"
+        "Python"
       ],
       "categories": [
         "Django Job Board"
       ],
-      "summary": "Giftster is an online two-way wishlist service tailored for families and friend groups. Founded in 2008 with over 3 million members. The company is seeking a Senior Fullstack Python/Django Developer to join its web development team. In this role, you will build and run core systems, including backend services, the web platform, and the mobile API that power millions of wishlist interactions. You will ship new features and ensure production stability, performance, and reliability. Responsibilitie",
-      "full_offer_text": "Giftster is an online two-way wishlist service tailored for families and friend groups. Founded in 2008 with over 3 million members. The company is seeking a Senior Fullstack Python/Django Developer to join its web development team. In this role, you will build and run core systems, including backend services, the web platform, and the mobile API that power millions of wishlist interactions. You will ship new features and ensure production stability, performance, and reliability. Responsibilities include collaborating with product and design to refine requirements, implement functionality, improve existing features, and resolve issues. Strong Python experience is essential; Django experience is preferred. Core technologies include Python, Django, Django REST Framework, JavaScript (Vue), CSS (Tailwind), HTMX, Docker, Git, Google Cloud Platform (Cloud Run, Cloud SQL, etc), and Cloudflare. Although work is remote, applicants must be local to the Twin Cities MN Greater Metro area.",
-      "full_offer_html": "<p>Giftster is an online two-way wishlist service tailored for families and friend groups. Founded in 2008 with over 3 million members. The company is seeking a Senior Fullstack Python/Django Developer to join its web development team. In this role, you will build and run core systems, including backend services, the web platform, and the mobile API that power millions of wishlist interactions. You will ship new features and ensure production stability, performance, and reliability. Responsibilities include collaborating with product and design to refine requirements, implement functionality, improve existing features, and resolve issues. Strong Python experience is essential; Django experience is preferred. Core technologies include Python, Django, Django REST Framework, JavaScript (Vue), CSS (Tailwind), HTMX, Docker, Git, Google Cloud Platform (Cloud Run, Cloud SQL, etc), and Cloudflare. Although work is remote, applicants must be local to the Twin Cities MN Greater Metro area.</p>",
+      "summary": null,
+      "full_offer_text": "",
+      "full_offer_html": "",
       "apply_url": "https://gettjalerts.com/jobs/247e35ce-6b06-403b-ae14-3517fefa5aaa",
-      "company_url": "https://www.giftster.com",
-      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.giftster.com&size=128",
+      "company_url": null,
+      "image_url": null,
       "dedupe_key": "senior fullstack python developer|giftster"
     }
   ]
