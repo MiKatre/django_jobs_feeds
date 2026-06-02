@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T07:05:40.128557+00:00",
+  "generated_at": "2026-06-02T06:58:10.316371+00:00",
   "sources": [
     "https://www.python.org/jobs/feed/rss/",
     "https://djangojobboard.com/feed/rss/",
@@ -8,9 +8,9 @@
   "counts": {
     "python_org": 2,
     "djangojobboard": 4,
-    "builtwithdjango": 9,
-    "input_count": 15,
-    "output_count": 15,
+    "builtwithdjango": 7,
+    "input_count": 13,
+    "output_count": 13,
     "duplicates_removed": 0
   },
   "jobs": [
@@ -114,7 +114,7 @@
       ],
       "summary": "Job Description We're building the future of Revenue Management. AI agents that give short-term rental operators and independent hotels more money for less effort. We integrate directly with Booking.com , Airbnb, and PMS platforms via deep private API connections. The role: This is a flexible Hybrid role in London. You'll be the second engineering hire, working directly alongside Martin. Everything is on the table: backend systems, React frontend, Chrome extension, data pipelines, agent orchestr",
       "full_offer_text": "Job Description We're building the future of Revenue Management. AI agents that give short-term rental operators and independent hotels more money for less effort. We integrate directly with Booking.com , Airbnb, and PMS platforms via deep private API connections. The role: This is a flexible Hybrid role in London. You'll be the second engineering hire, working directly alongside Martin. Everything is on the table: backend systems, React frontend, Chrome extension, data pipelines, agent orchestration, and prompt engineering. You'll ship full features end-to-end, not tickets. We ship fast using Claude Code and AI-assisted development daily. If you're already running multiple PRs in parallel with AI tools, you'll feel right at home. What we offer: £80K–£90K base salary plus up to 1% equity (DOE). This is a founding role, you'll have real ownership of the product and the company. You'll shape technical direction, product decisions, and company culture from the ground floor. If you want to build something real with a small team that's already winning customers and growing fast, where your code ships to production the same day and your decisions shape the company then let's talk. Restrictions Telecommuting is OK No Agencies Please Requirements What we're looking for: Previous startup or founder experience, you've built something from zero and know what that demands. Very strong Python (Django/Celery) and React. Comfortable across the full stack, backend, frontend, infra, data. AI agent development, prompt engineering, or data pipeline experience is a strong plus. You need to be based in London or able to come to our Canary Wharf office 2 days a week. We can't sponsor visas. Stack: Django, Celery, PostgreSQL, React, Chrome Extensions, Claude Code. About the Company About us: We're pre-seed funded, ramen profitable at $300k ARR, with ~40+ clients and near-zero churn. The product works, customers love it, and we're growing fast. Our team is sub-5 people, based out of Canary Wharf, London. Martin (CTO/co-founder) is a previous founder with 10+ years in development. Miro (CEO/co-founder) had a previous Revenue Management company and is an expert in data. Contact Info Contact: Martin Dawson E-mail contact: [email protected] Web: https://www.mydatavalue.com/founding-full-stack-senior-engineer",
-      "full_offer_html": "<h2>Job Description</h2>\n<p>We're building the future of Revenue Management. AI agents that give short-term rental operators and independent hotels more money for less effort. We integrate directly with <a href=\"http://Booking.com\">Booking.com</a>, Airbnb, and PMS platforms via deep private API connections.</p>\n<p>The role:  This is a flexible Hybrid role in London. You'll be the second engineering hire, working directly alongside Martin. Everything is on the table: backend systems, React frontend, Chrome extension, data pipelines, agent orchestration, and prompt engineering. You'll ship full features end-to-end, not tickets. We ship fast using Claude Code and AI-assisted development daily. If you're already running multiple PRs in parallel with AI tools, you'll feel right at home.</p>\n<p>What we offer: £80K–£90K base salary plus up to 1% equity (DOE). This is a founding role, you'll have real ownership of the product and the company. You'll shape technical direction, product decisions, and company culture from the ground floor.</p>\n<p>If you want to build something real with a small team that's already winning customers and growing fast, where your code ships to production the same day and your decisions shape the company then let's talk.</p>\n<h2>Restrictions</h2>\n<ul>\n<li>Telecommuting is OK</li>\n<li>No Agencies Please</li>\n</ul>\n<h2>Requirements</h2>\n<p>What we're looking for: Previous startup or founder experience, you've built something from zero and know what that demands. Very strong Python (Django/Celery) and React. Comfortable across the full stack, backend, frontend, infra, data. AI agent development, prompt engineering, or data pipeline experience is a strong plus. You need to be based in London or able to come to our Canary Wharf office 2 days a week. We can't sponsor visas.</p>\n<p>Stack: Django, Celery, PostgreSQL, React, Chrome Extensions, Claude Code.</p>\n<h2>About the Company</h2>\n<p>About us: We're pre-seed funded, ramen profitable at $300k ARR, with ~40+ clients and near-zero churn. The product works, customers love it, and we're growing fast. Our team is sub-5 people, based out of Canary Wharf, London. Martin (CTO/co-founder) is a previous founder with 10+ years in development. Miro (CEO/co-founder) had a previous Revenue Management company and is an expert in data.</p>\n<h2>Contact Info</h2>\n<ul>\n<li>Contact: Martin Dawson</li>\n<li>E-mail contact: <a href=\"/cdn-cgi/l/email-protection#8de0ecfff9e4e3cde0f4e9ecf9ecfbece1f8e8a3eee2e0\"><span class=\"__cf_email__\" data-cfemail=\"97faf6e5e3fef9d7faeef3f6e3f6e1f6fbe2f2b9f4f8fa\">[email&#160;protected]</span></a></li>\n<li>Web: <a href=\"https://www.mydatavalue.com/founding-full-stack-senior-engineer\">https://www.mydatavalue.com/founding-full-stack-senior-engineer</a></li>\n</ul>",
+      "full_offer_html": "<h2>Job Description</h2>\n<p>We're building the future of Revenue Management. AI agents that give short-term rental operators and independent hotels more money for less effort. We integrate directly with <a href=\"http://Booking.com\">Booking.com</a>, Airbnb, and PMS platforms via deep private API connections.</p>\n<p>The role:  This is a flexible Hybrid role in London. You'll be the second engineering hire, working directly alongside Martin. Everything is on the table: backend systems, React frontend, Chrome extension, data pipelines, agent orchestration, and prompt engineering. You'll ship full features end-to-end, not tickets. We ship fast using Claude Code and AI-assisted development daily. If you're already running multiple PRs in parallel with AI tools, you'll feel right at home.</p>\n<p>What we offer: £80K–£90K base salary plus up to 1% equity (DOE). This is a founding role, you'll have real ownership of the product and the company. You'll shape technical direction, product decisions, and company culture from the ground floor.</p>\n<p>If you want to build something real with a small team that's already winning customers and growing fast, where your code ships to production the same day and your decisions shape the company then let's talk.</p>\n<h2>Restrictions</h2>\n<ul>\n<li>Telecommuting is OK</li>\n<li>No Agencies Please</li>\n</ul>\n<h2>Requirements</h2>\n<p>What we're looking for: Previous startup or founder experience, you've built something from zero and know what that demands. Very strong Python (Django/Celery) and React. Comfortable across the full stack, backend, frontend, infra, data. AI agent development, prompt engineering, or data pipeline experience is a strong plus. You need to be based in London or able to come to our Canary Wharf office 2 days a week. We can't sponsor visas.</p>\n<p>Stack: Django, Celery, PostgreSQL, React, Chrome Extensions, Claude Code.</p>\n<h2>About the Company</h2>\n<p>About us: We're pre-seed funded, ramen profitable at $300k ARR, with ~40+ clients and near-zero churn. The product works, customers love it, and we're growing fast. Our team is sub-5 people, based out of Canary Wharf, London. Martin (CTO/co-founder) is a previous founder with 10+ years in development. Miro (CEO/co-founder) had a previous Revenue Management company and is an expert in data.</p>\n<h2>Contact Info</h2>\n<ul>\n<li>Contact: Martin Dawson</li>\n<li>E-mail contact: <a href=\"/cdn-cgi/l/email-protection#9bf6fae9eff2f5dbf6e2fffaeffaedfaf7eefeb5f8f4f6\"><span class=\"__cf_email__\" data-cfemail=\"c7aaa6b5b3aea987aabea3a6b3a6b1a6abb2a2e9a4a8aa\">[email&#160;protected]</span></a></li>\n<li>Web: <a href=\"https://www.mydatavalue.com/founding-full-stack-senior-engineer\">https://www.mydatavalue.com/founding-full-stack-senior-engineer</a></li>\n</ul>",
       "apply_url": "https://www.mydatavalue.com/founding-full-stack-senior-engineer",
       "company_url": "https://www.mydatavalue.com",
       "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.mydatavalue.com&size=128",
@@ -251,50 +251,6 @@
       "company_url": null,
       "image_url": null,
       "dedupe_key": "lead engineer backend|onos health"
-    },
-    {
-      "id": "fullstack-engineer-backend-leaning",
-      "title": "Fullstack Engineer Backend Leaning",
-      "company": "Pinwheel",
-      "url": "https://builtwithdjango.com/jobs/2377/fullstack-engineer-backend-leaning",
-      "source": "builtwithdjango.com",
-      "location": "Hybrid, NYC - Union Square",
-      "date_posted": "2026-04-02T15:46:13+00:00",
-      "salary": null,
-      "employment_type": "FULL_TIME",
-      "skills": [],
-      "categories": [
-        "Django Job Board"
-      ],
-      "summary": null,
-      "full_offer_text": "",
-      "full_offer_html": "",
-      "apply_url": "https://gettjalerts.com/jobs/5889f982-6a7e-4b2d-974c-e60af6aecea5",
-      "company_url": null,
-      "image_url": null,
-      "dedupe_key": "fullstack engineer backend leaning|pinwheel"
-    },
-    {
-      "id": "b2b-saas",
-      "title": "B2B SaaS",
-      "company": "Weave Bio",
-      "url": "https://builtwithdjango.com/jobs/2378/b2b-saas",
-      "source": "builtwithdjango.com",
-      "location": "San Francisco (SF), Hybrid/Onsite 3 days/week",
-      "date_posted": "2026-04-02T14:52:10+00:00",
-      "salary": null,
-      "employment_type": "FULL_TIME",
-      "skills": [],
-      "categories": [
-        "Django Job Board"
-      ],
-      "summary": null,
-      "full_offer_text": "",
-      "full_offer_html": "",
-      "apply_url": "https://gettjalerts.com/jobs/d09a5cb3-b459-4da0-92ef-f0193a2ab7be",
-      "company_url": null,
-      "image_url": null,
-      "dedupe_key": "b2b saas|weave bio"
     },
     {
       "id": "senior-software-engineer",
