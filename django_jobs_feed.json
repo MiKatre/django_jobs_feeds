@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T06:41:03.414037+00:00",
+  "generated_at": "2026-07-01T06:50:54.653187+00:00",
   "sources": [
     "https://www.python.org/jobs/feed/rss/",
     "https://djangojobboard.com/feed/rss/",
@@ -8,10 +8,10 @@
   "counts": {
     "python_org": 2,
     "djangojobboard": 4,
-    "builtwithdjango": 14,
-    "input_count": 20,
-    "output_count": 19,
-    "duplicates_removed": 1
+    "builtwithdjango": 11,
+    "input_count": 17,
+    "output_count": 17,
+    "duplicates_removed": 0
   },
   "jobs": [
     {
@@ -131,7 +131,7 @@
       ],
       "summary": "Job Description Unique data — Booking.com private API data, Airbnb channel data, and scraped competitive pricing. This dataset doesn't exist at most companies. Real impact — your models drive revenue decisions for thousands of properties. High equity for our stage. A compounding moat — every property we add makes the data richer and the models better. Salary £70k–£100k · Equity 0.5%–1%. Restrictions Telecommuting is OK No Agencies Please Requirements A real data scientist who reaches for statist",
       "full_offer_text": "Job Description Unique data — Booking.com private API data, Airbnb channel data, and scraped competitive pricing. This dataset doesn't exist at most companies. Real impact — your models drive revenue decisions for thousands of properties. High equity for our stage. A compounding moat — every property we add makes the data richer and the models better. Salary £70k–£100k · Equity 0.5%–1%. Restrictions Telecommuting is OK No Agencies Please Requirements A real data scientist who reaches for statistics and experiments first, and knows when a result is significant versus noise. Strong with time series. Causal by instinct — you don't confuse correlation with causation. You can design holdouts and A/B tests, and reason about confounders when a clean experiment isn't possible. Comfortable in the mess — real OTA data is dirty, sparse, and seasonal. You wrangle it, find the signal, and build features that predict revenue. Fluent in modelling — forecasting, uplift and causal models, and the judgement to pick the simplest thing that works. Ships to production — not a notebooks role. You write clean, deployable Python (pandas, NumPy, scikit-learn) and get your models live in our Django and ClickHouse stack. A product thinker who cares about revenue impact, not what's technically interesting. AI-first — you use AI coding tools with multiple agents to ship faster, ideally pushing into self-learning ML or agentic workflows. If you don't already use frontier AI tools, this isn't the role for you. Skills: Python · pandas · NumPy · scikit-learn · Time Series · Causal Inference · Forecasting · Experimentation · PostgreSQL · ClickHouse · Django · AI agents About the Company MyDataValue is an AI-driven hospitality tech platform that automates revenue for short-term rental operators and independent hotels across Booking.com and Airbnb. We've built private API access, channel integrations, and competitive pricing data across thousands of properties into an agent that optimises pricing, promotions, and visibility automatically. London-based, founder-led, and venture-backed, with strong revenue, near-zero churn, and a fast-growing client base. Contact Info Contact: Martin E-mail contact: [email protected] Web: https://www.mydatavalue.com/founding-ml-data-engineer/",
-      "full_offer_html": "<h2>Job Description</h2>\n<ul>\n<li>Unique data — <a href=\"http://Booking.com\">Booking.com</a> private API data, Airbnb channel data, and scraped competitive pricing. This dataset doesn't exist at most companies.</li>\n<li>Real impact — your models drive revenue decisions for thousands of properties.</li>\n<li>High equity for our stage.</li>\n<li>A compounding moat — every property we add makes the data richer and the models better.</li>\n</ul>\n<p>Salary £70k–£100k · Equity 0.5%–1%.</p>\n<h2>Restrictions</h2>\n<ul>\n<li>Telecommuting is OK</li>\n<li>No Agencies Please</li>\n</ul>\n<h2>Requirements</h2>\n<ul>\n<li>A real data scientist who reaches for statistics and experiments first, and knows when a result is significant versus noise. Strong with time series.</li>\n<li>Causal by instinct — you don't confuse correlation with causation. You can design holdouts and A/B tests, and reason about confounders when a clean experiment isn't possible.</li>\n<li>Comfortable in the mess — real OTA data is dirty, sparse, and seasonal. You wrangle it, find the signal, and build features that predict revenue.</li>\n<li>Fluent in modelling — forecasting, uplift and causal models, and the judgement to pick the simplest thing that works.</li>\n<li>Ships to production — not a notebooks role. You write clean, deployable Python (pandas, NumPy, scikit-learn) and get your models live in our Django and ClickHouse stack.</li>\n<li>A product thinker who cares about revenue impact, not what's technically interesting.</li>\n<li>AI-first — you use AI coding tools with multiple agents to ship faster, ideally pushing into self-learning ML or agentic workflows. If you don't already use frontier AI tools, this isn't the role for you.</li>\n</ul>\n<p>Skills: Python · pandas · NumPy · scikit-learn · Time Series · Causal Inference · Forecasting · Experimentation · PostgreSQL · ClickHouse · Django · AI agents</p>\n<h2>About the Company</h2>\n<p>MyDataValue is an AI-driven hospitality tech platform that automates revenue for short-term rental operators and independent hotels across <a href=\"http://Booking.com\">Booking.com</a> and Airbnb. We've built private API access, channel integrations, and competitive pricing data across thousands of properties into an agent that optimises pricing, promotions, and visibility automatically. London-based, founder-led, and venture-backed, with strong revenue, near-zero churn, and a fast-growing client base.</p>\n<h2>Contact Info</h2>\n<ul>\n<li>Contact: Martin</li>\n<li>E-mail contact: <a href=\"/cdn-cgi/l/email-protection#3e535f4c4a57507e53475a5f4a5f485f524b5b105d5153\"><span class=\"__cf_email__\" data-cfemail=\"15787467617c7b55786c7174617463747960703b767a78\">[email&#160;protected]</span></a></li>\n<li>Web: <a href=\"https://www.mydatavalue.com/founding-ml-data-engineer/\">https://www.mydatavalue.com/founding-ml-data-engineer/</a></li>\n</ul>",
+      "full_offer_html": "<h2>Job Description</h2>\n<ul>\n<li>Unique data — <a href=\"http://Booking.com\">Booking.com</a> private API data, Airbnb channel data, and scraped competitive pricing. This dataset doesn't exist at most companies.</li>\n<li>Real impact — your models drive revenue decisions for thousands of properties.</li>\n<li>High equity for our stage.</li>\n<li>A compounding moat — every property we add makes the data richer and the models better.</li>\n</ul>\n<p>Salary £70k–£100k · Equity 0.5%–1%.</p>\n<h2>Restrictions</h2>\n<ul>\n<li>Telecommuting is OK</li>\n<li>No Agencies Please</li>\n</ul>\n<h2>Requirements</h2>\n<ul>\n<li>A real data scientist who reaches for statistics and experiments first, and knows when a result is significant versus noise. Strong with time series.</li>\n<li>Causal by instinct — you don't confuse correlation with causation. You can design holdouts and A/B tests, and reason about confounders when a clean experiment isn't possible.</li>\n<li>Comfortable in the mess — real OTA data is dirty, sparse, and seasonal. You wrangle it, find the signal, and build features that predict revenue.</li>\n<li>Fluent in modelling — forecasting, uplift and causal models, and the judgement to pick the simplest thing that works.</li>\n<li>Ships to production — not a notebooks role. You write clean, deployable Python (pandas, NumPy, scikit-learn) and get your models live in our Django and ClickHouse stack.</li>\n<li>A product thinker who cares about revenue impact, not what's technically interesting.</li>\n<li>AI-first — you use AI coding tools with multiple agents to ship faster, ideally pushing into self-learning ML or agentic workflows. If you don't already use frontier AI tools, this isn't the role for you.</li>\n</ul>\n<p>Skills: Python · pandas · NumPy · scikit-learn · Time Series · Causal Inference · Forecasting · Experimentation · PostgreSQL · ClickHouse · Django · AI agents</p>\n<h2>About the Company</h2>\n<p>MyDataValue is an AI-driven hospitality tech platform that automates revenue for short-term rental operators and independent hotels across <a href=\"http://Booking.com\">Booking.com</a> and Airbnb. We've built private API access, channel integrations, and competitive pricing data across thousands of properties into an agent that optimises pricing, promotions, and visibility automatically. London-based, founder-led, and venture-backed, with strong revenue, near-zero churn, and a fast-growing client base.</p>\n<h2>Contact Info</h2>\n<ul>\n<li>Contact: Martin</li>\n<li>E-mail contact: <a href=\"/cdn-cgi/l/email-protection#f994988b8d9097b994809d988d988f98958c9cd79a9694\"><span class=\"__cf_email__\" data-cfemail=\"87eae6f5f3eee9c7eafee3e6f3e6f1e6ebf2e2a9e4e8ea\">[email&#160;protected]</span></a></li>\n<li>Web: <a href=\"https://www.mydatavalue.com/founding-ml-data-engineer/\">https://www.mydatavalue.com/founding-ml-data-engineer/</a></li>\n</ul>",
       "apply_url": "https://www.mydatavalue.com/founding-ml-data-engineer/",
       "company_url": "https://www.mydatavalue.com",
       "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.mydatavalue.com&size=128",
@@ -174,7 +174,7 @@
       ],
       "summary": "Job Description We're building the future of Revenue Management. AI agents that give short-term rental operators and independent hotels more money for less effort. We integrate directly with Booking.com , Airbnb, and PMS platforms via deep private API connections. The role: This is a flexible Hybrid role in London. You'll be the second engineering hire, working directly alongside Martin. Everything is on the table: backend systems, React frontend, Chrome extension, data pipelines, agent orchestr",
       "full_offer_text": "Job Description We're building the future of Revenue Management. AI agents that give short-term rental operators and independent hotels more money for less effort. We integrate directly with Booking.com , Airbnb, and PMS platforms via deep private API connections. The role: This is a flexible Hybrid role in London. You'll be the second engineering hire, working directly alongside Martin. Everything is on the table: backend systems, React frontend, Chrome extension, data pipelines, agent orchestration, and prompt engineering. You'll ship full features end-to-end, not tickets. We ship fast using Claude Code and AI-assisted development daily. If you're already running multiple PRs in parallel with AI tools, you'll feel right at home. What we offer: £80K–£90K base salary plus up to 1% equity (DOE). This is a founding role, you'll have real ownership of the product and the company. You'll shape technical direction, product decisions, and company culture from the ground floor. If you want to build something real with a small team that's already winning customers and growing fast, where your code ships to production the same day and your decisions shape the company then let's talk. Restrictions Telecommuting is OK No Agencies Please Requirements What we're looking for: Previous startup or founder experience, you've built something from zero and know what that demands. Very strong Python (Django/Celery) and React. Comfortable across the full stack, backend, frontend, infra, data. AI agent development, prompt engineering, or data pipeline experience is a strong plus. You need to be based in London or able to come to our Canary Wharf office 2 days a week. We can't sponsor visas. Stack: Django, Celery, PostgreSQL, React, Chrome Extensions, Claude Code. About the Company About us: We're pre-seed funded, ramen profitable at $300k ARR, with ~40+ clients and near-zero churn. The product works, customers love it, and we're growing fast. Our team is sub-5 people, based out of Canary Wharf, London. Martin (CTO/co-founder) is a previous founder with 10+ years in development. Miro (CEO/co-founder) had a previous Revenue Management company and is an expert in data. Contact Info Contact: Martin Dawson E-mail contact: [email protected] Web: https://www.mydatavalue.com/founding-full-stack-senior-engineer",
-      "full_offer_html": "<h2>Job Description</h2>\n<p>We're building the future of Revenue Management. AI agents that give short-term rental operators and independent hotels more money for less effort. We integrate directly with <a href=\"http://Booking.com\">Booking.com</a>, Airbnb, and PMS platforms via deep private API connections.</p>\n<p>The role:  This is a flexible Hybrid role in London. You'll be the second engineering hire, working directly alongside Martin. Everything is on the table: backend systems, React frontend, Chrome extension, data pipelines, agent orchestration, and prompt engineering. You'll ship full features end-to-end, not tickets. We ship fast using Claude Code and AI-assisted development daily. If you're already running multiple PRs in parallel with AI tools, you'll feel right at home.</p>\n<p>What we offer: £80K–£90K base salary plus up to 1% equity (DOE). This is a founding role, you'll have real ownership of the product and the company. You'll shape technical direction, product decisions, and company culture from the ground floor.</p>\n<p>If you want to build something real with a small team that's already winning customers and growing fast, where your code ships to production the same day and your decisions shape the company then let's talk.</p>\n<h2>Restrictions</h2>\n<ul>\n<li>Telecommuting is OK</li>\n<li>No Agencies Please</li>\n</ul>\n<h2>Requirements</h2>\n<p>What we're looking for: Previous startup or founder experience, you've built something from zero and know what that demands. Very strong Python (Django/Celery) and React. Comfortable across the full stack, backend, frontend, infra, data. AI agent development, prompt engineering, or data pipeline experience is a strong plus. You need to be based in London or able to come to our Canary Wharf office 2 days a week. We can't sponsor visas.</p>\n<p>Stack: Django, Celery, PostgreSQL, React, Chrome Extensions, Claude Code.</p>\n<h2>About the Company</h2>\n<p>About us: We're pre-seed funded, ramen profitable at $300k ARR, with ~40+ clients and near-zero churn. The product works, customers love it, and we're growing fast. Our team is sub-5 people, based out of Canary Wharf, London. Martin (CTO/co-founder) is a previous founder with 10+ years in development. Miro (CEO/co-founder) had a previous Revenue Management company and is an expert in data.</p>\n<h2>Contact Info</h2>\n<ul>\n<li>Contact: Martin Dawson</li>\n<li>E-mail contact: <a href=\"/cdn-cgi/l/email-protection#2944485b5d40476944504d485d485f48455c4c074a4644\"><span class=\"__cf_email__\" data-cfemail=\"74191506001d1a34190d1015001502151801115a171b19\">[email&#160;protected]</span></a></li>\n<li>Web: <a href=\"https://www.mydatavalue.com/founding-full-stack-senior-engineer\">https://www.mydatavalue.com/founding-full-stack-senior-engineer</a></li>\n</ul>",
+      "full_offer_html": "<h2>Job Description</h2>\n<p>We're building the future of Revenue Management. AI agents that give short-term rental operators and independent hotels more money for less effort. We integrate directly with <a href=\"http://Booking.com\">Booking.com</a>, Airbnb, and PMS platforms via deep private API connections.</p>\n<p>The role:  This is a flexible Hybrid role in London. You'll be the second engineering hire, working directly alongside Martin. Everything is on the table: backend systems, React frontend, Chrome extension, data pipelines, agent orchestration, and prompt engineering. You'll ship full features end-to-end, not tickets. We ship fast using Claude Code and AI-assisted development daily. If you're already running multiple PRs in parallel with AI tools, you'll feel right at home.</p>\n<p>What we offer: £80K–£90K base salary plus up to 1% equity (DOE). This is a founding role, you'll have real ownership of the product and the company. You'll shape technical direction, product decisions, and company culture from the ground floor.</p>\n<p>If you want to build something real with a small team that's already winning customers and growing fast, where your code ships to production the same day and your decisions shape the company then let's talk.</p>\n<h2>Restrictions</h2>\n<ul>\n<li>Telecommuting is OK</li>\n<li>No Agencies Please</li>\n</ul>\n<h2>Requirements</h2>\n<p>What we're looking for: Previous startup or founder experience, you've built something from zero and know what that demands. Very strong Python (Django/Celery) and React. Comfortable across the full stack, backend, frontend, infra, data. AI agent development, prompt engineering, or data pipeline experience is a strong plus. You need to be based in London or able to come to our Canary Wharf office 2 days a week. We can't sponsor visas.</p>\n<p>Stack: Django, Celery, PostgreSQL, React, Chrome Extensions, Claude Code.</p>\n<h2>About the Company</h2>\n<p>About us: We're pre-seed funded, ramen profitable at $300k ARR, with ~40+ clients and near-zero churn. The product works, customers love it, and we're growing fast. Our team is sub-5 people, based out of Canary Wharf, London. Martin (CTO/co-founder) is a previous founder with 10+ years in development. Miro (CEO/co-founder) had a previous Revenue Management company and is an expert in data.</p>\n<h2>Contact Info</h2>\n<ul>\n<li>Contact: Martin Dawson</li>\n<li>E-mail contact: <a href=\"/cdn-cgi/l/email-protection#0b666a797f62654b66726f6a7f6a7d6a677e6e25686466\"><span class=\"__cf_email__\" data-cfemail=\"aac7cbd8dec3c4eac7d3cecbdecbdccbc6dfcf84c9c5c7\">[email&#160;protected]</span></a></li>\n<li>Web: <a href=\"https://www.mydatavalue.com/founding-full-stack-senior-engineer\">https://www.mydatavalue.com/founding-full-stack-senior-engineer</a></li>\n</ul>",
       "apply_url": "https://www.mydatavalue.com/founding-full-stack-senior-engineer",
       "company_url": "https://www.mydatavalue.com",
       "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.mydatavalue.com&size=128",
@@ -252,74 +252,6 @@
       "company_url": null,
       "image_url": null,
       "dedupe_key": "qa engineer|rinse"
-    },
-    {
-      "id": "senior-ai-engineer",
-      "title": "Senior AI Engineer",
-      "company": "Olli Health",
-      "url": "https://builtwithdjango.com/jobs/2391/senior-ai-engineer",
-      "source": "builtwithdjango.com",
-      "location": null,
-      "date_posted": "2026-05-01T20:34:05+00:00",
-      "salary": null,
-      "employment_type": "FULL_TIME",
-      "skills": [],
-      "categories": [
-        "Django Job Board"
-      ],
-      "summary": null,
-      "full_offer_text": "",
-      "full_offer_html": "",
-      "apply_url": "https://gettjalerts.com/jobs/341727ba-330c-4f93-a80c-c88fd3e1c369",
-      "company_url": null,
-      "image_url": null,
-      "dedupe_key": "senior ai engineer|olli health"
-    },
-    {
-      "id": "senior-ml-engineer",
-      "title": "Senior ML Engineer",
-      "company": "Ping Data Intelligence",
-      "url": "https://builtwithdjango.com/jobs/2392/senior-ml-engineer",
-      "source": "builtwithdjango.com",
-      "location": null,
-      "date_posted": "2026-05-01T19:57:28+00:00",
-      "salary": null,
-      "employment_type": "FULL_TIME",
-      "skills": [],
-      "categories": [
-        "Django Job Board"
-      ],
-      "summary": null,
-      "full_offer_text": "",
-      "full_offer_html": "",
-      "apply_url": "https://gettjalerts.com/jobs/63872373-6782-47a4-9123-a67af8d79820",
-      "company_url": null,
-      "image_url": null,
-      "dedupe_key": "senior ml engineer|ping data intelligence"
-    },
-    {
-      "id": "senior-fullstack-python-developer",
-      "title": "Senior Fullstack Python Developer",
-      "company": "Giftster",
-      "url": "https://builtwithdjango.com/jobs/2393/senior-fullstack-python-developer",
-      "source": "builtwithdjango.com",
-      "location": null,
-      "date_posted": "2026-05-01T16:32:43+00:00",
-      "salary": null,
-      "employment_type": "FULL_TIME",
-      "skills": [
-        "Python"
-      ],
-      "categories": [
-        "Django Job Board"
-      ],
-      "summary": null,
-      "full_offer_text": "",
-      "full_offer_html": "",
-      "apply_url": "https://gettjalerts.com/jobs/247e35ce-6b06-403b-ae14-3517fefa5aaa",
-      "company_url": null,
-      "image_url": null,
-      "dedupe_key": "senior fullstack python developer|giftster"
     },
     {
       "id": "senior-software-engineer",
@@ -474,6 +406,28 @@
       "company_url": null,
       "image_url": null,
       "dedupe_key": "backend engineer|twindo"
+    },
+    {
+      "id": "senior-ai-engineer",
+      "title": "Senior AI Engineer",
+      "company": "Olli Health",
+      "url": "https://builtwithdjango.com/jobs/2405/senior-ai-engineer",
+      "source": "builtwithdjango.com",
+      "location": null,
+      "date_posted": "2026-06-01T15:04:14+00:00",
+      "salary": null,
+      "employment_type": "FULL_TIME",
+      "skills": [],
+      "categories": [
+        "Django Job Board"
+      ],
+      "summary": null,
+      "full_offer_text": "",
+      "full_offer_html": "",
+      "apply_url": "https://gettjalerts.com/jobs/708d770a-b727-45bb-b5e0-0d12c177bc8d",
+      "company_url": null,
+      "image_url": null,
+      "dedupe_key": "senior ai engineer|olli health"
     },
     {
       "id": "product-engineer",
