@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T07:21:39.726813+00:00",
+  "generated_at": "2026-07-15T07:25:00.434333+00:00",
   "sources": [
     "https://www.python.org/jobs/feed/rss/",
     "https://djangojobboard.com/feed/rss/",
@@ -8,10 +8,10 @@
   "counts": {
     "python_org": 2,
     "djangojobboard": 4,
-    "builtwithdjango": 9,
-    "input_count": 15,
-    "output_count": 15,
-    "duplicates_removed": 0
+    "builtwithdjango": 13,
+    "input_count": 19,
+    "output_count": 18,
+    "duplicates_removed": 1
   },
   "jobs": [
     {
@@ -75,6 +75,44 @@
       "dedupe_key": "founding engineer|mydatavalue"
     },
     {
+      "id": "1565",
+      "title": "Freelance Full-Stack Web App Developer",
+      "company": "Mindrift",
+      "url": "https://djangojobboard.com/1565/freelance-full-stack-web-app-developer-mindrift/",
+      "source": "djangojobboard.com",
+      "location": "Remote, India (remote)",
+      "date_posted": "2026-06-24T20:56:33+00:00",
+      "salary": null,
+      "employment_type": "full-time",
+      "skills": [
+        "Python",
+        "Django",
+        "FastAPI",
+        "Flask",
+        "Node",
+        "Express",
+        "React",
+        "Next.js",
+        "Vue",
+        "PostgreSQL",
+        "SQLite",
+        "MySQL",
+        "REST",
+        "Authentication",
+        "Git"
+      ],
+      "categories": [
+        "Django Job Board"
+      ],
+      "summary": "Mindrift is looking for skilled Full-Stack Web App Developers (JavaScript/TypeScript + Python or Node) to join the Tendem project ( Tendem.ai ) and build interactive browser-based applications in a hybrid AI + human environment. The role (“AI Pilot”) involves collaborating with Tendem Agents that handle repetitive tasks, while the developer provides full-stack engineering expertise, architectural judgment, and quality control to ensure web apps are functional, robust, and ready for real users. R",
+      "full_offer_text": "Mindrift is looking for skilled Full-Stack Web App Developers (JavaScript/TypeScript + Python or Node) to join the Tendem project ( Tendem.ai ) and build interactive browser-based applications in a hybrid AI + human environment. The role (“AI Pilot”) involves collaborating with Tendem Agents that handle repetitive tasks, while the developer provides full-stack engineering expertise, architectural judgment, and quality control to ensure web apps are functional, robust, and ready for real users. Responsibilities include: designing, building, and refining interactive browser-based applications with real logic, state, persistence, and user input; developing frontend apps using modern frameworks (React, Next.js, Vue or similar) and backend APIs (Python/FastAPI/Flask or Node/Express); implementing data models/schemas/persistence using SQL (PostgreSQL, SQLite) or NoSQL; adding authentication, sessions, and role-based access where needed; integrating third-party APIs and AI/LLM services (OpenAI, Anthropic, etc.); managing state, validation, error and loading states; building standalone Python tools and scripts for data processing, API clients, or lightweight utilities; evaluating AI-generated code and refactoring for correctness, security, performance, and maintainability; and writing clear, testable code while debugging end-to-end issues across frontend, backend, and database. Requirements/experience: at least 3 years of relevant full-stack development experience; strong foundation across frontend frameworks, backend architecture, interactive browser-based apps shipped end-to-end; strong command of JavaScript/TypeScript and a modern frontend framework; solid backend experience in Python (FastAPI, Flask, Django) and/or Node (Express, NestJS); relational database experience (PostgreSQL, MySQL, SQLite) and basic schema design; REST API development with validation, error handling, and authentication flows; familiarity with deployment platforms (Vercel, Netlify, Render, Fly.io , Railway, etc.); experience integrating LLM APIs is a strong plus; comfort with Git and basic testing; attention to detail and commitment to production-ready work; self-directed ability to architect/build/ship features; portfolio of shipped web applications; English proficiency at B2+. Workload: part-time freelance with estimated 10–20 hours/week during active phases.",
+      "full_offer_html": "<p>Mindrift is looking for skilled Full-Stack Web App Developers (JavaScript/TypeScript + Python or Node) to join the Tendem project (<a href=\"http://Tendem.ai\">Tendem.ai</a>) and build interactive browser-based applications in a hybrid AI + human environment. The role (“AI Pilot”) involves collaborating with Tendem Agents that handle repetitive tasks, while the developer provides full-stack engineering expertise, architectural judgment, and quality control to ensure web apps are functional, robust, and ready for real users.</p>\n<p>Responsibilities include: designing, building, and refining interactive browser-based applications with real logic, state, persistence, and user input; developing frontend apps using modern frameworks (React, Next.js, Vue or similar) and backend APIs (Python/FastAPI/Flask or Node/Express); implementing data models/schemas/persistence using SQL (PostgreSQL, SQLite) or NoSQL; adding authentication, sessions, and role-based access where needed; integrating third-party APIs and AI/LLM services (OpenAI, Anthropic, etc.); managing state, validation, error and loading states; building standalone Python tools and scripts for data processing, API clients, or lightweight utilities; evaluating AI-generated code and refactoring for correctness, security, performance, and maintainability; and writing clear, testable code while debugging end-to-end issues across frontend, backend, and database.</p>\n<p>Requirements/experience: at least 3 years of relevant full-stack development experience; strong foundation across frontend frameworks, backend architecture, interactive browser-based apps shipped end-to-end; strong command of JavaScript/TypeScript and a modern frontend framework; solid backend experience in Python (FastAPI, Flask, Django) and/or Node (Express, NestJS); relational database experience (PostgreSQL, MySQL, SQLite) and basic schema design; REST API development with validation, error handling, and authentication flows; familiarity with deployment platforms (Vercel, Netlify, Render, <a href=\"http://Fly.io\">Fly.io</a>, Railway, etc.); experience integrating LLM APIs is a strong plus; comfort with Git and basic testing; attention to detail and commitment to production-ready work; self-directed ability to architect/build/ship features; portfolio of shipped web applications; English proficiency at B2+.</p>\n<p>Workload: part-time freelance with estimated 10–20 hours/week during active phases.</p>",
+      "apply_url": "https://weworkremotely.com/remote-jobs/mindrift-freelance-full-stack-web-app-developer",
+      "company_url": "http://mindrift.ai",
+      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://mindrift.ai&size=128",
+      "dedupe_key": "freelance full stack web app developer|mindrift"
+    },
+    {
       "id": "1367",
       "title": "Senior Python/Django Developer",
       "company": "Gryps",
@@ -131,7 +169,7 @@
       ],
       "summary": "Job Description Unique data — Booking.com private API data, Airbnb channel data, and scraped competitive pricing. This dataset doesn't exist at most companies. Real impact — your models drive revenue decisions for thousands of properties. High equity for our stage. A compounding moat — every property we add makes the data richer and the models better. Salary £70k–£100k · Equity 0.5%–1%. Restrictions Telecommuting is OK No Agencies Please Requirements A real data scientist who reaches for statist",
       "full_offer_text": "Job Description Unique data — Booking.com private API data, Airbnb channel data, and scraped competitive pricing. This dataset doesn't exist at most companies. Real impact — your models drive revenue decisions for thousands of properties. High equity for our stage. A compounding moat — every property we add makes the data richer and the models better. Salary £70k–£100k · Equity 0.5%–1%. Restrictions Telecommuting is OK No Agencies Please Requirements A real data scientist who reaches for statistics and experiments first, and knows when a result is significant versus noise. Strong with time series. Causal by instinct — you don't confuse correlation with causation. You can design holdouts and A/B tests, and reason about confounders when a clean experiment isn't possible. Comfortable in the mess — real OTA data is dirty, sparse, and seasonal. You wrangle it, find the signal, and build features that predict revenue. Fluent in modelling — forecasting, uplift and causal models, and the judgement to pick the simplest thing that works. Ships to production — not a notebooks role. You write clean, deployable Python (pandas, NumPy, scikit-learn) and get your models live in our Django and ClickHouse stack. A product thinker who cares about revenue impact, not what's technically interesting. AI-first — you use AI coding tools with multiple agents to ship faster, ideally pushing into self-learning ML or agentic workflows. If you don't already use frontier AI tools, this isn't the role for you. Skills: Python · pandas · NumPy · scikit-learn · Time Series · Causal Inference · Forecasting · Experimentation · PostgreSQL · ClickHouse · Django · AI agents About the Company MyDataValue is an AI-driven hospitality tech platform that automates revenue for short-term rental operators and independent hotels across Booking.com and Airbnb. We've built private API access, channel integrations, and competitive pricing data across thousands of properties into an agent that optimises pricing, promotions, and visibility automatically. London-based, founder-led, and venture-backed, with strong revenue, near-zero churn, and a fast-growing client base. Contact Info Contact: Martin E-mail contact: [email protected] Web: https://www.mydatavalue.com/founding-ml-data-engineer/",
-      "full_offer_html": "<h2>Job Description</h2>\n<ul>\n<li>Unique data — <a href=\"http://Booking.com\">Booking.com</a> private API data, Airbnb channel data, and scraped competitive pricing. This dataset doesn't exist at most companies.</li>\n<li>Real impact — your models drive revenue decisions for thousands of properties.</li>\n<li>High equity for our stage.</li>\n<li>A compounding moat — every property we add makes the data richer and the models better.</li>\n</ul>\n<p>Salary £70k–£100k · Equity 0.5%–1%.</p>\n<h2>Restrictions</h2>\n<ul>\n<li>Telecommuting is OK</li>\n<li>No Agencies Please</li>\n</ul>\n<h2>Requirements</h2>\n<ul>\n<li>A real data scientist who reaches for statistics and experiments first, and knows when a result is significant versus noise. Strong with time series.</li>\n<li>Causal by instinct — you don't confuse correlation with causation. You can design holdouts and A/B tests, and reason about confounders when a clean experiment isn't possible.</li>\n<li>Comfortable in the mess — real OTA data is dirty, sparse, and seasonal. You wrangle it, find the signal, and build features that predict revenue.</li>\n<li>Fluent in modelling — forecasting, uplift and causal models, and the judgement to pick the simplest thing that works.</li>\n<li>Ships to production — not a notebooks role. You write clean, deployable Python (pandas, NumPy, scikit-learn) and get your models live in our Django and ClickHouse stack.</li>\n<li>A product thinker who cares about revenue impact, not what's technically interesting.</li>\n<li>AI-first — you use AI coding tools with multiple agents to ship faster, ideally pushing into self-learning ML or agentic workflows. If you don't already use frontier AI tools, this isn't the role for you.</li>\n</ul>\n<p>Skills: Python · pandas · NumPy · scikit-learn · Time Series · Causal Inference · Forecasting · Experimentation · PostgreSQL · ClickHouse · Django · AI agents</p>\n<h2>About the Company</h2>\n<p>MyDataValue is an AI-driven hospitality tech platform that automates revenue for short-term rental operators and independent hotels across <a href=\"http://Booking.com\">Booking.com</a> and Airbnb. We've built private API access, channel integrations, and competitive pricing data across thousands of properties into an agent that optimises pricing, promotions, and visibility automatically. London-based, founder-led, and venture-backed, with strong revenue, near-zero churn, and a fast-growing client base.</p>\n<h2>Contact Info</h2>\n<ul>\n<li>Contact: Martin</li>\n<li>E-mail contact: <a href=\"/cdn-cgi/l/email-protection#325f5340465b5c725f4b5653465344535e47571c515d5f\"><span class=\"__cf_email__\" data-cfemail=\"96fbf7e4e2fff8d6fbeff2f7e2f7e0f7fae3f3b8f5f9fb\">[email&#160;protected]</span></a></li>\n<li>Web: <a href=\"https://www.mydatavalue.com/founding-ml-data-engineer/\">https://www.mydatavalue.com/founding-ml-data-engineer/</a></li>\n</ul>",
+      "full_offer_html": "<h2>Job Description</h2>\n<ul>\n<li>Unique data — <a href=\"http://Booking.com\">Booking.com</a> private API data, Airbnb channel data, and scraped competitive pricing. This dataset doesn't exist at most companies.</li>\n<li>Real impact — your models drive revenue decisions for thousands of properties.</li>\n<li>High equity for our stage.</li>\n<li>A compounding moat — every property we add makes the data richer and the models better.</li>\n</ul>\n<p>Salary £70k–£100k · Equity 0.5%–1%.</p>\n<h2>Restrictions</h2>\n<ul>\n<li>Telecommuting is OK</li>\n<li>No Agencies Please</li>\n</ul>\n<h2>Requirements</h2>\n<ul>\n<li>A real data scientist who reaches for statistics and experiments first, and knows when a result is significant versus noise. Strong with time series.</li>\n<li>Causal by instinct — you don't confuse correlation with causation. You can design holdouts and A/B tests, and reason about confounders when a clean experiment isn't possible.</li>\n<li>Comfortable in the mess — real OTA data is dirty, sparse, and seasonal. You wrangle it, find the signal, and build features that predict revenue.</li>\n<li>Fluent in modelling — forecasting, uplift and causal models, and the judgement to pick the simplest thing that works.</li>\n<li>Ships to production — not a notebooks role. You write clean, deployable Python (pandas, NumPy, scikit-learn) and get your models live in our Django and ClickHouse stack.</li>\n<li>A product thinker who cares about revenue impact, not what's technically interesting.</li>\n<li>AI-first — you use AI coding tools with multiple agents to ship faster, ideally pushing into self-learning ML or agentic workflows. If you don't already use frontier AI tools, this isn't the role for you.</li>\n</ul>\n<p>Skills: Python · pandas · NumPy · scikit-learn · Time Series · Causal Inference · Forecasting · Experimentation · PostgreSQL · ClickHouse · Django · AI agents</p>\n<h2>About the Company</h2>\n<p>MyDataValue is an AI-driven hospitality tech platform that automates revenue for short-term rental operators and independent hotels across <a href=\"http://Booking.com\">Booking.com</a> and Airbnb. We've built private API access, channel integrations, and competitive pricing data across thousands of properties into an agent that optimises pricing, promotions, and visibility automatically. London-based, founder-led, and venture-backed, with strong revenue, near-zero churn, and a fast-growing client base.</p>\n<h2>Contact Info</h2>\n<ul>\n<li>Contact: Martin</li>\n<li>E-mail contact: <a href=\"/cdn-cgi/l/email-protection#107d716264797e507d697471647166717c65753e737f7d\"><span class=\"__cf_email__\" data-cfemail=\"701d110204191e301d091411041106111c05155e131f1d\">[email&#160;protected]</span></a></li>\n<li>Web: <a href=\"https://www.mydatavalue.com/founding-ml-data-engineer/\">https://www.mydatavalue.com/founding-ml-data-engineer/</a></li>\n</ul>",
       "apply_url": "https://www.mydatavalue.com/founding-ml-data-engineer/",
       "company_url": "https://www.mydatavalue.com",
       "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.mydatavalue.com&size=128",
@@ -174,40 +212,11 @@
       ],
       "summary": "Job Description We're building the future of Revenue Management. AI agents that give short-term rental operators and independent hotels more money for less effort. We integrate directly with Booking.com , Airbnb, and PMS platforms via deep private API connections. The role: This is a flexible Hybrid role in London. You'll be the second engineering hire, working directly alongside Martin. Everything is on the table: backend systems, React frontend, Chrome extension, data pipelines, agent orchestr",
       "full_offer_text": "Job Description We're building the future of Revenue Management. AI agents that give short-term rental operators and independent hotels more money for less effort. We integrate directly with Booking.com , Airbnb, and PMS platforms via deep private API connections. The role: This is a flexible Hybrid role in London. You'll be the second engineering hire, working directly alongside Martin. Everything is on the table: backend systems, React frontend, Chrome extension, data pipelines, agent orchestration, and prompt engineering. You'll ship full features end-to-end, not tickets. We ship fast using Claude Code and AI-assisted development daily. If you're already running multiple PRs in parallel with AI tools, you'll feel right at home. What we offer: £80K–£90K base salary plus up to 1% equity (DOE). This is a founding role, you'll have real ownership of the product and the company. You'll shape technical direction, product decisions, and company culture from the ground floor. If you want to build something real with a small team that's already winning customers and growing fast, where your code ships to production the same day and your decisions shape the company then let's talk. Restrictions Telecommuting is OK No Agencies Please Requirements What we're looking for: Previous startup or founder experience, you've built something from zero and know what that demands. Very strong Python (Django/Celery) and React. Comfortable across the full stack, backend, frontend, infra, data. AI agent development, prompt engineering, or data pipeline experience is a strong plus. You need to be based in London or able to come to our Canary Wharf office 2 days a week. We can't sponsor visas. Stack: Django, Celery, PostgreSQL, React, Chrome Extensions, Claude Code. About the Company About us: We're pre-seed funded, ramen profitable at $300k ARR, with ~40+ clients and near-zero churn. The product works, customers love it, and we're growing fast. Our team is sub-5 people, based out of Canary Wharf, London. Martin (CTO/co-founder) is a previous founder with 10+ years in development. Miro (CEO/co-founder) had a previous Revenue Management company and is an expert in data. Contact Info Contact: Martin Dawson E-mail contact: [email protected] Web: https://www.mydatavalue.com/founding-full-stack-senior-engineer",
-      "full_offer_html": "<h2>Job Description</h2>\n<p>We're building the future of Revenue Management. AI agents that give short-term rental operators and independent hotels more money for less effort. We integrate directly with <a href=\"http://Booking.com\">Booking.com</a>, Airbnb, and PMS platforms via deep private API connections.</p>\n<p>The role:  This is a flexible Hybrid role in London. You'll be the second engineering hire, working directly alongside Martin. Everything is on the table: backend systems, React frontend, Chrome extension, data pipelines, agent orchestration, and prompt engineering. You'll ship full features end-to-end, not tickets. We ship fast using Claude Code and AI-assisted development daily. If you're already running multiple PRs in parallel with AI tools, you'll feel right at home.</p>\n<p>What we offer: £80K–£90K base salary plus up to 1% equity (DOE). This is a founding role, you'll have real ownership of the product and the company. You'll shape technical direction, product decisions, and company culture from the ground floor.</p>\n<p>If you want to build something real with a small team that's already winning customers and growing fast, where your code ships to production the same day and your decisions shape the company then let's talk.</p>\n<h2>Restrictions</h2>\n<ul>\n<li>Telecommuting is OK</li>\n<li>No Agencies Please</li>\n</ul>\n<h2>Requirements</h2>\n<p>What we're looking for: Previous startup or founder experience, you've built something from zero and know what that demands. Very strong Python (Django/Celery) and React. Comfortable across the full stack, backend, frontend, infra, data. AI agent development, prompt engineering, or data pipeline experience is a strong plus. You need to be based in London or able to come to our Canary Wharf office 2 days a week. We can't sponsor visas.</p>\n<p>Stack: Django, Celery, PostgreSQL, React, Chrome Extensions, Claude Code.</p>\n<h2>About the Company</h2>\n<p>About us: We're pre-seed funded, ramen profitable at $300k ARR, with ~40+ clients and near-zero churn. The product works, customers love it, and we're growing fast. Our team is sub-5 people, based out of Canary Wharf, London. Martin (CTO/co-founder) is a previous founder with 10+ years in development. Miro (CEO/co-founder) had a previous Revenue Management company and is an expert in data.</p>\n<h2>Contact Info</h2>\n<ul>\n<li>Contact: Martin Dawson</li>\n<li>E-mail contact: <a href=\"/cdn-cgi/l/email-protection#5f323e2d2b36311f32263b3e2b3e293e332a3a713c3032\"><span class=\"__cf_email__\" data-cfemail=\"5934382b2d30371934203d382d382f38352c3c773a3634\">[email&#160;protected]</span></a></li>\n<li>Web: <a href=\"https://www.mydatavalue.com/founding-full-stack-senior-engineer\">https://www.mydatavalue.com/founding-full-stack-senior-engineer</a></li>\n</ul>",
+      "full_offer_html": "<h2>Job Description</h2>\n<p>We're building the future of Revenue Management. AI agents that give short-term rental operators and independent hotels more money for less effort. We integrate directly with <a href=\"http://Booking.com\">Booking.com</a>, Airbnb, and PMS platforms via deep private API connections.</p>\n<p>The role:  This is a flexible Hybrid role in London. You'll be the second engineering hire, working directly alongside Martin. Everything is on the table: backend systems, React frontend, Chrome extension, data pipelines, agent orchestration, and prompt engineering. You'll ship full features end-to-end, not tickets. We ship fast using Claude Code and AI-assisted development daily. If you're already running multiple PRs in parallel with AI tools, you'll feel right at home.</p>\n<p>What we offer: £80K–£90K base salary plus up to 1% equity (DOE). This is a founding role, you'll have real ownership of the product and the company. You'll shape technical direction, product decisions, and company culture from the ground floor.</p>\n<p>If you want to build something real with a small team that's already winning customers and growing fast, where your code ships to production the same day and your decisions shape the company then let's talk.</p>\n<h2>Restrictions</h2>\n<ul>\n<li>Telecommuting is OK</li>\n<li>No Agencies Please</li>\n</ul>\n<h2>Requirements</h2>\n<p>What we're looking for: Previous startup or founder experience, you've built something from zero and know what that demands. Very strong Python (Django/Celery) and React. Comfortable across the full stack, backend, frontend, infra, data. AI agent development, prompt engineering, or data pipeline experience is a strong plus. You need to be based in London or able to come to our Canary Wharf office 2 days a week. We can't sponsor visas.</p>\n<p>Stack: Django, Celery, PostgreSQL, React, Chrome Extensions, Claude Code.</p>\n<h2>About the Company</h2>\n<p>About us: We're pre-seed funded, ramen profitable at $300k ARR, with ~40+ clients and near-zero churn. The product works, customers love it, and we're growing fast. Our team is sub-5 people, based out of Canary Wharf, London. Martin (CTO/co-founder) is a previous founder with 10+ years in development. Miro (CEO/co-founder) had a previous Revenue Management company and is an expert in data.</p>\n<h2>Contact Info</h2>\n<ul>\n<li>Contact: Martin Dawson</li>\n<li>E-mail contact: <a href=\"/cdn-cgi/l/email-protection#a8c5c9dadcc1c6e8c5d1ccc9dcc9dec9c4ddcd86cbc7c5\"><span class=\"__cf_email__\" data-cfemail=\"2944485b5d40476944504d485d485f48455c4c074a4644\">[email&#160;protected]</span></a></li>\n<li>Web: <a href=\"https://www.mydatavalue.com/founding-full-stack-senior-engineer\">https://www.mydatavalue.com/founding-full-stack-senior-engineer</a></li>\n</ul>",
       "apply_url": "https://www.mydatavalue.com/founding-full-stack-senior-engineer",
       "company_url": "https://www.mydatavalue.com",
       "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.mydatavalue.com&size=128",
       "dedupe_key": "founding engineer|martin dawson cto co founder"
-    },
-    {
-      "id": "1342",
-      "title": "Web Developer",
-      "company": "Crossway",
-      "url": "https://djangojobboard.com/1342/web-developer-crossway/",
-      "source": "djangojobboard.com",
-      "location": "Remote, Wheaton, IL",
-      "date_posted": "2026-04-23T18:42:22.174552+00:00",
-      "salary": null,
-      "employment_type": "full-time",
-      "skills": [
-        "Django",
-        "Git",
-        "HTML",
-        "JavaScript",
-        "Python",
-        "SQL"
-      ],
-      "categories": [
-        "Django Job Board"
-      ],
-      "summary": "The Web Developer (Django) is responsible for creating products and experiences that present Crossway content to the marketplace with truth, beauty, and excellence. This role will be primarily focused on web application development. Remote candidates are acceptable, though preference will be given to those who can meet periodically in Wheaton, IL. The Web Developer (Django) will meet on a regular basis with the Director of Web Development for the purpose of collaboration, reviewing progress, and",
-      "full_offer_text": "The Web Developer (Django) is responsible for creating products and experiences that present Crossway content to the marketplace with truth, beauty, and excellence. This role will be primarily focused on web application development. Remote candidates are acceptable, though preference will be given to those who can meet periodically in Wheaton, IL. The Web Developer (Django) will meet on a regular basis with the Director of Web Development for the purpose of collaboration, reviewing progress, and evaluating results, and will be prepared to provide updates on the status of assigned responsibilities. Specific Responsibilities: Development of existing and future web products and experiences Related services and API development Web infrastructure maintenance Other duties as assigned Position Requirements: Proficiency in web application development, including Python, Django, HTML, JavaScript, SQL, and Git Passion for excellence and attention to detail Organized, self-motivated, and good interpersonal skills",
-      "full_offer_html": "<p>The <em>Web Developer (Django)</em> is responsible for creating products and experiences that present Crossway content to the marketplace with truth, beauty, and excellence. This role will be primarily focused on web application development. Remote candidates are acceptable, though preference will be given to those who can meet periodically in Wheaton, IL.</p>\n<p>The <em>Web Developer (Django)</em> will meet on a regular basis with the Director of Web Development for the purpose of collaboration, reviewing progress, and evaluating results, and will be prepared to provide updates on the status of assigned responsibilities.</p>\n<p><strong>Specific Responsibilities:</strong></p>\n<ul>\n<li>Development of existing and future web products and experiences</li>\n<li>Related services and API development</li>\n<li>Web infrastructure maintenance</li>\n<li>Other duties as assigned</li>\n</ul>\n<p><strong>Position Requirements:</strong></p>\n<ul>\n<li>Proficiency in web application development, including Python, Django, HTML, JavaScript, SQL, and Git</li>\n<li>Passion for excellence and attention to detail</li>\n<li>Organized, self-motivated, and good interpersonal skills</li>\n</ul>",
-      "apply_url": "https://recruiting2.ultipro.com/CRO1011CRWY/JobBoard/5e1d2240-5d84-43cf-8885-baeb9d40d033/OpportunityDetail?opportunityId=c719a8e6-2d63-4bc4-bc49-12987ba24b13",
-      "company_url": "https://www.crossway.org",
-      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.crossway.org&size=128",
-      "dedupe_key": "web developer|crossway"
     },
     {
       "id": "senior-software-engineer",
@@ -406,6 +415,72 @@
       "company_url": null,
       "image_url": null,
       "dedupe_key": "product engineer|safi"
+    },
+    {
+      "id": "lead-engineer",
+      "title": "Lead Engineer",
+      "company": "Relevant Healthcare",
+      "url": "https://builtwithdjango.com/jobs/2409/lead-engineer",
+      "source": "builtwithdjango.com",
+      "location": null,
+      "date_posted": "2026-07-02T18:49:28+00:00",
+      "salary": null,
+      "employment_type": "FULL_TIME",
+      "skills": [],
+      "categories": [
+        "Django Job Board"
+      ],
+      "summary": null,
+      "full_offer_text": "",
+      "full_offer_html": "",
+      "apply_url": "https://gettjalerts.com/jobs/fd0cefbe-3cc5-421c-b827-e60365fdb0dd",
+      "company_url": null,
+      "image_url": null,
+      "dedupe_key": "lead engineer|relevant healthcare"
+    },
+    {
+      "id": "full-stack-engineer",
+      "title": "Full Stack Engineer",
+      "company": "Kanary",
+      "url": "https://builtwithdjango.com/jobs/2413/full-stack-engineer",
+      "source": "builtwithdjango.com",
+      "location": null,
+      "date_posted": "2026-07-01T20:23:18+00:00",
+      "salary": null,
+      "employment_type": "FULL_TIME",
+      "skills": [],
+      "categories": [
+        "Django Job Board"
+      ],
+      "summary": null,
+      "full_offer_text": "",
+      "full_offer_html": "",
+      "apply_url": "https://gettjalerts.com/jobs/33d7b932-6113-4c5a-8b72-f34af32b0f10",
+      "company_url": null,
+      "image_url": null,
+      "dedupe_key": "full stack engineer|kanary"
+    },
+    {
+      "id": "devops-engineer",
+      "title": "DevOps Engineer",
+      "company": "Axle Health",
+      "url": "https://builtwithdjango.com/jobs/2414/devops-engineer",
+      "source": "builtwithdjango.com",
+      "location": "Santa Monica, CA",
+      "date_posted": "2026-07-01T17:32:24+00:00",
+      "salary": null,
+      "employment_type": "FULL_TIME",
+      "skills": [],
+      "categories": [
+        "Django Job Board"
+      ],
+      "summary": null,
+      "full_offer_text": "",
+      "full_offer_html": "",
+      "apply_url": "https://gettjalerts.com/jobs/a6a02296-e895-49af-9720-d03295c643ad",
+      "company_url": null,
+      "image_url": null,
+      "dedupe_key": "devops engineer|axle health"
     }
   ]
 }
