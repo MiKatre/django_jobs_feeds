@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T10:31:37.611064+00:00",
+  "generated_at": "2026-08-31T11:40:02.296588+00:00",
   "sources": [
     "https://www.python.org/jobs/feed/rss/",
     "https://djangojobboard.com/feed/rss/",
@@ -8,9 +8,9 @@
   "counts": {
     "python_org": 5,
     "djangojobboard": 4,
-    "builtwithdjango": 4,
-    "input_count": 13,
-    "output_count": 12,
+    "builtwithdjango": 2,
+    "input_count": 11,
+    "output_count": 10,
     "duplicates_removed": 1
   },
   "jobs": [
@@ -188,7 +188,7 @@
       ],
       "summary": "The Django Software Foundation is hiring its first Executive Director — the operational leader of the Foundation, responsible for setting the Foundation's strategic direction and turning it into action, while managing day-to-day operations. The Executive Director connects the Board, staff, community, and sponsors while representing the DSF publicly. The role Fundraising: Lead sponsorship development and membership growth to advance from the current $300K toward a $500K annual fundraising goal Op",
       "full_offer_text": "The Django Software Foundation is hiring its first Executive Director — the operational leader of the Foundation, responsible for setting the Foundation's strategic direction and turning it into action, while managing day-to-day operations. The Executive Director connects the Board, staff, community, and sponsors while representing the DSF publicly. The role Fundraising: Lead sponsorship development and membership growth to advance from the current $300K toward a $500K annual fundraising goal Operations & administration: Manage day-to-day DSF operations, financial reporting, grant management, and organizational maturation Staff management: Oversee the DSF Assistant and the Django Fellows program (paid maintainers) Marketing & outreach: Community communications, public representation at conferences, and DSF brand awareness distinct from the framework Legal & compliance: Manage trademark enforcement, contracts, and 501(c)(3) compliance in coordination with legal counsel Working group coordination: Regular check-ins with volunteer committees handling events, AI, accessibility, and fundraising Event engagement: Work with Django conferences and DjangoCons Qualifications The DSF is looking for solid experience in a few of these areas, particularly the ones most central to the role: fundraising and partnership development, nonprofit operations, and stakeholder communication. Django or Python community familiarity, open source experience, and a technical background are valued but optional — being part of the Django community isn't a prerequisite for this position. Position details Remote, based in the United States (no visa sponsorship available) Part-time or full-time depending on the candidate; initially one year, renewable subject to annual performance evaluation Base salary $90,000–$120,000, plus a performance bonus of up to $60,000 tied to progress toward the $500,000 fundraising goal Expected start date: approximately November 1, 2026 How to apply Email [email protected] by midnight Central Time, September 14, 2026 with: A resume or CV A vision statement (500–1,000 words) covering: Where the Foundation stands today Key opportunities and challenges ahead Your approach to the role A cover letter (optional) References may be requested during interviews. Full details in the official announcement .",
-      "full_offer_html": "<p>The <a href=\"https://www.djangoproject.com/foundation/\">Django Software Foundation</a> is hiring its first <strong>Executive Director</strong> — the operational leader of the Foundation, responsible for setting the Foundation's strategic direction and turning it into action, while managing day-to-day operations. The Executive Director connects the Board, staff, community, and sponsors while representing the DSF publicly.</p>\n<h2>The role</h2>\n<ul>\n<li><strong>Fundraising:</strong> Lead sponsorship development and membership growth to advance from the current $300K toward a $500K annual fundraising goal</li>\n<li><strong>Operations &amp; administration:</strong> Manage day-to-day DSF operations, financial reporting, grant management, and organizational maturation</li>\n<li><strong>Staff management:</strong> Oversee the DSF Assistant and the Django Fellows program (paid maintainers)</li>\n<li><strong>Marketing &amp; outreach:</strong> Community communications, public representation at conferences, and DSF brand awareness distinct from the framework</li>\n<li><strong>Legal &amp; compliance:</strong> Manage trademark enforcement, contracts, and 501(c)(3) compliance in coordination with legal counsel</li>\n<li><strong>Working group coordination:</strong> Regular check-ins with volunteer committees handling events, AI, accessibility, and fundraising</li>\n<li><strong>Event engagement:</strong> Work with Django conferences and DjangoCons</li>\n</ul>\n<h2>Qualifications</h2>\n<p>The DSF is looking for solid experience in a few of these areas, particularly the ones most central to the role: fundraising and partnership development, nonprofit operations, and stakeholder communication. Django or Python community familiarity, open source experience, and a technical background are valued but optional — being part of the Django community isn't a prerequisite for this position.</p>\n<h2>Position details</h2>\n<ul>\n<li>Remote, based in the United States (no visa sponsorship available)</li>\n<li>Part-time or full-time depending on the candidate; initially one year, renewable subject to annual performance evaluation</li>\n<li>Base salary $90,000–$120,000, plus a performance bonus of up to $60,000 tied to progress toward the $500,000 fundraising goal</li>\n<li>Expected start date: approximately November 1, 2026</li>\n</ul>\n<h2>How to apply</h2>\n<p>Email <strong><a href=\"/cdn-cgi/l/email-protection#442c2d362d2a2304202e252a232b34362b2e2127306a272b29\"><span class=\"__cf_email__\" data-cfemail=\"9af2f3e8f3f4fddafef0fbf4fdf5eae8f5f0fff9eeb4f9f5f7\">[email&#160;protected]</span></a></strong> by <strong>midnight Central Time, September 14, 2026</strong> with:</p>\n<ul>\n<li>A resume or CV</li>\n<li>A vision statement (500–1,000 words) covering:\n<ul>\n<li>Where the Foundation stands today</li>\n<li>Key opportunities and challenges ahead</li>\n<li>Your approach to the role</li>\n</ul>\n</li>\n<li>A cover letter (optional)</li>\n</ul>\n<p>References may be requested during interviews.</p>\n<p>Full details in the <a href=\"https://www.djangoproject.com/weblog/2026/aug/06/call-for-applicants-for-a-django-executive-directo/\">official announcement</a>.</p>",
+      "full_offer_html": "<p>The <a href=\"https://www.djangoproject.com/foundation/\">Django Software Foundation</a> is hiring its first <strong>Executive Director</strong> — the operational leader of the Foundation, responsible for setting the Foundation's strategic direction and turning it into action, while managing day-to-day operations. The Executive Director connects the Board, staff, community, and sponsors while representing the DSF publicly.</p>\n<h2>The role</h2>\n<ul>\n<li><strong>Fundraising:</strong> Lead sponsorship development and membership growth to advance from the current $300K toward a $500K annual fundraising goal</li>\n<li><strong>Operations &amp; administration:</strong> Manage day-to-day DSF operations, financial reporting, grant management, and organizational maturation</li>\n<li><strong>Staff management:</strong> Oversee the DSF Assistant and the Django Fellows program (paid maintainers)</li>\n<li><strong>Marketing &amp; outreach:</strong> Community communications, public representation at conferences, and DSF brand awareness distinct from the framework</li>\n<li><strong>Legal &amp; compliance:</strong> Manage trademark enforcement, contracts, and 501(c)(3) compliance in coordination with legal counsel</li>\n<li><strong>Working group coordination:</strong> Regular check-ins with volunteer committees handling events, AI, accessibility, and fundraising</li>\n<li><strong>Event engagement:</strong> Work with Django conferences and DjangoCons</li>\n</ul>\n<h2>Qualifications</h2>\n<p>The DSF is looking for solid experience in a few of these areas, particularly the ones most central to the role: fundraising and partnership development, nonprofit operations, and stakeholder communication. Django or Python community familiarity, open source experience, and a technical background are valued but optional — being part of the Django community isn't a prerequisite for this position.</p>\n<h2>Position details</h2>\n<ul>\n<li>Remote, based in the United States (no visa sponsorship available)</li>\n<li>Part-time or full-time depending on the candidate; initially one year, renewable subject to annual performance evaluation</li>\n<li>Base salary $90,000–$120,000, plus a performance bonus of up to $60,000 tied to progress toward the $500,000 fundraising goal</li>\n<li>Expected start date: approximately November 1, 2026</li>\n</ul>\n<h2>How to apply</h2>\n<p>Email <strong><a href=\"/cdn-cgi/l/email-protection#61090813080f0621050b000f060e11130e0b0402154f020e0c\"><span class=\"__cf_email__\" data-cfemail=\"ea82839883848daa8e808b848d859a9885808f899ec4898587\">[email&#160;protected]</span></a></strong> by <strong>midnight Central Time, September 14, 2026</strong> with:</p>\n<ul>\n<li>A resume or CV</li>\n<li>A vision statement (500–1,000 words) covering:\n<ul>\n<li>Where the Foundation stands today</li>\n<li>Key opportunities and challenges ahead</li>\n<li>Your approach to the role</li>\n</ul>\n</li>\n<li>A cover letter (optional)</li>\n</ul>\n<p>References may be requested during interviews.</p>\n<p>Full details in the <a href=\"https://www.djangoproject.com/weblog/2026/aug/06/call-for-applicants-for-a-django-executive-directo/\">official announcement</a>.</p>",
       "apply_url": "https://www.djangoproject.com/weblog/2026/aug/06/call-for-applicants-for-a-django-executive-directo/",
       "company_url": "https://www.djangoproject.com",
       "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.djangoproject.com&size=128",
@@ -308,50 +308,6 @@
       "company_url": null,
       "image_url": null,
       "dedupe_key": "typescript engineer|fusionbox"
-    },
-    {
-      "id": "full-stack-engineer",
-      "title": "Full Stack Engineer",
-      "company": "Kanary",
-      "url": "https://builtwithdjango.com/jobs/2413/full-stack-engineer",
-      "source": "builtwithdjango.com",
-      "location": null,
-      "date_posted": "2026-07-01T20:23:18+00:00",
-      "salary": null,
-      "employment_type": "FULL_TIME",
-      "skills": [],
-      "categories": [
-        "Django Job Board"
-      ],
-      "summary": null,
-      "full_offer_text": "",
-      "full_offer_html": "",
-      "apply_url": "https://gettjalerts.com/jobs/33d7b932-6113-4c5a-8b72-f34af32b0f10",
-      "company_url": null,
-      "image_url": null,
-      "dedupe_key": "full stack engineer|kanary"
-    },
-    {
-      "id": "devops-engineer",
-      "title": "DevOps Engineer",
-      "company": "Axle Health",
-      "url": "https://builtwithdjango.com/jobs/2414/devops-engineer",
-      "source": "builtwithdjango.com",
-      "location": "Santa Monica, CA",
-      "date_posted": "2026-07-01T17:32:24+00:00",
-      "salary": null,
-      "employment_type": "FULL_TIME",
-      "skills": [],
-      "categories": [
-        "Django Job Board"
-      ],
-      "summary": null,
-      "full_offer_text": "",
-      "full_offer_html": "",
-      "apply_url": "https://gettjalerts.com/jobs/a6a02296-e895-49af-9720-d03295c643ad",
-      "company_url": null,
-      "image_url": null,
-      "dedupe_key": "devops engineer|axle health"
     }
   ]
 }
