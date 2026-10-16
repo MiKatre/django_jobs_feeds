@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T10:04:29.387686+00:00",
+  "generated_at": "2026-10-16T09:55:59.428803+00:00",
   "sources": [
     "https://www.python.org/jobs/feed/rss/",
     "https://djangojobboard.com/feed/rss/",
@@ -7,10 +7,10 @@
   ],
   "counts": {
     "python_org": 1,
-    "djangojobboard": 4,
+    "djangojobboard": 2,
     "builtwithdjango": 0,
-    "input_count": 5,
-    "output_count": 5,
+    "input_count": 3,
+    "output_count": 3,
     "duplicates_removed": 0
   },
   "jobs": [
@@ -47,118 +47,69 @@
       "dedupe_key": "senior full stack engineer full time 100 remote us only|hive collective"
     },
     {
-      "id": "3668",
-      "title": "Senior Backend Developer (Python)",
-      "company": "Proxify AB",
-      "url": "https://djangojobboard.com/3668/senior-backend-developer-python-proxify-ab/",
+      "id": "3743",
+      "title": "Machine Learning Engineer",
+      "company": "HFT Architecture",
+      "url": "https://djangojobboard.com/3743/machine-learning-engineer-hft-architecture/",
       "source": "djangojobboard.com",
-      "location": "Remote, Remote; CET (UTC+1) ±3 hours",
-      "date_posted": "2026-09-15T09:01:36+00:00",
-      "salary": null,
+      "location": "Remote, Worldwide",
+      "date_posted": "2026-10-15T17:22:44.337548+00:00",
+      "salary": "180,000–240,000",
       "employment_type": "full-time",
       "skills": [
-        "Python",
-        "Django",
-        "SQL",
-        "PostgreSQL",
-        "Docker",
-        "Kubernetes",
-        "AWS",
-        "gcp",
-        "CI/CD"
-      ],
-      "categories": [
-        "Django Job Board"
-      ],
-      "summary": "Senior Python Developer role for a Proxify client, requiring 5+ years of experience building products with Python and Django. Responsibilities include building reusable libraries and frameworks, designing and implementing low-latency and stable applications, collaborating remotely with technical and non-technical stakeholders, implementing data protection systems, and working with data storage solutions. Requirements include strong SQL and PostgreSQL experience, cloud infrastructure experience w",
-      "full_offer_text": "Senior Python Developer role for a Proxify client, requiring 5+ years of experience building products with Python and Django. Responsibilities include building reusable libraries and frameworks, designing and implementing low-latency and stable applications, collaborating remotely with technical and non-technical stakeholders, implementing data protection systems, and working with data storage solutions. Requirements include strong SQL and PostgreSQL experience, cloud infrastructure experience with AWS or GCP, Docker or Kubernetes familiarity, CI/CD experience, adherence to development best practices, independent work, and intermediate to advanced English. Candidates must work within CET plus or minus three hours.",
-      "full_offer_html": "<p>Senior Python Developer role for a Proxify client, requiring 5+ years of experience building products with Python and Django. Responsibilities include building reusable libraries and frameworks, designing and implementing low-latency and stable applications, collaborating remotely with technical and non-technical stakeholders, implementing data protection systems, and working with data storage solutions. Requirements include strong SQL and PostgreSQL experience, cloud infrastructure experience with AWS or GCP, Docker or Kubernetes familiarity, CI/CD experience, adherence to development best practices, independent work, and intermediate to advanced English. Candidates must work within CET plus or minus three hours.</p>",
-      "apply_url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-backend-developer-python-10",
-      "company_url": "http://career.proxify.io",
-      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://career.proxify.io&size=128",
-      "dedupe_key": "senior backend developer python|proxify ab"
-    },
-    {
-      "id": "3669",
-      "title": "Senior Fullstack Developer (React.js / Node.js)",
-      "company": "Proxify AB",
-      "url": "https://djangojobboard.com/3669/senior-fullstack-developer-reactjs-nodejs-proxify-ab/",
-      "source": "djangojobboard.com",
-      "location": "Remote, Sweden; remote, preferably within CET ±3 hours",
-      "date_posted": "2026-09-15T08:51:45+00:00",
-      "salary": null,
-      "employment_type": "full-time",
-      "skills": [
-        "SQL"
-      ],
-      "categories": [
-        "Django Job Board"
-      ],
-      "summary": "Proxify is seeking a Senior Fullstack Developer for one of its clients. The role requires at least five years of full-stack development experience, with backend expertise in Node.js and microservices architecture, plus database experience with SQL and MongoDB. Responsibilities include building reusable libraries and frameworks, designing and implementing low-latency and stable applications, collaborating remotely with team members and stakeholders, implementing data-protection systems, and worki",
-      "full_offer_text": "Proxify is seeking a Senior Fullstack Developer for one of its clients. The role requires at least five years of full-stack development experience, with backend expertise in Node.js and microservices architecture, plus database experience with SQL and MongoDB. Responsibilities include building reusable libraries and frameworks, designing and implementing low-latency and stable applications, collaborating remotely with team members and stakeholders, implementing data-protection systems, and working with data-storage solutions. Knowledge of database architecture is desirable. Candidates should have intermediate-to-advanced English and preferably be located within approximately three hours of the CET timezone.",
-      "full_offer_html": "<p>Proxify is seeking a Senior Fullstack Developer for one of its clients. The role requires at least five years of full-stack development experience, with backend expertise in Node.js and microservices architecture, plus database experience with SQL and MongoDB. Responsibilities include building reusable libraries and frameworks, designing and implementing low-latency and stable applications, collaborating remotely with team members and stakeholders, implementing data-protection systems, and working with data-storage solutions. Knowledge of database architecture is desirable. Candidates should have intermediate-to-advanced English and preferably be located within approximately three hours of the CET timezone.</p>",
-      "apply_url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-fullstack-developer-react-js-node-js-4",
-      "company_url": "http://career.proxify.io",
-      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://career.proxify.io&size=128",
-      "dedupe_key": "senior fullstack developer react js node js|proxify ab"
-    },
-    {
-      "id": "3452",
-      "title": "Machine Learning Engineer (Hybrid)",
-      "company": "Provision",
-      "url": "https://djangojobboard.com/3452/machine-learning-engineer-hybrid-provision/",
-      "source": "djangojobboard.com",
-      "location": "Toronto",
-      "date_posted": "2026-09-03T17:55:51.396582+00:00",
-      "salary": "$170K - $250K",
-      "employment_type": "full-time",
-      "skills": [
-        "Claude",
-        "Django",
-        "Gemini",
-        "LLM",
         "Machine Learning",
         "Python",
-        "RAG",
-        "gcp"
+        "Time Series",
+        "Data pipelines",
+        "Feature Engineering",
+        "Model Training",
+        "Model Validation",
+        "Order Book Data",
+        "Automated Testing",
+        "Versioned Data",
+        "Finance"
       ],
       "categories": [
         "Django Job Board"
       ],
-      "summary": "Introduction Provision is automating construction. We build AI-native tools that help construction teams understand complex project documents, identify risk, and turn fragmented information into decisions. We are building the most ambitious vision of what is possible with AI in construction, and we expect our engineers to be AI-forward in how they build. The Role This role is focused on applied ML systems across the full lifecycle. You will work with engineering, product, and domain experts to i",
-      "full_offer_text": "Introduction Provision is automating construction. We build AI-native tools that help construction teams understand complex project documents, identify risk, and turn fragmented information into decisions. We are building the most ambitious vision of what is possible with AI in construction, and we expect our engineers to be AI-forward in how they build. The Role This role is focused on applied ML systems across the full lifecycle. You will work with engineering, product, and domain experts to improve document understanding, evidence retrieval, answer evaluation, and how we learn from customer workflows. What You Will Do Develop and maintain production ML/AI systems for document analysis, retrieval, extraction, and reasoning. Create evaluation datasets, metrics, experiments, and error-analysis frameworks. Improve data pipelines and feedback mechanisms while maintaining data integrity. Choose among prompting, retrieval, model selection, fine-tuning, and traditional ML techniques. Implement monitoring for performance, cost, latency, reliability, and regressions. Partner with product and construction domain experts on technical strategy. Write production-grade Python code across the application stack. What We Are Looking For Proven track record shipping and operating ML/AI systems with real customers. Strong Python fundamentals with software engineering expertise (testing, debugging, APIs, data systems). Hands-on experience with modern language models, multimodal systems, retrieval, and evaluation. Sound judgment regarding data quality, experimentation, failure modes, and model limitations. Ability to communicate technical tradeoffs and partner effectively across teams. Comfort with ownership, speed, and uncertainty in an early-stage setting. Availability for in-person work in Toronto. Interview Process Introductory call (20 minutes): Provision, role fit, and your background. Online technical interview (2 hours): a collaborative ML problem covering framing, evaluation, data, system design, and production considerations. In-office interview day: team meetings and whiteboarding on production ML system design. References and offer upon mutual fit. Compensation $170K - $250K CAD Equity: 0.05% - 0.15% Provision does not use AI for applicant screening or assessment. Accommodations are available throughout the recruitment process.",
-      "full_offer_html": "<h2>Introduction</h2>\n<p>Provision is automating construction. We build AI-native tools that help construction teams understand complex project documents, identify risk, and turn fragmented information into decisions. We are building the most ambitious vision of what is possible with AI in construction, and we expect our engineers to be AI-forward in how they build.</p>\n<h2>The Role</h2>\n<p>This role is focused on applied ML systems across the full lifecycle. You will work with engineering, product, and domain experts to improve document understanding, evidence retrieval, answer evaluation, and how we learn from customer workflows.</p>\n<h2>What You Will Do</h2>\n<ul>\n<li>Develop and maintain production ML/AI systems for document analysis, retrieval, extraction, and reasoning.</li>\n<li>Create evaluation datasets, metrics, experiments, and error-analysis frameworks.</li>\n<li>Improve data pipelines and feedback mechanisms while maintaining data integrity.</li>\n<li>Choose among prompting, retrieval, model selection, fine-tuning, and traditional ML techniques.</li>\n<li>Implement monitoring for performance, cost, latency, reliability, and regressions.</li>\n<li>Partner with product and construction domain experts on technical strategy.</li>\n<li>Write production-grade Python code across the application stack.</li>\n</ul>\n<h2>What We Are Looking For</h2>\n<ul>\n<li>Proven track record shipping and operating ML/AI systems with real customers.</li>\n<li>Strong Python fundamentals with software engineering expertise (testing, debugging, APIs, data systems).</li>\n<li>Hands-on experience with modern language models, multimodal systems, retrieval, and evaluation.</li>\n<li>Sound judgment regarding data quality, experimentation, failure modes, and model limitations.</li>\n<li>Ability to communicate technical tradeoffs and partner effectively across teams.</li>\n<li>Comfort with ownership, speed, and uncertainty in an early-stage setting.</li>\n<li>Availability for in-person work in Toronto.</li>\n</ul>\n<h2>Interview Process</h2>\n<ul>\n<li>Introductory call (20 minutes): Provision, role fit, and your background.</li>\n<li>Online technical interview (2 hours): a collaborative ML problem covering framing, evaluation, data, system design, and production considerations.</li>\n<li>In-office interview day: team meetings and whiteboarding on production ML system design.</li>\n<li>References and offer upon mutual fit.</li>\n</ul>\n<h2>Compensation</h2>\n<ul>\n<li>$170K - $250K CAD</li>\n<li>Equity: 0.05% - 0.15%</li>\n</ul>\n<p>Provision does not use AI for applicant screening or assessment. Accommodations are available throughout the recruitment process.</p>",
-      "apply_url": "https://tally.so/r/vG6OrD",
-      "company_url": "https://www.provision.com",
-      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.provision.com&size=128",
-      "dedupe_key": "machine learning engineer hybrid|provision"
+      "summary": "Job Title Machine Learning Engineer Job Description HFT Architecture builds short-horizon price prediction and the trading system around it. This role builds the pipeline from raw order-book records to a fitted, validated model: data preparation, features, training and out-of-sample measurement, reproducible run to run, with leakage controls built in. Fully remote, from anywhere in the world. Middle+ to senior. Base salary: USD 180,000–240,000 a year. To apply: a link to your résumé, LinkedIn or",
+      "full_offer_text": "Job Title Machine Learning Engineer Job Description HFT Architecture builds short-horizon price prediction and the trading system around it. This role builds the pipeline from raw order-book records to a fitted, validated model: data preparation, features, training and out-of-sample measurement, reproducible run to run, with leakage controls built in. Fully remote, from anywhere in the world. Middle+ to senior. Base salary: USD 180,000–240,000 a year. To apply: a link to your résumé, LinkedIn or GitHub, and an answer to one question about our article \"Why Your Market Maker Loses Money\". No file, no cover letter. Apply: https://hftarchitecture.com/careers/machine-learning-engineer?utm_source=pythonorg&utm_medium=jobboard&utm_campaign=careers-2026-10 Restrictions Telecommuting is OK No Agencies Please Requirements You have built and run machine learning systems yourself, write Python with tests and versioned data, handle time series without leakage, and work with tens of millions of rows a day on ordinary hardware. About the Company We build short-horizon price prediction and the trading system around it: the forecast from order-book data, the rules that trade on it, the risk layer, and the path from a market event to an order. One market and one horizon at a time, and every measurement written up with its sample and its limits. Contact Info Contact: HFT Architecture E-mail contact: [email protected] Web: https://hftarchitecture.com/careers/machine-learning-engineer?utm_source=pythonorg&utm_medium=jobboard&utm_campaign=careers-2026-10",
+      "full_offer_html": "<h2>Job Title</h2>\n<p>Machine Learning Engineer</p>\n<h2>Job Description</h2>\n<p>HFT Architecture builds short-horizon price prediction and the trading system around it. This role builds the pipeline from raw order-book records to a fitted, validated model: data preparation, features, training and out-of-sample measurement, reproducible run to run, with leakage controls built in.</p>\n<p>Fully remote, from anywhere in the world. Middle+ to senior.</p>\n<p>Base salary: USD 180,000–240,000 a year.</p>\n<p>To apply: a link to your résumé, LinkedIn or GitHub, and an answer to one question about our article &quot;Why Your Market Maker Loses Money&quot;. No file, no cover letter.</p>\n<p>Apply: <a href=\"https://hftarchitecture.com/careers/machine-learning-engineer?utm_source=pythonorg&amp;utm_medium=jobboard&amp;utm_campaign=careers-2026-10\">https://hftarchitecture.com/careers/machine-learning-engineer?utm_source=pythonorg&amp;utm_medium=jobboard&amp;utm_campaign=careers-2026-10</a></p>\n<h2>Restrictions</h2>\n<ul>\n<li>Telecommuting is OK</li>\n<li>No Agencies Please</li>\n</ul>\n<h2>Requirements</h2>\n<p>You have built and run machine learning systems yourself, write Python with tests and versioned data, handle time series without leakage, and work with tens of millions of rows a day on ordinary hardware.</p>\n<h2>About the Company</h2>\n<p>We build short-horizon price prediction and the trading system around it: the forecast from order-book data, the rules that trade on it, the risk layer, and the path from a market event to an order. One market and one horizon at a time, and every measurement written up with its sample and its limits.</p>\n<h2>Contact Info</h2>\n<ul>\n<li>Contact: HFT Architecture</li>\n<li>E-mail contact: <a href=\"/cdn-cgi/l/email-protection#7714181903161403371f11031605141f1e031214030205125914181a\"><span class=\"__cf_email__\" data-cfemail=\"d3b0bcbda7b2b0a793bbb5a7b2a1b0bbbaa7b6b0a7a6a1b6fdb0bcbe\">[email&#160;protected]</span></a></li>\n<li>Web: <a href=\"https://hftarchitecture.com/careers/machine-learning-engineer?utm_source=pythonorg&amp;utm_medium=jobboard&amp;utm_campaign=careers-2026-10\">https://hftarchitecture.com/careers/machine-learning-engineer?utm_source=pythonorg&amp;utm_medium=jobboard&amp;utm_campaign=careers-2026-10</a></li>\n</ul>",
+      "apply_url": "https://hftarchitecture.com/careers/machine-learning-engineer?utm_source=pythonorg&utm_medium=jobboard&utm_campaign=careers-2026-10",
+      "company_url": "https://hftarchitecture.com",
+      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://hftarchitecture.com&size=128",
+      "dedupe_key": "machine learning engineer|hft architecture"
     },
     {
-      "id": "3319",
-      "title": "Django Developer",
-      "company": "The Cruise Brothers",
-      "url": "https://djangojobboard.com/3319/django-developer-the-cruise-brothers/",
+      "id": "3742",
+      "title": "Junior Machine Learning Engineer",
+      "company": "HFT Architecture",
+      "url": "https://djangojobboard.com/3742/junior-machine-learning-engineer-hft-architecture/",
       "source": "djangojobboard.com",
-      "location": "Rhode Island, South Florida",
-      "date_posted": "2026-09-01T14:27:45.718793+00:00",
-      "salary": null,
+      "location": "Remote, Worldwide",
+      "date_posted": "2026-10-15T17:22:42.966544+00:00",
+      "salary": "125,000–155,000",
       "employment_type": "full-time",
       "skills": [
-        "api setup",
-        "Django",
-        "Docker",
-        "Vue"
+        "Machine Learning",
+        "Python",
+        "Time Series",
+        "Cross-Validation",
+        "Automated Testing",
+        "Data Preparation",
+        "Order-Book Data",
+        "Finance"
       ],
       "categories": [
         "Django Job Board"
       ],
-      "summary": "Django Developer (Python / Backend) Cruise Brothers - Warwick, RI or Palm Beach Gardens, FL - Hybrid - Remote considered - Full-time Cruise Brothers is a family-owned travel company, in business since 1972 and one of the largest cruise agencies in the country. We'll sell over $250 million in cruises this year, and we run the whole business on software we build ourselves. It's called CBAT: Django on PostgreSQL with Vue on the front. CRM, bookings, commissions, double-entry accounting, messaging a",
-      "full_offer_text": "Django Developer (Python / Backend) Cruise Brothers - Warwick, RI or Palm Beach Gardens, FL - Hybrid - Remote considered - Full-time Cruise Brothers is a family-owned travel company, in business since 1972 and one of the largest cruise agencies in the country. We'll sell over $250 million in cruises this year, and we run the whole business on software we build ourselves. It's called CBAT: Django on PostgreSQL with Vue on the front. CRM, bookings, commissions, double-entry accounting, messaging and SMS, automation, and agent training for nearly 10,000 independent travel agents. Four people build it. We're hiring the fifth. You'd be our backend developer, working alongside our front-end developer as the pair that keeps the platform moving. You on models, views, APIs, and business logic; them on templates, JavaScript, and Vue. Real features, real users: the people using what you build are on the phone with customers all day, and you'll hear about it either way. WHAT YOU'D DO Backend features across bookings, commissions, agent management, messaging, and reporting API endpoints and integrations with outside travel systems: cruise booking engines, vendor feeds, payment and SMS providers A hook and automation platform (model events fire hooks, hooks drive LLM agents) that needs a second pair of hands Modernizing a mature codebase as a steady drumbeat, not a doomed big-bang: per-model folders, query logic onto QuerySets, one mutation primitive per operation, and CI ratchets that keep the drift from coming back Own tickets end to end: reproduce, fix, test, ship Growing into ownership of a specific slice of the platform WHAT WE'RE LOOKING FOR 4+ years building production web applications with Python and Django, or comparable experience in another mature framework (Rails, Laravel, Spring, ASP.NET ) and a real appetite for moving to Django Comfortable in a large, established codebase, and able to find your way around code you didn't write Solid on relational data modeling and PostgreSQL Enough front-end (HTML/CSS/JavaScript) to finish your own features. We have a dedicated front-end developer, but you shouldn't be blocked on them You read documentation before asking, and you verify AI-generated code before shipping it Nice to have: payments, accounting systems, travel, telephony/SMS, or anything with money in the database If you've worked in a large, long-lived Django codebase and have opinions about how it should be modernized, we'd especially like to talk. We're open on experience level. A strong mid-level developer who wants room to grow and a senior developer who wants a real codebase to improve are both good outcomes here, and we'll fit the offer to the person. HOW WE WORK Most of our code is written in Claude Code sessions, backed by automated conformity checks, 30-way parallel testing, migration linting, and automated review on every pull request. The tooling exists so that moving fast doesn't mean shipping slop. If you've wanted to work this way for real, this is the place. Fifteen years of platform knowledge is written down in a documentation system built to get you productive in your first week. Four developers, direct access to the CTO and the leadership team. WHERE Warwick, Rhode Island or Palm Beach Gardens, Florida. Hybrid, a couple of days a week in the office to start and easing off as you get established, flexible about which days. Our development team sits in Rhode Island. Palm Beach Gardens is home to our sales and marketing teams, who are the people using what you build every day. If you're based there, you'd sit with them and would naturally take on more of that side of the platform. We'd also consider fully remote for a genuine Django expert. One of our engineers is already fully remote and it works well, so if you're deep in Django and nowhere near either office, apply anyway and say so. BENEFITS Healthcare Unlimited PTO 401(k) with a 6% company match Travel perks (we're a cruise company) APPLY Send your resume to [email protected] , along with a link to anything you'd like us to look at and a sentence or two about the most interesting thing you've shipped.",
-      "full_offer_html": "<h2>Django Developer (Python / Backend)</h2>\n<h3>Cruise Brothers - Warwick, RI or Palm Beach Gardens, FL - Hybrid - Remote considered - Full-time</h3>\n<p>Cruise Brothers is a family-owned travel company, in business since 1972 and one of the largest cruise agencies in the country. We'll sell over $250 million in cruises this year, and we run the whole business on software we build ourselves.</p>\n<p>It's called CBAT: Django on PostgreSQL with Vue on the front. CRM, bookings, commissions, double-entry accounting, messaging and SMS, automation, and agent training for nearly 10,000 independent travel agents. Four people build it. We're hiring the fifth.</p>\n<p>You'd be our backend developer, working alongside our front-end developer as the pair that keeps the platform moving. You on models, views, APIs, and business logic; them on templates, JavaScript, and Vue. Real features, real users: the people using what you build are on the phone with customers all day, and you'll hear about it either way.</p>\n<h2>WHAT YOU'D DO</h2>\n<ul>\n<li>Backend features across bookings, commissions, agent management, messaging, and reporting</li>\n<li>API endpoints and integrations with outside travel systems: cruise booking engines, vendor feeds, payment and SMS providers</li>\n<li>A hook and automation platform (model events fire hooks, hooks drive LLM agents) that needs a second pair of hands</li>\n<li>Modernizing a mature codebase as a steady drumbeat, not a doomed big-bang: per-model folders, query logic onto QuerySets, one mutation primitive per operation, and CI ratchets that keep the drift from coming back</li>\n<li>Own tickets end to end: reproduce, fix, test, ship</li>\n<li>Growing into ownership of a specific slice of the platform</li>\n</ul>\n<h2>WHAT WE'RE LOOKING FOR</h2>\n<ul>\n<li>4+ years building production web applications with Python and Django, or comparable experience in another mature framework (Rails, Laravel, Spring, <a href=\"https://ASP.NET\">ASP.NET</a>) and a real appetite for moving to Django</li>\n<li>Comfortable in a large, established codebase, and able to find your way around code you didn't write</li>\n<li>Solid on relational data modeling and PostgreSQL</li>\n<li>Enough front-end (HTML/CSS/JavaScript) to finish your own features. We have a dedicated front-end developer, but you shouldn't be blocked on them</li>\n<li>You read documentation before asking, and you verify AI-generated code before shipping it</li>\n<li>Nice to have: payments, accounting systems, travel, telephony/SMS, or anything with money in the database</li>\n</ul>\n<p>If you've worked in a large, long-lived Django codebase and have opinions about how it should be modernized, we'd especially like to talk.</p>\n<p>We're open on experience level. A strong mid-level developer who wants room to grow and a senior developer who wants a real codebase to improve are both good outcomes here, and we'll fit the offer to the person.</p>\n<h2>HOW WE WORK</h2>\n<p>Most of our code is written in Claude Code sessions, backed by automated conformity checks, 30-way parallel testing, migration linting, and automated review on every pull request. The tooling exists so that moving fast doesn't mean shipping slop. If you've wanted to work this way for real, this is the place.</p>\n<p>Fifteen years of platform knowledge is written down in a documentation system built to get you productive in your first week.</p>\n<p>Four developers, direct access to the CTO and the leadership team.</p>\n<h2>WHERE</h2>\n<p>Warwick, Rhode Island or Palm Beach Gardens, Florida. Hybrid, a couple of days a week in the office to start and easing off as you get established, flexible about which days.</p>\n<p>Our development team sits in Rhode Island. Palm Beach Gardens is home to our sales and marketing teams, who are the people using what you build every day. If you're based there, you'd sit with them and would naturally take on more of that side of the platform.</p>\n<p>We'd also consider fully remote for a genuine Django expert. One of our engineers is already fully remote and it works well, so if you're deep in Django and nowhere near either office, apply anyway and say so.</p>\n<h2>BENEFITS</h2>\n<ul>\n<li>Healthcare</li>\n<li>Unlimited PTO</li>\n<li>401(k) with a 6% company match</li>\n<li>Travel perks (we're a cruise company)</li>\n</ul>\n<h2>APPLY</h2>\n<p>Send your resume to <a href=\"/cdn-cgi/l/email-protection#a1cbcec3d2e1c2d3d4c8d2c4c3d3ced5c9c4d3d28fc2cecc\"><span class=\"__cf_email__\" data-cfemail=\"315b5e53427152434458425453435e45595443421f525e5c\">[email&#160;protected]</span></a>, along with a link to anything you'd like us to look at and a sentence or two about the most interesting thing you've shipped.</p>",
-      "apply_url": null,
-      "company_url": "https://www.cruisebrothers.com",
-      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.cruisebrothers.com&size=128",
-      "dedupe_key": "django developer|the cruise brothers"
+      "summary": "Job Title Junior Machine Learning Engineer Job Description HFT Architecture builds short-horizon price prediction and the trading system around it. This role works on the pipeline that turns order-book records into validated models, next to more experienced engineers: data preparation, experiments end to end, and the checks that keep the future out of a training set. Fully remote, from anywhere in the world. Junior. Base salary: USD 125,000–155,000 a year. To apply: a link to your résumé, Linked",
+      "full_offer_text": "Job Title Junior Machine Learning Engineer Job Description HFT Architecture builds short-horizon price prediction and the trading system around it. This role works on the pipeline that turns order-book records into validated models, next to more experienced engineers: data preparation, experiments end to end, and the checks that keep the future out of a training set. Fully remote, from anywhere in the world. Junior. Base salary: USD 125,000–155,000 a year. To apply: a link to your résumé, LinkedIn or GitHub, and one sentence on any of our articles. No file, no cover letter. Apply: https://hftarchitecture.com/careers/junior-machine-learning-engineer?utm_source=pythonorg&utm_medium=jobboard&utm_campaign=careers-2026-10 Restrictions Telecommuting is OK No Agencies Please Requirements You write Python every day, with tests; can explain the machine learning basics, including why ordinary cross-validation breaks on time series; and have one project of your own you can show and talk through. About the Company We build short-horizon price prediction and the trading system around it: the forecast from order-book data, the rules that trade on it, the risk layer, and the path from a market event to an order. One market and one horizon at a time, and every measurement written up with its sample and its limits. Contact Info Contact: HFT Architecture E-mail contact: [email protected] Web: https://hftarchitecture.com/careers/junior-machine-learning-engineer?utm_source=pythonorg&utm_medium=jobboard&utm_campaign=careers-2026-10",
+      "full_offer_html": "<h2>Job Title</h2>\n<p>Junior Machine Learning Engineer</p>\n<h2>Job Description</h2>\n<p>HFT Architecture builds short-horizon price prediction and the trading system around it. This role works on the pipeline that turns order-book records into validated models, next to more experienced engineers: data preparation, experiments end to end, and the checks that keep the future out of a training set.</p>\n<p>Fully remote, from anywhere in the world. Junior.</p>\n<p>Base salary: USD 125,000–155,000 a year.</p>\n<p>To apply: a link to your résumé, LinkedIn or GitHub, and one sentence on any of our articles. No file, no cover letter.</p>\n<p>Apply: <a href=\"https://hftarchitecture.com/careers/junior-machine-learning-engineer?utm_source=pythonorg&amp;utm_medium=jobboard&amp;utm_campaign=careers-2026-10\">https://hftarchitecture.com/careers/junior-machine-learning-engineer?utm_source=pythonorg&amp;utm_medium=jobboard&amp;utm_campaign=careers-2026-10</a></p>\n<h2>Restrictions</h2>\n<ul>\n<li>Telecommuting is OK</li>\n<li>No Agencies Please</li>\n</ul>\n<h2>Requirements</h2>\n<p>You write Python every day, with tests; can explain the machine learning basics, including why ordinary cross-validation breaks on time series; and have one project of your own you can show and talk through.</p>\n<h2>About the Company</h2>\n<p>We build short-horizon price prediction and the trading system around it: the forecast from order-book data, the rules that trade on it, the risk layer, and the path from a market event to an order. One market and one horizon at a time, and every measurement written up with its sample and its limits.</p>\n<h2>Contact Info</h2>\n<ul>\n<li>Contact: HFT Architecture</li>\n<li>E-mail contact: <a href=\"/cdn-cgi/l/email-protection#80e3efeef4e1e3f4c0e8e6f4e1f2e3e8e9f4e5e3f4f5f2e5aee3efed\"><span class=\"__cf_email__\" data-cfemail=\"97f4f8f9e3f6f4e3d7fff1e3f6e5f4fffee3f2f4e3e2e5f2b9f4f8fa\">[email&#160;protected]</span></a></li>\n<li>Web: <a href=\"https://hftarchitecture.com/careers/junior-machine-learning-engineer?utm_source=pythonorg&amp;utm_medium=jobboard&amp;utm_campaign=careers-2026-10\">https://hftarchitecture.com/careers/junior-machine-learning-engineer?utm_source=pythonorg&amp;utm_medium=jobboard&amp;utm_campaign=careers-2026-10</a></li>\n</ul>",
+      "apply_url": "https://hftarchitecture.com/careers/junior-machine-learning-engineer?utm_source=pythonorg&utm_medium=jobboard&utm_campaign=careers-2026-10",
+      "company_url": "https://hftarchitecture.com",
+      "image_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://hftarchitecture.com&size=128",
+      "dedupe_key": "junior machine learning engineer|hft architecture"
     }
   ]
 }
